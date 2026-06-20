@@ -27,7 +27,7 @@ Concordance is built the other way around. Every exercise, every AI-generated pa
 - **AAPPL-aligned expression tools**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
 - **A portfolio** that showcases a student's growth over time, not just a grade snapshot.
 - **A translanguaging hub** for advanced learners working with authentic literary and socio-cultural texts, gated by demonstrated proficiency rather than a calendar.
-- **A Framework page** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
+- **A [dedicated Framework page](https://concordancelearn.com/framework)** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
 - A bilingual (French/English) interface.
 
 ### For teachers
@@ -63,6 +63,8 @@ French is live today. Spanish is next, with the same proficiency-first design ex
 Beyond that, the top of the roadmap is a **conversation partner built specifically to move students up the proficiency ladder** — tracking roughly where a student sits on the ACTFL scale (Novice, Intermediate, Advanced) and pushing conversation just hard enough to nudge them toward the next level, with progress showing up in the same teacher dashboards Concordance already has. Alongside that: **listening comprehension activities**, and giving teachers their own AI tools for generating content and surfacing where their students are struggling.
 
 This is built solo, nights and weekends. Sponsorship covers the zero-fun parts (hosting and API costs) and buys the time to build the next language and the chatbot properly instead of rushing them.
+
+**Further out:** Concordance's translanguaging hub already pulls from Francophonie beyond Metropolitan French (Senegalese and Maghrebi literature, for instance) — the plan is to build that out into a first-class feature rather than a handful of texts. And as Spanish comes online, the long-term goal is to design it *aware* of French, rather than as an isolated second product — modeling cross-linguistic transfer (cognates, false friends, structural interference) for learners building more than one language at once, which is also a meaningful reason for a learner to stay on the platform across languages instead of switching apps.
 
 ## Support the project
 
