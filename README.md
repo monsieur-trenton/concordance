@@ -19,11 +19,29 @@ Concordance is built the other way around. Every exercise, every AI-generated pa
 
 ## What it does
 
+### For students
 - **Adaptive practice** that targets a student's actual proficiency sublevel (Novice → Intermediate → Advanced), not just their grade level.
 - **AI-generated content** — reading passages, grammar tutorials, vocabulary in context — calibrated to a specific ACTFL/AAPPL target and reviewed before reaching students.
-- **Teacher tools**: class rosters, proficiency heatmaps, and AI-assisted content generation that teachers can curate, not just consume.
+- **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
+- **Cultural Adventure Hub** — interactive conversational scenarios — plus presentation recording for real speaking practice.
+- **AAPPL-aligned expression tools**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
+- **A portfolio** that showcases a student's growth over time, not just a grade snapshot.
 - **A translanguaging hub** for advanced learners working with authentic literary and socio-cultural texts, gated by demonstrated proficiency rather than a calendar.
-- **A community layer** — a feature-voting board and content marketplace so teachers shape what gets built next.
+- **A Framework page** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
+- A bilingual (French/English) interface.
+
+### For teachers
+- **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades.
+- **AI-assisted content generation** for their own classes — reading passages, grammar tutorials, vocabulary — that teachers curate and approve, not just consume.
+- **Community Content Marketplace** to share and reuse content other teachers have built.
+- **A feature-voting board** so teachers help shape what gets built next.
+- **School and district profile fields** to keep reporting and content generation grounded in real classroom context.
+
+### For admins
+- **AI Studio**: generate and moderate content at scale, with an Anthropic Claude → Google Gemini fallback so generation stays reliable.
+- **User management tools**, including CSV import/export for rosters.
+- **Maintenance mode** for safe deploys without surprising users mid-session.
+- **AI-moderated review** of community feature ideas before they go live.
 
 ## Why the core is closed
 
