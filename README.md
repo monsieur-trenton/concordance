@@ -37,6 +37,14 @@ Other near-term goals:
 
 If this resonates with you — as an educator, a fellow developer, or just someone who thinks language learning tools should be built on real pedagogy — consider [sponsoring on GitHub](https://github.com/sponsors/monsieur-trenton).
 
+| Tier | What it supports |
+|---|---|
+| **$5/mo — Supporter** | Keeps the lights on (hosting, API costs for content generation). |
+| **$25/mo — Backer** | Direct contribution toward the audio generation milestone. Backers are listed in this README. |
+| **$100/mo — Patron** | Same as above, plus early access to a demo account once audio generation ships, and a say in which language gets audio support first. |
+
+(Exact tiers and perks are configurable in the [Sponsors dashboard](https://github.com/sponsors/monsieur-trenton/dashboard) — the above is a starting point.)
+
 ## Contact
 
 Questions, ideas, or interested in a deeper look under the hood? Open an issue here.
