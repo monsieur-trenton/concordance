@@ -30,6 +30,17 @@ Concordance is built the other way around. Every exercise, every AI-generated pa
 - **A Framework page** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
 - A bilingual (French/English) interface.
 
+The user interface employs a cohesive, bold "Premium Brutalist" aesthetic using `lucide-react` icons, strict typography, and distinct interaction patterns. We rely heavily on raw CSS/Tailwind utility classes rather than heavy UI component libraries.
+
+## Privacy & Compliance
+
+Concordance is designed to be fully compliant with major educational privacy laws in the US and Europe:
+
+- **FERPA (US)**: We protect student education records. Teachers and administrators have complete control over student data, including cascading deletion tools.
+- **COPPA (US)**: Students under 13 cannot sign up independently. Concordance relies on the School Consent Exception when teachers add younger students to their classes. Student data is never used for advertising.
+- **PPRA (US)**: We do not prompt students with surveys regarding protected or sensitive personal affiliations.
+- **GDPR (EU)**: We require explicit consent for data processing (Terms of Service and Privacy Policy checkboxes). All users have a self-service "Delete Account" button to exercise their Right to be Forgotten. We practice data minimization.
+
 ### For teachers
 - **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades.
 - **AI-assisted content generation** for their own classes — reading passages, grammar tutorials, vocabulary — that teachers curate and approve, not just consume.
