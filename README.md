@@ -5,6 +5,9 @@
 **An AI-driven French learning platform built on validated proficiency frameworks, not just vocabulary games.**
 
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
+[![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://www.concordancelearn.com/)
+
+**[→ Try Concordance at concordancelearn.com](https://www.concordancelearn.com/)**
 
 ---
 
