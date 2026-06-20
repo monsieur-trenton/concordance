@@ -15,7 +15,7 @@
 
 Most language-learning apps optimize for streaks and vocabulary drills. They rarely tell a student, a teacher, or a parent where a learner actually *stands* — not in points, but in real proficiency: can this student handle the syntax of a formal email, or analyze a literary passage with confidence?
 
-Concordance is built the other way around. Every exercise, every AI-generated passage, and every progress metric is anchored to established proficiency frameworks (ACTFL, AAPPL, CEFR) — so growth is measured against real-world communicative competence, not just a streak counter.
+Concordance is built the other way around. Every exercise, every AI-generated passage, and every progress metric is anchored to established proficiency frameworks (ACTFL, AAPPL, CEFR) — so growth is measured against real-world communicative competence, not just a streak counter. Every surface — student, teacher, admin — shares a consistent, deliberately designed interface, not a bolted-together set of screens.
 
 ## What it does
 
@@ -30,17 +30,6 @@ Concordance is built the other way around. Every exercise, every AI-generated pa
 - **A Framework page** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
 - A bilingual (French/English) interface.
 
-The user interface employs a cohesive, bold "Premium Brutalist" aesthetic using `lucide-react` icons, strict typography, and distinct interaction patterns. We rely heavily on raw CSS/Tailwind utility classes rather than heavy UI component libraries.
-
-## Privacy & Compliance
-
-Concordance is designed to be fully compliant with major educational privacy laws in the US and Europe:
-
-- **FERPA (US)**: We protect student education records. Teachers and administrators have complete control over student data, including cascading deletion tools.
-- **COPPA (US)**: Students under 13 cannot sign up independently. Concordance relies on the School Consent Exception when teachers add younger students to their classes. Student data is never used for advertising.
-- **PPRA (US)**: We do not prompt students with surveys regarding protected or sensitive personal affiliations.
-- **GDPR (EU)**: We require explicit consent for data processing (Terms of Service and Privacy Policy checkboxes). All users have a self-service "Delete Account" button to exercise their Right to be Forgotten. We practice data minimization.
-
 ### For teachers
 - **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades.
 - **AI-assisted content generation** for their own classes — reading passages, grammar tutorials, vocabulary — that teachers curate and approve, not just consume.
@@ -53,6 +42,15 @@ Concordance is designed to be fully compliant with major educational privacy law
 - **User management tools**, including CSV import/export for rosters.
 - **Maintenance mode** for safe deploys without surprising users mid-session.
 - **AI-moderated review** of community feature ideas before they go live.
+
+## Privacy & compliance
+
+Concordance is designed to be fully compliant with major educational privacy laws in the US and Europe:
+
+- **FERPA (US)**: We protect student education records. Teachers and administrators have complete control over student data, including cascading deletion tools.
+- **COPPA (US)**: Students under 13 cannot sign up independently. Concordance relies on the School Consent Exception when teachers add younger students to their classes. Student data is never used for advertising.
+- **PPRA (US)**: We do not prompt students with surveys regarding protected or sensitive personal affiliations.
+- **GDPR (EU)**: We require explicit consent for data processing (Terms of Service and Privacy Policy checkboxes). All users have a self-service "Delete Account" button to exercise their Right to be Forgotten. We practice data minimization.
 
 ## Why the core is closed
 
