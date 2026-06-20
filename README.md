@@ -17,9 +17,13 @@ Most language-learning apps optimize for streaks and vocabulary drills. They rar
 
 Concordance is built the other way around. Every exercise, every AI-generated passage, and every progress metric is anchored to established proficiency frameworks (ACTFL, AAPPL, CEFR) — so growth is measured against real-world communicative competence, not just a streak counter. Every surface — student, teacher, admin — shares a consistent, deliberately designed interface, not a bolted-together set of screens.
 
-## Guiding principle: AI does the grunt work, the teacher keeps the judgment
+## Guiding principles
 
+### 1. AI does the grunt work, the teacher keeps the judgment
 AI handles the labor — drafting practice content, surfacing class-wide misconception patterns, generating progress summaries — but a teacher reviews and approves what reaches students, and pedagogical judgment stays with the human expert. Concordance is built to amplify teachers, not replace them. Every AI feature is designed around keeping the educator in the loop.
+
+### 2. Students can drive their own learning independently
+While teachers have full oversight and curation capabilities, the platform functions as a fully autonomous tutor for the self-directed learner. Through the continuous diagnostic loop, adaptive practice, and the AI-driven "Focus Areas" dashboard, a student without a classroom can independently practice, identify their weaknesses, and systematically improve their proficiency.
 
 ## What it does
 
