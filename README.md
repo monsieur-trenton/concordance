@@ -1,3 +1,5 @@
+<!-- Partenaire ($1,000/mo) sponsors get top-tier logo placement here. Add new sponsor logos above this line. -->
+
 # Concordance
 
 **An AI-driven French learning platform built on validated proficiency frameworks, not just vocabulary games.**
@@ -26,24 +28,17 @@ The proficiency-encoding engine — how exercises, AI prompts, and progress trac
 
 ## What sponsorship funds next
 
-The top of the roadmap right now is **audio generation**: AI-generated listening passages and spoken-response evaluation, so interpretive listening and interpersonal speaking — currently the weakest-supported modes — get the same depth of AI-driven, proficiency-targeted practice that reading and writing already have.
+French is live today. Spanish is next, with the same proficiency-first design extending to whatever language Concordance grows into.
 
-Other near-term goals:
-- Expanding the translanguaging hub to additional advanced texts and target languages
-- Deeper teacher analytics across class cohorts
-- Broader AAPPL/CEFR sublevel coverage for AI-generated content
+Beyond that, the top of the roadmap is a **conversation partner built specifically to move students up the proficiency ladder** — tracking roughly where a student sits on the ACTFL scale (Novice, Intermediate, Advanced) and pushing conversation just hard enough to nudge them toward the next level, with progress showing up in the same teacher dashboards Concordance already has. Alongside that: **listening comprehension activities**, and giving teachers their own AI tools for generating content and surfacing where their students are struggling.
+
+This is built solo, nights and weekends. Sponsorship covers the zero-fun parts (hosting and API costs) and buys the time to build the next language and the chatbot properly instead of rushing them.
 
 ## Support the project
 
-If this resonates with you — as an educator, a fellow developer, or just someone who thinks language learning tools should be built on real pedagogy — consider [sponsoring on GitHub](https://github.com/sponsors/monsieur-trenton).
+If this resonates with you — as an educator, a fellow developer, or just someone who thinks language learning tools should be built on real pedagogy — consider [sponsoring on GitHub](https://github.com/sponsors/monsieur-trenton). Tier details and perks live on the [Sponsors page](https://github.com/sponsors/monsieur-trenton) and may evolve — that page is the source of truth, not this README.
 
-| Tier | What it supports |
-|---|---|
-| **$5/mo — Supporter** | Keeps the lights on (hosting, API costs for content generation). |
-| **$25/mo — Backer** | Direct contribution toward the audio generation milestone. Backers are listed in this README. |
-| **$100/mo — Patron** | Same as above, plus early access to a demo account once audio generation ships, and a say in which language gets audio support first. |
-
-(Exact tiers and perks are configurable in the [Sponsors dashboard](https://github.com/sponsors/monsieur-trenton/dashboard) — the above is a starting point.)
+Sponsors at the Ami tier and above are listed in [SPONSORS.md](SPONSORS.md).
 
 ## Contact
 
