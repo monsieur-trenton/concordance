@@ -24,6 +24,7 @@ AI handles the labor — drafting practice content, surfacing class-wide misconc
 ## What it does
 
 ### For students
+- **Intelligent Diagnostic Loop**: The platform tracks and categorizes error patterns over a 30-day window. When a student consistently struggles with a specific concept (e.g., subjunctive vs. indicative), the dashboard dynamically prescribes the exact grammar tutorial and targeted practice activity needed, closing the loop on remediation.
 - **Adaptive practice** that targets a student's actual proficiency sublevel (Novice → Intermediate → Advanced), not just their grade level.
 - **AI-generated content** — reading passages, grammar tutorials, vocabulary in context — calibrated to a specific ACTFL/AAPPL target and reviewed before reaching students.
 - **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
