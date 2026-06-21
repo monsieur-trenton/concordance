@@ -1,0 +1,44 @@
+name: 💡 Feature idea
+description: Suggest something Concordance should do — sponsor input genuinely shapes the roadmap.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape Concordance. Have a look at the
+        [roadmap](https://github.com/monsieur-trenton/concordance/blob/main/ROADMAP.md)
+        first — your idea may already be in flight.
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who is this mainly for?
+      options:
+        - Students
+        - Teachers
+        - Admins / schools
+        - Everyone
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the teaching or learning problem, not just the feature. What's hard today?
+      placeholder: "Students who struggle with the subjunctive have no way to…"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should Concordance do? A rough sketch is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: pedagogy
+    attributes:
+      label: Pedagogical grounding (optional)
+      description: If this ties to ACTFL, AAPPL, CEFR, AP, or a classroom practice, mention it — it helps prioritize.
+    validations:
+      required: false

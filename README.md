@@ -67,6 +67,8 @@ The proficiency-encoding engine — how exercises, AI prompts, and progress trac
 
 ## What sponsorship funds next
 
+The full, ordered list lives in **[ROADMAP.md](ROADMAP.md)** — including what's recently shipped, what's being built now, and the longer-term vision. The short version:
+
 French is live today. Spanish is next, with the same proficiency-first design extending to whatever language Concordance grows into.
 
 Beyond that, the top of the roadmap is a **conversation partner built specifically to move students up the proficiency ladder** — tracking roughly where a student sits on the ACTFL scale (Novice, Intermediate, Advanced) and pushing conversation just hard enough to nudge them toward the next level, with progress showing up in the same teacher dashboards Concordance already has. Alongside that: **listening comprehension activities**, giving teachers their own AI tools for generating content and surfacing where their students are struggling, and **Automated Speech Recognition (ASR)** to provide students with real-time feedback on spoken production.
@@ -81,6 +83,13 @@ If this resonates with you — as an educator, a fellow developer, or just someo
 
 Sponsors at the Ami tier and above are listed in [SPONSORS.md](SPONSORS.md).
 
+## Project docs
+
+- **[ROADMAP.md](ROADMAP.md)** — what sponsorship funds next.
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — ways to get involved (the core is closed, but there's real work to share).
+- **[SECURITY.md](SECURITY.md)** — responsible-disclosure policy and student-data posture.
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** — how we keep this an educator-friendly space.
+
 ## Contact
 
-Questions, ideas, or interested in a deeper look under the hood? Open an issue here.
+Questions, ideas, or interested in a deeper look under the hood? **[Open an issue](https://github.com/monsieur-trenton/concordance/issues/new/choose)** — there are templates for feature ideas and bug reports.
