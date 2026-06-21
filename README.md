@@ -34,7 +34,7 @@ While teachers have full oversight and curation capabilities, the platform funct
 - **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
 - **Cultural Adventure Hub** - interactive conversational scenarios - plus presentation recording for real speaking practice.
 - **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to the student's current ACTFL level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down.
-- **Listening comprehension** - AI-generated French audio passages with comprehension questions, voiced by a choice of text-to-speech engines (ElevenLabs or Google Gemini) with automatic fallback for reliability.
+- **Listening comprehension** - AI-generated French audio passages with comprehension questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini) with automatic fallback for reliability.
 - **AAPPL-aligned expression tools**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
 - **A portfolio** that showcases a student's growth over time, not just a grade snapshot.
 - **A translanguaging hub** for advanced learners working with authentic literary and socio-cultural texts, gated by demonstrated proficiency rather than a calendar.
@@ -51,7 +51,7 @@ While teachers have full oversight and curation capabilities, the platform funct
 - **School and district profile fields** to keep reporting and content generation grounded in real classroom context.
 
 ### For admins
-- **AI Studio**: generate and moderate content at scale - reading, grammar, vocabulary, and listening (with a choice of ElevenLabs or Google Gemini text-to-speech) - with an Anthropic Claude → Google Gemini fallback so generation stays reliable.
+- **AI Studio**: generate and moderate content at scale - reading, grammar, vocabulary, and listening (with a choice of [ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini text-to-speech) - with an Anthropic Claude → Google Gemini fallback so generation stays reliable.
 - **User management tools**, including CSV import/export for rosters.
 - **Maintenance mode** for safe deploys without surprising users mid-session.
 - **AI-moderated review** of community feature ideas before they go live.

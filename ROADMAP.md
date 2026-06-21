@@ -20,7 +20,7 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
   it hears, and feeds them into the diagnostic loop. A Google Gemini → Anthropic Claude
   (Haiku) fallback keeps it running when a provider isn't.
 - **Listening comprehension** - AI-generated French audio passages with comprehension
-  questions, voiced by a choice of text-to-speech engines (ElevenLabs or Google Gemini)
+  questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini)
   with automatic fallback.
 - **One-click class remediation** - surfaces the concepts a whole class is collectively
   missing and generates a targeted practice set for the cohort on demand.
