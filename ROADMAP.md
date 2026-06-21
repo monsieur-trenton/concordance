@@ -15,8 +15,20 @@ which is the source of truth for what each tier includes.
 
 These are live today on [concordancelearn.com](https://concordancelearn.com/):
 
-- **Intelligent Diagnostic Loop** — error patterns are tracked over a 30-day window,
-  and the dashboard prescribes the exact tutorial and practice activity to close the gap.
+- **Proficiency-aware conversation partner** — an AI partner that converses in French at
+  the student's current ACTFL level (comprehensible input, *i+1*), tags the grammar errors
+  it hears, and feeds them into the diagnostic loop. A Google Gemini → Anthropic Claude
+  (Haiku) fallback keeps it running when a provider isn't.
+- **Listening comprehension** — AI-generated French audio passages with comprehension
+  questions, voiced by a choice of text-to-speech engines (ElevenLabs or Google Gemini)
+  with automatic fallback.
+- **One-click class remediation** — surfaces the concepts a whole class is collectively
+  missing and generates a targeted practice set for the cohort on demand.
+- **Real Bayesian Knowledge Tracing** — the diagnostic engine now estimates per-concept
+  mastery from every graded attempt (practice, writing, and conversation), replacing the
+  earlier heuristic, and prescribes the exact tutorial and practice to close the gap.
+- **Weekly guardian digest** — an opt-in email summarizing a student's week (activity,
+  proficiency, current focus areas) for a parent or guardian.
 - **Professional Learning modules** — teacher PD content with admin authoring tools.
 - **Peer Hubs** — collaborative spaces for students.
 - **Community Content Marketplace** — teachers share and reuse content they've built.
@@ -27,27 +39,29 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
 
 ## Now — building
 
-- **Proficiency-aware conversation partner.** Not chat for its own sake: a partner that
-  tracks roughly where a student sits on the ACTFL scale (Novice → Intermediate → Advanced)
-  and pushes conversation just hard enough to nudge them toward the next level — with
-  progress surfacing in the same teacher dashboards Concordance already has.
+- **Automated Speech Recognition (ASR).** Real-time feedback on spoken production, built
+  on top of the conversation partner — so the platform coaches pronunciation and fluency,
+  not just written accuracy.
 
 ## Next
 
-- **Spanish.** The same proficiency-first design, extended to a second language.
-- **Listening comprehension activities**, with teacher tools for generating the content.
-- **Teacher analytics for struggle-spotting** — AI tools that surface where a whole
-  class is getting stuck, not just individual grades.
-- **Automated Speech Recognition (ASR)** — real-time feedback on spoken production.
+- **Deeper teacher analytics** — early-warning flags and cohort trend lines on top of the
+  new per-concept mastery model, going beyond one-click remediation.
+- **Expanded listening & cultural content** — grow the generated audio library across more
+  Francophone contexts, registers, and proficiency levels.
+- **Graded speaking tasks** — combine the conversation partner with ASR scoring into
+  speaking assessments that feed the same proficiency model.
 
 ## Later — vision
 
 - **Francophonie as a first-class feature.** The translanguaging hub already pulls from
   beyond Metropolitan French (Senegalese and Maghrebi literature, for instance). The plan
   is to build that breadth out properly rather than ship a handful of texts.
-- **Cross-linguistic Spanish.** As Spanish comes online, design it *aware* of French —
-  modeling cognates, false friends, and structural interference — so a learner building
-  more than one language gets something no single-language app can offer.
+- **A second language (Spanish), done right.** Extend the proficiency-first design to
+  Spanish — and design it *aware* of French (cognates, false friends, structural
+  interference) rather than as an isolated product. This one waits until the right
+  Spanish-speaking collaborator can do it justice; shipping it half-built would betray
+  the whole premise.
 - **Full-time development.** The ultimate goal is to move from nights-and-weekends to
   building these tools full-time, which is what makes long-term maintenance and faster
   delivery realistic.
