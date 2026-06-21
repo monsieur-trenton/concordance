@@ -63,13 +63,13 @@ Concordance is designed to be fully compliant with major educational privacy law
 
 ## Why the core is closed
 
-The proficiency-encoding engine — how exercises, AI prompts, and progress tracking are mapped to ACTFL/AAPPL/CEFR sublevels — is the result of a lot of iteration, and it's the part of Concordance that's genuinely novel. That logic lives in a private repository for now. This repo exists to show what the project is and where it's headed, and to make it easy to support the work directly.
+The proficiency-encoding engine — how exercises, AI prompts, and progress tracking are mapped to ACTFL/AAPPL/CEFR sublevels — is the result of a lot of iteration, and it's the part of Concordance that's genuinely novel. That logic lives in a private repository for now. This repo exists to show what the project is and where it's headed, and to make it easy to support the work directly. For now, potential sponsors can go to [https://www.concordancelearn.com/](https://www.concordancelearn.com/) to preview features or take the tour.
 
 ## What sponsorship funds next
 
 French is live today. Spanish is next, with the same proficiency-first design extending to whatever language Concordance grows into.
 
-Beyond that, the top of the roadmap is a **conversation partner built specifically to move students up the proficiency ladder** — tracking roughly where a student sits on the ACTFL scale (Novice, Intermediate, Advanced) and pushing conversation just hard enough to nudge them toward the next level, with progress showing up in the same teacher dashboards Concordance already has. Alongside that: **listening comprehension activities**, and giving teachers their own AI tools for generating content and surfacing where their students are struggling.
+Beyond that, the top of the roadmap is a **conversation partner built specifically to move students up the proficiency ladder** — tracking roughly where a student sits on the ACTFL scale (Novice, Intermediate, Advanced) and pushing conversation just hard enough to nudge them toward the next level, with progress showing up in the same teacher dashboards Concordance already has. Alongside that: **listening comprehension activities**, giving teachers their own AI tools for generating content and surfacing where their students are struggling, and **Automated Speech Recognition (ASR)** to provide students with real-time feedback on spoken production.
 
 This is built solo, nights and weekends. In the short term, sponsorship covers the zero-fun parts (server hosting and API costs) and buys the time to build the next language and the chatbot properly instead of rushing them. **The ultimate goal is to transition to building these tools full-time**, ensuring long-term maintenance, faster feature delivery, and the ability to keep the core platform free for students and public schools.
 
