@@ -11,7 +11,7 @@ learners safe.
   is in a private repository.
 - Reports about the **live application** (authentication, data exposure, access control,
   the AI Studio, etc.) are in scope and most valuable.
-- Reports about **these public docs** (e.g. a broken or misleading link) are welcome too —
+- Reports about **these public docs** (e.g. a broken or misleading link) are welcome too -
   a normal issue is fine for those.
 
 ## Reporting a vulnerability
@@ -39,7 +39,7 @@ backed by an SLA. That said:
 
 ## Student-data posture
 
-Concordance is built to comply with **FERPA, COPPA, PPRA (US)** and **GDPR (EU)** — including
+Concordance is built to comply with **FERPA, COPPA, PPRA (US)** and **GDPR (EU)** - including
 data minimization, self-service account deletion, and teacher/admin control over student
 records. If you find anything that undermines that posture, it's exactly what this policy is
 for.
