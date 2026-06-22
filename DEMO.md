@@ -29,8 +29,8 @@ During your 2-hour demo session, you'll have **read-only access** to Concordance
 
 ## How to Access Your Demo
 
-### 1. You'll receive an email with a unique demo link
-Example: `https://concordancelearn.com/demo?token=...`
+### 1. Request a link at concordancelearn.com/request-demo
+Enter your email and a unique, single-use demo link is sent immediately — no signup, no waiting on a person.
 
 ### 2. Click the link to start
 - No login required — the link does all the authentication

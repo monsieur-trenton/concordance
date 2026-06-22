@@ -4,7 +4,7 @@
 
 ## Getting a demo link
 
-Student-facing features below are best explored through a **2-hour read-only demo session** (no signup, no data saved). Demo links are single-use and emailed on request — see **[DEMO.md](DEMO.md)** for the full walkthrough, or email [support@concordancelearn.com](mailto:support@concordancelearn.com) to request one. The bare `/demo` URL on its own won't work; it requires the unique token from your emailed link.
+Student-facing features below are best explored through a **2-hour read-only demo session** (no signup, no data saved). **[→ Request a demo link](https://concordancelearn.com/request-demo)** — enter your email and a single-use link arrives immediately. See **[DEMO.md](DEMO.md)** for the full walkthrough. The bare `/demo` URL on its own won't work; it requires the unique token from your emailed link.
 
 ---
 
