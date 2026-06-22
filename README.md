@@ -36,6 +36,10 @@ While teachers have full oversight and curation capabilities, the platform funct
 - **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to align with the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down.
 - **Listening comprehension** - AI-generated French audio passages with comprehension questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini) with automatic fallback for reliability.
 - **Expression tools to prepare for the AAPPL exam**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
+- **AP-exam essay practice** with text/infographic/audio stimulus sets aligned to official AP French themes and AI-generated feedback on every submission.
+- **A generalized writing diagnostic** - any piece of French writing, not just an essay, gets AI feedback calibrated to the student's ACTFL sublevel (Novice High through Advanced).
+- **Interactive proofreading** that anchors morphosyntactic error tags (verb conjugation, tense sequencing, and more) directly to the submitted text, feeding straight into the diagnostic loop.
+- **Graded speaking tasks** - submit a conversation-partner transcript for AI scoring on fluency, accuracy, and complexity, feeding the same per-concept mastery model as every other graded activity.
 - **A portfolio** that showcases a student's growth over time, not just a grade snapshot.
 - **A translanguaging hub** for advanced learners working with authentic literary and socio-cultural texts, gated by demonstrated proficiency rather than a calendar.
 - **A [dedicated Framework page](https://concordancelearn.com/framework)** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
@@ -44,6 +48,7 @@ While teachers have full oversight and curation capabilities, the platform funct
 
 ### For teachers
 - **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades.
+- **Deeper analytics**: concept-mastery trend lines per class, early-warning flags (plateau, slide, outlier, stalled) computed daily, and per-skill cohort summaries.
 - **One-click class remediation** - Concordance surfaces the concepts a whole class is collectively struggling with (from the same error data that drives each student's diagnostic loop) and generates a targeted set of practice exercises for the cohort on demand.
 - **AI-assisted content generation** for their own classes - reading passages, grammar tutorials, vocabulary, and listening passages (audio + questions) - that teachers curate and approve, not just consume.
 - **Community Content Marketplace** to share and reuse content other teachers have built.
@@ -73,9 +78,9 @@ The proficiency-encoding engine - how exercises, AI prompts, and progress tracki
 
 The full, ordered list lives in **[ROADMAP.md](ROADMAP.md)** - including what's recently shipped, what's being built now, and the longer-term vision. The short version:
 
-French is live today - and **Automated Speech Recognition (ASR)**, the **proficiency-aware conversation partner**, **listening comprehension**, and **one-click class remediation** described above all shipped recently, alongside an upgrade of the diagnostic engine to real Bayesian Knowledge Tracing. See **[ROADMAP.md](ROADMAP.md)** for the full recently-shipped list.
+French is live today - and **Automated Speech Recognition (ASR)**, the **proficiency-aware conversation partner**, **listening comprehension**, **one-click class remediation**, **deeper teacher analytics**, **graded speaking tasks**, **AP-exam essay practice**, a **generalized writing diagnostic**, and **interactive proofreading** all shipped recently, alongside an upgrade of the diagnostic engine to real Bayesian Knowledge Tracing. See **[ROADMAP.md](ROADMAP.md)** for the full recently-shipped list.
 
-The next headline is **deeper teacher analytics**: surfacing early-warning flags and cohort trend lines on top of the new per-concept mastery model, going beyond one-click remediation.
+The next headline is **expanded listening & cultural content**: growing the generated audio library across more Francophone contexts, registers, and proficiency levels.
 
 This is built solo, nights and weekends. In the short term, sponsorship covers the zero-fun parts - server hosting and the AI / text-to-speech API bills that features like the conversation partner, ASR, and listening audio now incur - and buys the time to build the next thing properly instead of rushing it. **The ultimate goal is to transition to building these tools full-time**, ensuring long-term maintenance, faster feature delivery, and the ability to keep the core platform free for students and public schools.
 

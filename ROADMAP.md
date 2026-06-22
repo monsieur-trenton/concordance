@@ -69,18 +69,29 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
 - **Automated Speech Recognition (ASR).** Real-time feedback on spoken production, built
   on top of the conversation partner - so the platform coaches pronunciation and fluency,
   not just written accuracy. Includes per-user admin beta toggles.
+- **Deeper teacher analytics** - concept-mastery trend lines per class, early-warning flags
+  (plateau, slide, outlier, stalled) computed by a daily risk-assessment job, and per-skill
+  cohort summaries - going beyond one-click remediation.
+- **Graded speaking tasks** - students submit conversation-partner transcripts for AI
+  scoring (fluency, accuracy, complexity) via Claude with a Gemini fallback, and the scores
+  feed straight into the same per-concept mastery model as every other graded attempt.
+- **AP-exam essay practice.** A dedicated essay tool with text/infographic/audio stimulus
+  sets aligned to official AP French themes, AI-generated feedback, and a submission
+  history - so students can rehearse the AP-style integrated essay format directly on the
+  platform.
+- **A generalized writing diagnostic.** Any piece of French writing - not just essays - can
+  now get AI feedback calibrated to the student's ACTFL sublevel (Novice High through
+  Advanced), each with its own proficiency-appropriate accuracy, complexity, and fluency
+  bar.
+- **Interactive proofreading with morphosyntactic error analysis.** Submitted writing is
+  now annotated with character-anchored error tags (verb conjugation, tense sequencing, and
+  more) for an inline proofread view, and every tagged error feeds the same diagnostic loop
+  that drives practice and remediation everywhere else.
 
 ## Now - building
 
-- **Deeper teacher analytics** - early-warning flags and cohort trend lines on top of the
-  new per-concept mastery model, going beyond one-click remediation.
-
-## Next
-
 - **Expanded listening & cultural content** - grow the generated audio library across more
   Francophone contexts, registers, and proficiency levels. Includes AI-generated interpretive questions.
-- **Graded speaking tasks** - combine the conversation partner with ASR scoring into
-  speaking assessments that feed the same proficiency model.
 
 ## Later - vision
 
