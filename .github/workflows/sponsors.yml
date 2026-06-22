@@ -1,0 +1,34 @@
+name: Update sponsors
+
+# Keeps the sponsor wall in SPONSORS.md current automatically. Runs daily and
+# can be triggered manually from the Actions tab.
+#
+# Setup (one time): create a classic Personal Access Token with read access to
+# your sponsorships and add it as a repo secret named SPONSORS_TOKEN. The default
+# GITHUB_TOKEN cannot read the GitHub Sponsors GraphQL API.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate sponsor wall
+        uses: JamesIves/github-sponsors-readme-action@v1
+        with:
+          token: ${{ secrets.SPONSORS_TOKEN }}
+          file: SPONSORS.md
+          marker: sponsors
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update sponsor wall"
+          file_pattern: SPONSORS.md

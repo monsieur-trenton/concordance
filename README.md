@@ -94,6 +94,16 @@ Sponsors at the Ami tier and above are listed in [SPONSORS.md](SPONSORS.md).
 - **[SECURITY.md](SECURITY.md)** - responsible-disclosure policy and student-data posture.
 - **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - how we keep this an educator-friendly space.
 
+## Trademarks
+
+Concordance describes its content and proficiency model in terms of ACTFL, AAPPL,
+CEFR, and AP® so students, teachers, and parents know what it helps prepare for.
+Concordance is an independent project and is **not affiliated with, sponsored by, or
+endorsed by** the American Council on the Teaching of Foreign Languages (ACTFL),
+Language Testing International (which administers the AAPPL exam), the Council of
+Europe (CEFR), or the College Board (AP, Advanced Placement). All are trademarks of
+their respective owners.
+
 ## Contact
 
 Questions, ideas, or interested in a deeper look under the hood? **[Open an issue](https://github.com/monsieur-trenton/concordance/issues/new/choose)** - there are templates for feature ideas and bug reports.
