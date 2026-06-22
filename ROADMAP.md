@@ -11,12 +11,43 @@ which is the source of truth for what each tier includes.
 
 ---
 
+## Where your money goes
+
+Concordance is free for students and public schools, but the AI features aren't free
+to run. Every conversation-partner reply, every ASR pronunciation check, and every
+listening passage costs real money in API and hosting bills. Sponsorship covers those
+bills so the platform can stay free for the people it's built for.
+
+<!-- TODO (owner): replace the bracketed figures below with real monthly numbers from
+     your provider dashboards (Anthropic, Gemini, Deepgram, ElevenLabs, Resend, AWS S3,
+     Railway). Do not ship placeholder numbers publicly. -->
+
+Roughly where a month of running costs goes today:
+
+- **AI generation (Claude / Gemini):** ~$[XX]/mo — reading passages, grammar tutorials,
+  the conversation partner, content moderation.
+- **Speech (Deepgram ASR + TTS):** ~$[XX]/mo — pronunciation feedback and listening audio.
+- **Hosting + database (Railway) and storage (S3):** ~$[XX]/mo.
+- **Email (Resend):** ~$[X]/mo — password resets, reminders, weekly guardian digests.
+
+**Total: ~$[XXX]/month**, today, at the current number of active students.
+
+### Sponsor a classroom
+
+A useful way to think about a sponsorship: roughly **$[XX]/month covers the AI costs of
+one classroom** for a month — a teacher and their students using the conversation partner,
+listening practice, and adaptive content, free of charge. Tier names and exact perks live
+on the **[Sponsors page](https://github.com/sponsors/monsieur-trenton)**, which is the
+source of truth.
+
+---
+
 ## Recently shipped
 
 These are live today on [concordancelearn.com](https://concordancelearn.com/):
 
 - **Proficiency-aware conversation partner** - an AI partner that converses in French at
-  the student's current ACTFL level (comprehensible input, *i+1*), tags the grammar errors
+  the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors
   it hears, and feeds them into the diagnostic loop. A Google Gemini → Anthropic Claude
   (Haiku) fallback keeps it running when a provider isn't.
 - **Listening comprehension** - AI-generated French audio passages with comprehension
@@ -34,7 +65,7 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
 - **Community Content Marketplace** - teachers share and reuse content they've built.
 - **AI Studio** with an Anthropic Claude → Google Gemini fallback so generation stays
   reliable, plus per-teacher and global opt-in controls.
-- **AAPPL-aligned expression tools** - scoring rubric, practice simulator, targeted word bank.
+- **Expression tools to prepare for the AAPPL exam** - scoring rubric, practice simulator, targeted word bank.
 - **Automated Speech Recognition (ASR).** Real-time feedback on spoken production, built
   on top of the conversation partner - so the platform coaches pronunciation and fluency,
   not just written accuracy. Includes per-user admin beta toggles.

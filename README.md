@@ -15,7 +15,7 @@
 
 Most language-learning apps optimize for streaks and vocabulary drills. They rarely tell a student, a teacher, or a parent where a learner actually *stands* - not in points, but in real proficiency: can this student handle the syntax of a formal email, or analyze a literary passage with confidence?
 
-Concordance is built the other way around. Every exercise, every AI-generated passage, and every progress metric is anchored to established proficiency frameworks (ACTFL, AAPPL, CEFR) - so growth is measured against real-world communicative competence, not just a streak counter. Every surface - student, teacher, admin - shares a consistent, deliberately designed interface, not a bolted-together set of screens.
+Concordance is built the other way around. Every exercise, every AI-generated passage, and every progress metric is aligned with established proficiency frameworks (ACTFL standards, AAPPL exam preparation, CEFR) - so growth is measured against real-world communicative competence, not just a streak counter. Every surface - student, teacher, admin - shares a consistent, deliberately designed interface, not a bolted-together set of screens.
 
 ## Guiding principles
 
@@ -30,12 +30,12 @@ While teachers have full oversight and curation capabilities, the platform funct
 ### For students
 - **Intelligent Diagnostic Loop**: Bayesian Knowledge Tracing estimates the student's mastery of each grammar concept from every graded attempt across the platform - practice, writing, and conversation alike. When mastery of a concept stays low (e.g., subjunctive vs. indicative), the dashboard prescribes the exact grammar tutorial and targeted practice activity needed, closing the loop on remediation.
 - **Adaptive practice** that targets a student's actual proficiency sublevel (Novice → Intermediate → Advanced), not just their grade level.
-- **AI-generated content** - reading passages, grammar tutorials, vocabulary in context - calibrated to a specific ACTFL/AAPPL target and reviewed before reaching students.
+- **AI-generated content** - reading passages, grammar tutorials, vocabulary in context - calibrated to target specific ACTFL proficiency levels and AAPPL exam readiness and reviewed before reaching students.
 - **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
 - **Cultural Adventure Hub** - interactive conversational scenarios - plus presentation recording for real speaking practice.
-- **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to the student's current ACTFL level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down.
+- **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to align with the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down.
 - **Listening comprehension** - AI-generated French audio passages with comprehension questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini) with automatic fallback for reliability.
-- **AAPPL-aligned expression tools**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
+- **Expression tools to prepare for the AAPPL exam**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
 - **A portfolio** that showcases a student's growth over time, not just a grade snapshot.
 - **A translanguaging hub** for advanced learners working with authentic literary and socio-cultural texts, gated by demonstrated proficiency rather than a calendar.
 - **A [dedicated Framework page](https://concordancelearn.com/framework)** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
@@ -67,7 +67,7 @@ Concordance is designed to be fully compliant with major educational privacy law
 
 ## Why the core is closed
 
-The proficiency-encoding engine - how exercises, AI prompts, and progress tracking are mapped to ACTFL/AAPPL/CEFR sublevels - is the result of a lot of iteration, and it's the part of Concordance that's genuinely novel. That logic lives in a private repository for now. This repo exists to show what the project is and where it's headed, and to make it easy to support the work directly. For now, potential sponsors can go to [https://www.concordancelearn.com/](https://www.concordancelearn.com/) to preview features or take the tour.
+The proficiency-encoding engine - how exercises, AI prompts, and progress tracking are mapped to target ACTFL proficiency levels, AAPPL exam preparation, and CEFR sublevels - is the result of a lot of iteration, and it's the part of Concordance that's genuinely novel. That logic lives in a private repository for now. This repo exists to show what the project is and where it's headed, and to make it easy to support the work directly. For now, potential sponsors can go to [https://www.concordancelearn.com/](https://www.concordancelearn.com/) to preview features or take the tour.
 
 ## What sponsorship funds next
 
