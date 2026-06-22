@@ -7,7 +7,8 @@
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
 [![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://concordancelearn.com/)
 
-**[→ Try Concordance at concordancelearn.com](https://concordancelearn.com/)**
+**[→ Try Concordance at concordancelearn.com](https://concordancelearn.com/)**  
+**[→ See all features with screenshots](FEATURES.md)**
 
 ---
 
@@ -94,6 +95,7 @@ Sponsors at the Ami tier and above are listed in [SPONSORS.md](SPONSORS.md).
 
 ## Project docs
 
+- **[FEATURES.md](FEATURES.md)** - visual showcase of all highlight features with guided exploration.
 - **[ROADMAP.md](ROADMAP.md)** - what sponsorship funds next.
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - ways to get involved (the core is closed, but there's real work to share).
 - **[SECURITY.md](SECURITY.md)** - responsible-disclosure policy and student-data posture.
