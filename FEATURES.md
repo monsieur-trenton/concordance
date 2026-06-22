@@ -2,6 +2,10 @@
 
 **[→ Explore live at concordancelearn.com](https://concordancelearn.com/)**
 
+## Getting a demo link
+
+Student-facing features below are best explored through a **2-hour read-only demo session** (no signup, no data saved). Demo links are single-use and emailed on request — see **[DEMO.md](DEMO.md)** for the full walkthrough, or email [support@concordancelearn.com](mailto:support@concordancelearn.com) to request one. The bare `/demo` URL on its own won't work; it requires the unique token from your emailed link.
+
 ---
 
 ## For Students
@@ -14,7 +18,7 @@ The foundation of adaptive learning: Bayesian Knowledge Tracing estimates your m
 - **Mastery curves** show your estimated confidence on each grammar topic in real time
 - When mastery stays low (e.g., subjunctive vs. indicative), the system auto-surfaces the tutorial and targeted practice activity to close the gap
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Complete 3-4 practice exercises → View the **Dashboard** to see how mastery updates
+**Try it:** Once you have a demo link → Complete 3-4 practice exercises → View the **Dashboard** to see how mastery updates
 
 ---
 
@@ -35,7 +39,7 @@ Multiple drill types calibrated to your proficiency level (Novice → Intermedia
 - Vocabulary is scaffolded—uncommon words get glosses; familiar ones don't
 - Every wrong answer surfaces the morphological/syntactic rule, immediately
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Practice page → Try 2-3 different activity types
+**Try it:** Once you have a demo link → Practice page → Try 2-3 different activity types
 
 ---
 
@@ -53,7 +57,7 @@ A French conversation partner calibrated to your current ACTFL proficiency level
 - The error tags at the end of the conversation
 - How conversational mistakes map to your **Focus Areas** dashboard
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Conversation Partner → Have a 5-10 minute dialogue → Review the error tagging
+**Try it:** Once you have a demo link → Conversation Partner → Have a 5-10 minute dialogue → Review the error tagging
 
 ---
 
@@ -71,7 +75,7 @@ Interactive branching conversations exploring authentic Francophone regions (Par
 - How vocabulary is tied to place and context
 - Dialect variations across Francophone regions
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Cultural Scenarios → Explore 1-2 scenarios (e.g., Paris or Dakar)
+**Try it:** Once you have a demo link → Cultural Scenarios → Explore 1-2 scenarios (e.g., Paris or Dakar)
 
 ---
 
@@ -89,7 +93,7 @@ AI-generated French audio passages with comprehension questions, voiced by your 
 - Voice quality and naturalness
 - How comprehension questions map to passage content
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Listening activities → Start a passage
+**Try it:** Once you have a demo link → Listening activities → Start a passage
 
 ---
 
@@ -106,7 +110,7 @@ Record yourself and get AI-powered pronunciation feedback in French, with Automa
 - The level of feedback detail for your proficiency
 - Integration with the diagnostic loop
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Speaking Practice → Record a short response
+**Try it:** Once you have a demo link → Speaking Practice → Record a short response
 
 ---
 
@@ -127,7 +131,7 @@ Practice for the official AAPPL exam with a scoring rubric, practice simulator, 
 - The rubric alignment with official AAPPL standards
 - Error persistence in your Focus Areas dashboard
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Writing Tools → Submit a short paragraph
+**Try it:** Once you have a demo link → Writing Tools → Submit a short paragraph
 
 ---
 
@@ -145,7 +149,7 @@ AP-style essay practice with text/infographic/audio stimulus sets aligned to off
 - Feedback granularity and alignment with exam rubrics
 - How essays feed into your diagnostic loop
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → AP Essay Practice → Start a prompt
+**Try it:** Once you have a demo link → AP Essay Practice → Start a prompt
 
 ---
 
@@ -176,7 +180,7 @@ A showcase of your growth over time, not just a grade snapshot.
 - **Progress metrics** — Real proficiency measures aligned to ACTFL/CEFR standards
 - **Certificates** — On reaching proficiency milestones
 
-**Try it:** [Demo Link](https://concordancelearn.com/demo) → Portfolio → Explore your learning history
+**Try it:** Once you have a demo link → Portfolio → Explore your learning history
 
 ---
 
