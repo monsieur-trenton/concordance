@@ -30,6 +30,7 @@ While teachers have full oversight and curation capabilities, the platform funct
 
 ### For students
 - **Intelligent Diagnostic Loop**: Bayesian Knowledge Tracing estimates the student's mastery of each grammar concept from every graded attempt across the platform - practice, writing, and conversation alike. When mastery of a concept stays low (e.g., subjunctive vs. indicative), the dashboard prescribes the exact grammar tutorial and targeted practice activity needed, closing the loop on remediation.
+- **Point de départ**: a short adaptive check-in on a student's very first visit finds their actual starting level before they take a single regular lesson, so the diagnostic loop above starts calibrated instead of assuming everyone begins at zero. From then on, a brief daily practice session - prioritizing whatever vocabulary is due for review and whichever concepts need the most repair, with a little new material mixed in - surfaces right on the dashboard. No score, no streak pressure, and it's always skippable.
 - **Adaptive practice** that targets a student's actual proficiency sublevel (Novice → Intermediate → Advanced), not just their grade level.
 - **AI-generated content** - reading passages, grammar tutorials, vocabulary in context - calibrated to target specific ACTFL proficiency levels and AAPPL exam readiness and reviewed before reaching students.
 - **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
@@ -48,7 +49,7 @@ While teachers have full oversight and curation capabilities, the platform funct
 - A bilingual (French/English) interface.
 
 ### For teachers
-- **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades.
+- **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades - including, per student, whether they've completed their Point de départ check-in and how consistently they're keeping up with daily practice.
 - **Deeper analytics**: concept-mastery trend lines per class, early-warning flags (plateau, slide, outlier, stalled) computed daily, and per-skill cohort summaries.
 - **One-click class remediation** - Concordance surfaces the concepts a whole class is collectively struggling with (from the same error data that drives each student's diagnostic loop) and generates a targeted set of practice exercises for the cohort on demand.
 - **AI-assisted content generation** for their own classes - reading passages, grammar tutorials, vocabulary, and listening passages (audio + questions) - that teachers curate and approve, not just consume.

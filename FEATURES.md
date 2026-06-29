@@ -22,6 +22,19 @@ The foundation of adaptive learning: Bayesian Knowledge Tracing estimates your m
 
 ---
 
+### 🧭 Point de départ
+Before a new student does a single regular lesson, a short adaptive check-in finds out where they actually stand - so the diagnostic loop above starts calibrated to a real measurement instead of an assumed zero. From then on, a brief daily practice session surfaces automatically at the top of the dashboard, built from whatever's due for review, whichever concepts need the most repair, and a little new material - never an open-ended browse.
+
+**What to notice when exploring:**
+- A new account's very first session is the check-in itself: a quick "Avant de commencer, trouvons votre point de départ" intro, then a short series of items spanning a few different exercise types
+- Once it's done, the dashboard already shows a calibrated starting level - no manual self-rating step required before practicing for real
+- Returning students see a **"Point de départ"** card each day previewing how many items are queued and roughly how long it'll take, with a no-penalty skip if today isn't the day
+- Deliberately no score or streak counter on this one - just a simple position indicator, since the goal is steady use, not competition
+
+**Try it:** This one's hard to see in the 2-hour demo - demo sessions start pre-calibrated at B1 and skip the check-in by design. It's most visible on a real account's first login and every return visit after.
+
+---
+
 ### 📚 Adaptive Practice
 Multiple drill types calibrated to your proficiency level (Novice → Intermediate → Advanced), not just your grade level.
 
@@ -221,6 +234,7 @@ Manage your roster and see proficiency across the whole cohort at a glance — n
 - **Proficiency heatmap** — Red/yellow/green at a glance across ACTFL levels
 - **Concept mastery grid** — Which topics is the whole class struggling with?
 - **Per-student progress tracking** — Drill down into individual mastery curves
+- **Point de départ engagement** — Per student: has their check-in been completed, when did they last do daily practice, and how consistently over the last 30 days
 
 **What to notice:**
 - How the heatmap reveals class-wide patterns instantly

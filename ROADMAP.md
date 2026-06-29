@@ -87,6 +87,12 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
   now annotated with character-anchored error tags (verb conjugation, tense sequencing, and
   more) for an inline proofread view, and every tagged error feeds the same diagnostic loop
   that drives practice and remediation everywhere else.
+- **Point de départ.** A short adaptive check-in calibrates a brand-new student's starting
+  level before their first regular lesson, replacing a guessed starting point with a
+  measured one. From then on, a brief daily practice session - prioritized by overdue
+  vocabulary review and the concepts needing the most repair - surfaces on the dashboard
+  with no score or streak pressure attached. Teachers get per-student visibility into
+  check-in completion and daily-practice consistency on the roster.
 
 ## Now - building
 
