@@ -98,6 +98,7 @@ Sponsors at the Ami tier and above are listed in [SPONSORS.md](SPONSORS.md).
 
 - **[FEATURES.md](FEATURES.md)** - visual showcase of all highlight features with guided exploration.
 - **[ROADMAP.md](ROADMAP.md)** - what sponsorship funds next.
+- **[UPDATES.md](UPDATES.md)** - dated sponsor updates, newest first.
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - ways to get involved (the core is closed, but there's real work to share).
 - **[SECURITY.md](SECURITY.md)** - responsible-disclosure policy and student-data posture.
 - **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - how we keep this an educator-friendly space.
