@@ -10,6 +10,14 @@ ongoing feature list (undated, always current), see
 
 A lot has happened behind the scenes since the last update, and it's worth sharing with the people actually making this possible.
 
+### A safety net for AI conversations — that still gives beginners the benefit of the doubt
+
+Concordance's AI conversation partner lets students practice French with a patient speaker that's available any time. As those conversations become a bigger part of the classroom, we've added a quiet layer that watches for the rare case where the tool is genuinely misused — a student harassing the AI, trying to trick it into going off-script, or flooding it with spam — and surfaces it to their teacher to review.
+
+Two things set this apart from the blunt content filters bolted onto most AI products. First, nothing ever happens to a student automatically: the system only raises a flag for a human teacher to look at and judge. It informs; it never punishes. Second — and this matters enormously for a language-learning tool — it is built to tell the difference between misuse and a beginner. Broken grammar, blunt phrasing, and simple halting sentences are exactly what learning a language looks like, and the system is deliberately designed to ignore them. A student struggling to form a sentence is never mistaken for a problem.
+
+Teachers see only their own students, flagged messages are kept only briefly unless a teacher marks something as a real, resolved concern, and the whole thing is meant to give teachers visibility without turning the classroom into a surveillance operation. It's the responsible version of AI safety: a human in the loop, privacy by default, and the benefit of the doubt for the people who are here to learn.
+
 ### A real proficiency gate, not just a progress bar
 
 Students on Concordance no longer advance to the next level just by racking up correct answers over time. A new capstone evaluation system now checks four things before anyone moves up: sustained grammar mastery, enough practice volume, genuine vocabulary retention (not just a first correct guess), and a real one-sitting checkpoint testing the skills the next level actually needs. Teachers can see exactly where each student stands and choose when a capstone happens, rather than the platform deciding on its own.
