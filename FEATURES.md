@@ -22,6 +22,21 @@ The foundation of adaptive learning: Bayesian Knowledge Tracing estimates your m
 
 ---
 
+### 🎓 Capstone Level-Advancement Gate
+Advancing to the next proficiency level requires demonstrated readiness, not just a streak of correct answers.
+
+**What it checks before advancing a level:**
+- Sustained grammar mastery on every current-level concept
+- Enough practice volume, not just a lucky run
+- Genuine vocabulary retention (spaced-repetition maturity, not a first correct guess)
+- A real one-sitting checkpoint assessment on the skills the next level actually needs
+
+**What to notice:**
+- Teachers see exactly where each student stands relative to the gate
+- Teachers choose when a capstone happens — the platform doesn't decide on its own
+
+---
+
 ### 🧭 Point de départ
 Before a new student does a single regular lesson, a short adaptive check-in finds out where they actually stand - so the diagnostic loop above starts calibrated to a real measurement instead of an assumed zero. From then on, a brief daily practice session surfaces automatically at the top of the dashboard, built from whatever's due for review, whichever concepts need the most repair, and a little new material - never an open-ended browse.
 
@@ -56,6 +71,34 @@ Multiple drill types calibrated to your proficiency level (Novice → Intermedia
 
 ---
 
+### 🧩 Sentence Builder *(new, actively expanding)*
+Tap tiles to assemble a correct French sentence from a scrambled, distractor-mixed bank.
+
+**Features:**
+- **Tile-assembly interface** — Tap tiles to move them into place; correctness decided server-side
+- **Distractor teaching signal** — Touching a distractor and self-correcting still surfaces its explanation, with no penalty
+- **Concept-level feedback** — Corrected-sentence display, subject/verb breakdown, and grammar explanation on every attempt
+- **Same diagnostic-loop integration** as every other graded activity
+
+**What to notice:**
+- How distractor tiles are used to teach, not just to trip you up
+- The corrected-sentence and concept-explanation panel after each attempt
+
+**Try it:** Once you have a demo link → Practice → Sentence Builder
+
+---
+
+### 🗣️ IPA Pronunciation Wizard
+Targeted, phoneme-level pronunciation practice using the International Phonetic Alphabet.
+
+**Features:**
+- **Phoneme-level feedback** — Focus on individual sounds, not just whole-word pronunciation
+- **Integrates with the same proficiency-aware feedback model** as other speaking activities
+
+**Try it:** Once you have a demo link → Speaking Practice → IPA Wizard
+
+---
+
 ### 🤖 AI-Powered Conversation Partner
 A French conversation partner calibrated to your current ACTFL proficiency level, providing *i+1* (comprehensible input just above your level). Real-time error tagging feeds straight back into your diagnostic loop.
 
@@ -64,6 +107,7 @@ A French conversation partner calibrated to your current ACTFL proficiency level
 - **Real-time error tags** — Mistakes are labeled (verb tense, gender agreement, etc.) as you go
 - **Dual-provider fallback** — Backed by Google Gemini → Anthropic Claude fallback so outages don't kill the feature
 - **Error loop closure** — Every tagged error feeds into your concept mastery model
+- **Automated safety-alert review** — Content review flags concerning student content for simultaneous teacher and school-administrator review. Nothing ever happens to a student automatically; it only surfaces something for a human to judge.
 
 **What to notice:**
 - How the AI responds differently depending on your proficiency
@@ -152,7 +196,7 @@ Practice for the official AAPPL exam with a scoring rubric, practice simulator, 
 AP-style essay practice with text/infographic/audio stimulus sets aligned to official AP French themes, plus AI-generated feedback on every submission.
 
 **Features:**
-- **Official AP themes** — Families, Communities, Global Challenges, Science, etc.
+- **Official AP themes** — rebuilt against College Board's redesigned 2026-27 exam framework (new task types, restructured themes, over 650 vocabulary entries), ahead of most published prep materials
 - **Mixed media stimuli** — Text passages, infographics, and audio clips
 - **Real-time feedback** — AI scoring on thesis clarity, supporting evidence, language control
 - **Proficiency-aware rubric** — Feedback matches AP exam standards and your level
@@ -290,17 +334,6 @@ Create reading passages, grammar tutorials, vocabulary sets, and listening passa
 - Ability to tweak level and cultural context
 
 **Try it:** — Teacher/admin feature; sign in with a teacher account to explore AI Studio
-
----
-
-### 🛒 Community Content Marketplace
-Share and reuse content other teachers have built — and earn acknowledgment for what you've created.
-
-**What it offers:**
-- **Searchable library** — Filter by proficiency, theme, grammar concept, language
-- **Teacher-built content** — Peer-reviewed and tested in real classrooms
-- **Remix rights** — Use and adapt others' work (with attribution)
-- **Creator recognition** — Your contributions are showcased
 
 ---
 

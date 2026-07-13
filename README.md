@@ -30,15 +30,18 @@ While teachers have full oversight and curation capabilities, the platform funct
 
 ### For students
 - **Intelligent Diagnostic Loop**: Bayesian Knowledge Tracing estimates the student's mastery of each grammar concept from every graded attempt across the platform - practice, writing, and conversation alike. When mastery of a concept stays low (e.g., subjunctive vs. indicative), the dashboard prescribes the exact grammar tutorial and targeted practice activity needed, closing the loop on remediation.
+- **A real capstone gate before advancing levels** - moving to the next proficiency level requires sustained grammar mastery, enough practice volume, genuine vocabulary retention, and a one-sitting checkpoint assessment - not just accumulated correct answers over time. Teachers see exactly where each student stands and control when a capstone happens.
 - **Point de départ**: a short adaptive check-in on a student's very first visit finds their actual starting level before they take a single regular lesson, so the diagnostic loop above starts calibrated instead of assuming everyone begins at zero. From then on, a brief daily practice session - prioritizing whatever vocabulary is due for review and whichever concepts need the most repair, with a little new material mixed in - surfaces right on the dashboard. No score, no streak pressure, and it's always skippable.
 - **Adaptive practice** that targets a student's actual proficiency sublevel (Novice → Intermediate → Advanced), not just their grade level.
+- **Sentence Builder** *(new, actively expanding)* - a tile-assembly activity that has students construct a correct French sentence from a scrambled, distractor-mixed bank, with the same concept-level feedback and diagnostic-loop integration as every other graded activity.
+- **IPA pronunciation wizard** for targeted phoneme-level pronunciation practice.
 - **AI-generated content** - reading passages, grammar tutorials, vocabulary in context - calibrated to target specific ACTFL proficiency levels and AAPPL exam readiness and reviewed before reaching students.
 - **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
 - **Cultural Adventure Hub** - interactive conversational scenarios - plus presentation recording for real speaking practice.
-- **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to align with the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down.
+- **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to align with the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down. Automated content review with mandatory-reporting-aligned staff notification flags concerning student content for simultaneous teacher and school-administrator review - nothing ever happens to a student automatically, it only surfaces something for a human to judge.
 - **Listening comprehension** - AI-generated French audio passages with comprehension questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini) with automatic fallback for reliability.
 - **Expression tools to prepare for the AAPPL exam**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
-- **AP-exam essay practice** with text/infographic/audio stimulus sets aligned to official AP French themes and AI-generated feedback on every submission.
+- **AP-exam essay practice** with text/infographic/audio stimulus sets aligned to official AP French themes and AI-generated feedback on every submission. The full AP vocabulary and theme taxonomy is already rebuilt against College Board's redesigned 2026-27 exam framework, ahead of most published prep materials.
 - **A generalized writing diagnostic** - any piece of French writing, not just an essay, gets AI feedback calibrated to the student's ACTFL sublevel (Novice High through Advanced).
 - **Interactive proofreading** that anchors morphosyntactic error tags (verb conjugation, tense sequencing, and more) directly to the submitted text, feeding straight into the diagnostic loop.
 - **Graded speaking tasks** - submit a conversation-partner transcript for AI scoring on fluency, accuracy, and complexity, feeding the same per-concept mastery model as every other graded activity.
@@ -53,7 +56,6 @@ While teachers have full oversight and curation capabilities, the platform funct
 - **Deeper analytics**: concept-mastery trend lines per class, early-warning flags (plateau, slide, outlier, stalled) computed daily, and per-skill cohort summaries.
 - **One-click class remediation** - Concordance surfaces the concepts a whole class is collectively struggling with (from the same error data that drives each student's diagnostic loop) and generates a targeted set of practice exercises for the cohort on demand.
 - **AI-assisted content generation** for their own classes - reading passages, grammar tutorials, vocabulary, and listening passages (audio + questions) - that teachers curate and approve, not just consume.
-- **Community Content Marketplace** to share and reuse content other teachers have built.
 - **A feature-voting board** so teachers help shape what gets built next.
 - **School and district profile fields** to keep reporting and content generation grounded in real classroom context.
 
@@ -80,7 +82,7 @@ The proficiency-encoding engine - how exercises, AI prompts, and progress tracki
 
 The full, ordered list lives in **[ROADMAP.md](ROADMAP.md)** - including what's recently shipped, what's being built now, and the longer-term vision. The short version:
 
-French is live today - and **Automated Speech Recognition (ASR)**, the **proficiency-aware conversation partner**, **listening comprehension**, **one-click class remediation**, **deeper teacher analytics**, **graded speaking tasks**, **AP-exam essay practice**, a **generalized writing diagnostic**, and **interactive proofreading** all shipped recently, alongside an upgrade of the diagnostic engine to real Bayesian Knowledge Tracing. See **[ROADMAP.md](ROADMAP.md)** for the full recently-shipped list.
+French is live today - and the **IPA pronunciation wizard**, the **capstone level-advancement gate**, the rebuilt **2026-27 AP CED taxonomy and vocabulary**, **Sentence Builder**, and **automated safety-alert review for AI conversations** all shipped recently, alongside **Automated Speech Recognition (ASR)**, the **proficiency-aware conversation partner**, **listening comprehension**, **one-click class remediation**, **deeper teacher analytics**, **graded speaking tasks**, **AP-exam essay practice**, a **generalized writing diagnostic**, **interactive proofreading**, and an upgrade of the diagnostic engine to real Bayesian Knowledge Tracing. See **[ROADMAP.md](ROADMAP.md)** for the full recently-shipped list.
 
 The next headline is **expanded listening & cultural content**: growing the generated audio library across more Francophone contexts, registers, and proficiency levels.
 

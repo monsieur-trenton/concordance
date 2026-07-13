@@ -41,5 +41,6 @@ backed by an SLA. That said:
 
 Concordance is built to comply with **FERPA, COPPA, PPRA (US)** and **GDPR (EU)** - including
 data minimization, self-service account deletion, and teacher/admin control over student
-records. If you find anything that undermines that posture, it's exactly what this policy is
-for.
+records. When an admin previews a student's account for support or troubleshooting, that
+access is enforced as strictly read-only at the API level, not just hidden in the UI. If you
+find anything that undermines that posture, it's exactly what this policy is for.
