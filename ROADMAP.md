@@ -62,7 +62,6 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
   proficiency, current focus areas) for a parent or guardian.
 - **Professional Learning modules** - teacher PD content with admin authoring tools.
 - **Peer Hubs** - collaborative spaces for students.
-- **Community Content Marketplace** - teachers share and reuse content they've built.
 - **AI Studio** with an Anthropic Claude → Google Gemini fallback so generation stays
   reliable, plus per-teacher and global opt-in controls.
 - **Expression tools to prepare for the AAPPL exam** - scoring rubric, practice simulator, targeted word bank.
@@ -93,6 +92,30 @@ These are live today on [concordancelearn.com](https://concordancelearn.com/):
   vocabulary review and the concepts needing the most repair - surfaces on the dashboard
   with no score or streak pressure attached. Teachers get per-student visibility into
   check-in completion and daily-practice consistency on the roster.
+- **A real capstone gate before advancing levels.** Students no longer advance to the next
+  proficiency level just by racking up correct answers over time. A capstone evaluation now
+  checks four things first: sustained grammar mastery, enough practice volume, genuine
+  vocabulary retention, and a one-sitting checkpoint assessment on the skills the next level
+  actually needs. Teachers see exactly where each student stands and choose when a capstone
+  happens.
+- **Rebuilt for the 2026-27 AP French exam redesign.** College Board is overhauling the AP
+  French Language and Culture exam starting the 2026-27 school year - new task types, a
+  redesigned course project, and six renamed and restructured themes. Concordance's entire AP
+  vocabulary and taxonomy is already rebuilt against the official redesigned framework: over
+  650 vocabulary entries correctly organized under the new themes, each checked for accuracy.
+- **Automated safety-alert review for AI conversations.** A quiet layer watches for the rare
+  case where the AI conversation partner is genuinely misused, and surfaces it for simultaneous
+  teacher and school-administrator review - never acting on a student automatically, only
+  informing a human who can judge. It's deliberately built to tell the difference between
+  misuse and an ordinary beginner still fumbling with the language.
+- **IPA pronunciation wizard.** A focused tool for phoneme-level pronunciation practice,
+  giving students direct feedback on individual sounds rather than only whole-word or
+  whole-sentence pronunciation.
+- **Sentence Builder** *(new, actively expanding)*. A tile-assembly activity where
+  students construct a correct French sentence from a scrambled, distractor-mixed bank, with
+  the same concept-level feedback and diagnostic-loop integration as every other graded
+  activity. The Concordance-corpus content set shipped first; a Conjugaison-corpus AI-generation
+  pipeline is actively adding new item types.
 
 ## Now - building
 
