@@ -16,7 +16,7 @@ Concordance's AI conversation partner lets students practice French with a patie
 
 Two things set this apart from the blunt content filters bolted onto most AI products. First, nothing ever happens to a student automatically: the system only surfaces a flag for a human to look at and judge. It informs; it never punishes. Second — and this matters enormously for a language-learning tool — it is built to tell the difference between misuse and a beginner. Broken grammar, blunt phrasing, and simple halting sentences are exactly what learning a language looks like, and the system is deliberately designed to ignore them. A student struggling to form a sentence is never mistaken for a problem.
 
-Teachers see only their own students, and the whole thing is meant to give staff visibility without turning the classroom into a surveillance operation. It's the responsible version of AI safety: a human in the loop, privacy by default, and the benefit of the doubt for the people who are here to learn.
+Teachers see only their own students, flagged messages are kept only briefly unless a teacher marks something as a real, resolved concern, and the whole thing is meant to give staff visibility without turning the classroom into a surveillance operation. It's the responsible version of AI safety: a human in the loop, privacy by default, and the benefit of the doubt for the people who are here to learn.
 
 ### A real proficiency gate, not just a progress bar
 
