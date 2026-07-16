@@ -536,3 +536,252 @@ the "type it" requirement).
 - `migration_sentence_builder.sql` / `migration_sentence_builder_pronoun_placement_concept.sql` — table + concept conventions
 - `src/pages/SentenceBuilder.jsx` — page skeleton
 - `CONTRIBUTING.md` §⑧ — Definition of Done
+
+---
+
+# Addendum A — Progressive grading strictness + elision normalization
+
+**Status:** Design addendum. Still design-only, no implementation.
+**Date:** 2026-07-16
+**Amends:** §2 (grading) and §3.2 (review response) of this document.
+
+Two changes: (A.1) make BKT/SM-2 credit eligibility per feedback tier vary by
+item level instead of crediting only Tier 1 uniformly; (A.2) an explicit
+correction to the §2.2 normalizer — mandatory clitic **elision** (m'en, l'y,
+t'en, s'y, …) is **not** fully handled today and needs a dedicated step.
+
+---
+
+## A.1 Progressive grading strictness
+
+### A.1.1 What each tier represents linguistically (the basis for the mapping)
+
+The four tiers from §2.3, restated as *what the student demonstrated about the
+`pronoun_placement` skill*:
+
+- **Tier 1 — exact.** Selection ✓, order ✓, orthography ✓. Full demonstration.
+- **Tier 2 — accent/spelling near-miss.** Selection ✓, order ✓; the only error is
+  **orthogonal to the pronoun skill** (an accent or a verb-spelling slip on
+  non-pronoun material). This is a *stronger* pronoun demonstration than Tier 3,
+  because order — a genuine part of placement — is correct.
+- **Tier 3 — right pronouns, wrong order.** Selection ✓ (the student correctly
+  resolved COD/COI, gender/number — the *substitution* logic), but the clitic
+  **sequence** is wrong (e.g. *lui le* for *le lui*).
+- **Tier 4 — wrong pronouns / other.** Selection ✗. The foundational step failed.
+
+Invariant this forces: credit(Tier 2) ⊇ credit(Tier 3) at every level (Tier 2 is
+never a weaker demonstration than Tier 3), and Tier 1 always credits, Tier 4 never.
+
+### A.1.2 Three strictness bands, derived from the item's `level`
+
+```
+strictnessBandForLevel(level):
+  Band A  (novice, single-pronoun)      ← N1,N2,N3,N4 | A1,A2
+  Band B  (intermediate, order is the   ← I1,I2,I3    | B1
+           thing being taught)
+  Band C  (advanced, integration under  ← I4,Adv      | B2,C1,C2
+           production load)
+```
+
+(The corpus mixes ACTFL bands and CEFR strings in the `level` column — see the
+SB Pronoms-Compléments rows carrying `level:"B1"` — so the helper maps both.)
+
+### A.1.3 The credit-eligibility mapping
+
+| Tier | **Band A** — single pronoun | **Band B** — multi-pronoun, rule *being taught* | **Band C** — multi-pronoun *under load* |
+|---|---|---|---|
+| **1 — exact** | ✅ credit | ✅ credit | ✅ credit |
+| **2 — accent/spelling near-miss** | ❌ no credit | ✅ credit | ✅ credit |
+| **3 — right pronouns, wrong order** | ❌ (≈ cannot occur) | ❌ no credit | ✅ credit |
+| **4 — wrong pronouns / other** | ❌ | ❌ | ❌ |
+
+### A.1.4 Justification, tier by tier — *why each cell*, not just "more lenient higher up"
+
+**Tier 4 — never credits, any level.** Choosing the wrong clitic (e.g. *la* for
+*lui*: a COD/COI confusion) is a failure of the foundational substitution step,
+not a slip. There is no level at which the wrong pronoun demonstrates the skill.
+Firm floor.
+
+**Tier 2 — credits at B and C, not at A.** An accent/verb-spelling slip is
+orthogonal to `pronoun_placement`, so on the pronoun skill *alone* it looks
+credit-worthy everywhere. It is withheld at **Band A** deliberately: Band A items
+are single, short substitutions where (i) exact reproduction is a fair bar
+because the answer is tiny, (ii) orthographic precision is itself part of the
+novice target, and (iii) with almost no non-pronoun surface area, a slip is a
+weak-but-real signal of shakiness rather than incidental noise. At **Band B/C**
+the sentence carries real non-pronoun orthographic surface (verb morphology,
+accents on content words); penalizing a stray accent there as if it were a
+placement failure *mismeasures* the skill — the pronoun evidence (selection +
+order both correct) should dominate. This is exactly the "production load" point:
+more surface → more incidental, non-diagnostic slips.
+
+**Tier 3 — credits only at Band C. This is the load-bearing decision, so the
+justification is psychometric, not just pedagogical.**
+- **Band A:** a single clitic has no order, so Tier 3 essentially *cannot occur*;
+  if it does (a spurious extra pronoun), it is noise → no credit.
+- **Band B:** B1 multi-pronoun items are precisely where the clitic-order rule is
+  *first taught*. Wrong order at B1 most likely means *the ordering rule is not
+  yet learned* — which is the very thing the item introduces. Crediting it would
+  reward missing the item's teaching point. In BKT terms: at B1 the **prior that a
+  wrong-order response is a "slip" (knew-it-but-erred) rather than a "gap"
+  (not-learned) is low**, so the honest observation is negative. No credit; the
+  student sees the order feedback and the skill belief correctly registers the gap.
+- **Band C:** at B2+ the ordering rule is *assumed known* — it was the B1 target —
+  and the item's difficulty is dominated by integrating it under load (negation,
+  imperative hyphenation, register, longer clauses). A student who selects the
+  right clitics but slips the sequence there has shown the core competence, and
+  the **prior flips: a wrong-order response at B2 is far more likely a working-
+  memory slip on a known rule than a fresh gap.** BKT already models a per-skill
+  *slip* probability for "knew it, erred"; crediting Tier 3 at Band C is simply
+  asserting that the slip prior — not the not-learned prior — governs here. That
+  is the principled reason the *same* response (right pronouns, wrong order) is
+  partial-credit at B2 but not at B1: the level changes the prior on slip-vs-gap,
+  not the response.
+
+So this is not "leniency drifting upward"; each cell tracks whether, *at that
+level*, the observed error is more probably a performance slip on a known
+sub-skill or an absence of it — which is what a BKT observation is supposed to
+encode.
+
+### A.1.5 Plumbing — how "credit eligibility" reaches BKT and SM-2
+
+Keep BKT binary and SM-2 aligned; introduce **one new flag** distinct from
+`correct`:
+
+- `correct` (response field) stays **true only for Tier 1** — the UI must not tell
+  a student "parfait" when they had an accent slip or a mis-order.
+- `creditEligible = tierCreditsAtBand(tier, strictnessBandForLevel(item.level))`
+  — the table above.
+- **BKT:** `recordSkillObservation(userId, 'pronoun_placement',
+  creditEligible && !revealed, 'pronoun-transform')`. (`&& !revealed` unchanged
+  from §2.5 — opening help still forfeits.)
+- **SM-2 quality:**
+  ```
+  quality = revealed        ? QUALITY.difficile        // 2, forfeit
+          : tier === 1      ? QUALITY.correct          // 4, clean pass
+          : creditEligible  ? QUALITY.presque          // 3, credited near-miss (see below)
+          :                   QUALITY.difficile         // 2, no credit → lapse
+  ```
+
+**Optional refinement — a third SM-2 quality `QUALITY.presque = 3`.** Today
+`srs.js` exposes `{ difficile: 2, correct: 4, facile: 5 }`. A credited *near-miss*
+(Tier 2/3 that earns credit at its band) is honestly neither a clean pass nor a
+lapse. Quality `3` fits it exactly: in `reviewItem`, `quality < 3` is false so the
+**interval is not reset** (it counts, the card advances), while the ease update
+`ef + (0.1 − (5−3)(0.08 + (5−3)·0.02)) = ef − 0.14` *lowers* ease slightly, so the
+imperfect answer schedules forward but comes back a bit sooner than a clean pass.
+This keeps "counted but imperfect" out of both the clean-pass and the lapse
+buckets. If added, `QUALITY.presque` also goes into `isValidQuality`. If we prefer
+zero `srs.js` change for v1, credited near-misses simply use `QUALITY.correct` (4)
+and only BKT/`correct` carry the distinction — acceptable, but the interval then
+treats a near-miss identically to a clean pass. **Recommend adding the `3`.**
+
+### A.1.6 Response shape delta (amends §3.2)
+
+Add two fields; everything else in §3.2 stands:
+```json
+{ "correct": false, "creditEligible": true, "tier": 3, "feedbackCode": "wrong_order_credited", ... }
+```
+`feedbackCode` gains two credited-near-miss variants
+(`accent_near_miss_credited`, `wrong_order_credited`) so the UI can say
+"Compté — mais surveillez l'ordre / les accents" (credited) vs the existing
+uncredited wording at Band A/B. Localized via i18n as before.
+
+### A.1.7 Authoring & review implications
+
+- The `pronouns[]` count and the item's `level` must be **consistent**: a Band A
+  (`level` N1–N4/A1–A2) item with two pronouns is a mis-band, since Band A's
+  strictness assumes single-pronoun. Add a generation-script validator (§5.1):
+  *`pronouns.length > 1` ⇒ level must resolve to Band B or C.* This prevents a
+  multi-pronoun item silently getting Band-A strictness (which, having no Tier-3
+  credit, would be defensible but is not the intended calibration).
+- No schema change: strictness is a pure function of the existing `level` column
+  and the tier, computed server-side at review time.
+
+---
+
+## A.2 Elision normalization — confirmation and required fix
+
+**Confirmation: no, the §2.2 pipeline does NOT fully handle en/y (and me/te/se)
+elision. It needs an explicit step.**
+
+What §2.2 step 4 does today is **apostrophe *tightening*** — it unifies apostrophe
+glyphs and removes whitespace around an apostrophe that is *already present*
+(`l ' aime` → `l'aime`). So when **both** the canonical and the student write the
+correctly-elided form (`m'en`, `l'y`, `t'en`, `s'y`, `j'en`, `n'y`), they already
+match — that case is fine.
+
+The gap is **un-elided student input**. Elision before a vowel/mute-h is
+*mandatory* in French, so a student may still type the un-elided form (`me en`,
+`le y`, `se y`). Under the current pipeline:
+- Core comparison fails Tier 1 (`me en` ≠ `m'en`), and
+- worse, the Tier-3 clitic extractor `P()` lists `me` and `m'` as **separate**
+  inventory tokens, so `P("me en") = {me, en}` ≠ `P("m'en") = {m', en}` — the
+  un-elided answer wrongly falls through to **Tier 4** ("wrong pronouns"), even
+  though the pronouns are right. That is a real mis-grade, not a cosmetic one.
+
+### A.2.1 Fix — add Step 4.5: mandatory clitic elision (forward)
+
+Insert into the §2.2 pipeline, **after** apostrophe tightening (4) and **before**
+tokenization / `P()` extraction:
+
+> **4.5 — Mandatory clitic elision (forward).** For each eliding clitic in the
+> closed set **{ je, me, te, se, ce, le, la, ne, de, que }** immediately followed
+> by a vowel-initial (`a e i o u à â é è ê ë î ï ô û ù` + `y`) or mute-h token,
+> drop the clitic's final vowel and join with an apostrophe: `me en → m'en`,
+> `te en → t'en`, `se y → s'y`, `le y → l'y`, `la y → l'y`, `je en → j'en`,
+> `ne y → n'y`. Apply left-to-right so chains collapse (`ne me en → ne m'en`, and
+> `me` elides while `ne` does not before a consonant-initial `me`).
+
+Why **forward** elision (elide the input) rather than **de-elision** (expand
+`l'` → `le`/`la`): de-elision is ambiguous (`l'` could be `le` or `la`), whereas
+forward elision is not — both `le y` and `la y` correctly collapse to `l'y`, which
+is exactly what the canonical stores. So the input converges onto the canonical's
+surface unambiguously.
+
+Clitics that **do not** elide are deliberately excluded from the set — `les`,
+`lui`, `leur`, `nous`, `vous`, `y`, `en` keep their form before a vowel
+(`les y`, `lui en`, `leur en`, `nous en`, `vous en`, `y en` stay two tokens).
+Encoding the eliding set as a closed list is what keeps this from over-applying.
+
+Mute-h edge (`l'habille`): elision also occurs before *mute* h but not *aspirate*
+h (`le héros` stays). Distinguishing them needs a lexicon; since the corpus is
+authored and object-pronoun-before-verb aspirate-h cases are vanishingly rare,
+Step 4.5 keys on vowel-initial plus a **small mute-h allowlist seeded from the
+verbs actually used in the corpus**, and any residual edge is handled by an
+authored `accepted_variants` entry. This mirrors how the rest of the plan pushes
+rare irregularities to authoring rather than to runtime heuristics.
+
+### A.2.2 `P()` inventory update
+
+With Step 4.5 in front of it, `P()` sees already-elided input, so the elided
+forms are the canonical tokens. Make the inventory list them explicitly and treat
+each elided form as **equivalent to its base** for the multiset compare
+(so order-only errors are still caught, not masked by an elision mismatch):
+
+```
+me≡m'   te≡t'   se≡s'   le/la≡l'   je≡j'   ne≡n'   que≡qu'   de≡d'
+plus the non-eliding: les, lui, leur, nous, vous, y, en
+```
+
+### A.2.3 Net effect on the tiers
+
+After 4.5: `m'en / l'y / t'en / s'y` written either way (elided or un-elided)
+land in **Tier 1** (correct) — elision, like the imperative hyphen (§2.2 step 7),
+is a mechanical orthographic rule that should not gate *pronoun-placement*
+correctness. If we want to still *nudge* on a missing mandatory elision (parallel
+to the hyphenation nudge), compare the pre-4.5 and post-4.5 forms and, when they
+differ, append "élision obligatoire : m'en, pas « me en »" to otherwise-correct
+feedback — credit unaffected. Recommend the nudge for the same reason as
+hyphenation: correct the orthography without penalizing the concept.
+
+### A.2.4 Unit-test obligations (add to `pronounTransform.test.js`, §5.2)
+
+- `m'en` == `me en`, `l'y` == `le y` == `la y`, `t'en` == `te en`, `s'y` == `se y`
+  all normalize equal (Tier 1).
+- Non-eliding neighbors unchanged: `les y`, `lui en`, `leur en`, `y en`, `vous en`
+  do **not** get an apostrophe.
+- `P()` multiset: `P("me en") == P("m'en")`; a real order error like
+  `lui le` vs `le lui` still differs (Tier 3 still fires).
+- Aspirate-h guard: whatever corpus verbs are on the mute-h allowlist elide; a
+  control aspirate-h token does not.
