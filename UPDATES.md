@@ -6,7 +6,47 @@ ongoing feature list (undated, always current), see
 
 ---
 
-## Sponsor Update — July 2026
+## Sponsor Update: Late July 2026
+
+The best language-learning tools do more than add activities. They help students notice what is difficult, understand why it is difficult, and know what to do next. This month, Concordance moved further in that direction.
+
+### Practice for the parts of French that usually get skipped
+
+Students can now work directly on two areas that are easy to recognize but hard to truly master.
+
+**Faux Amis** gives students focused practice with French words that resemble English words but carry a different meaning. These mistakes are especially persistent because the student often feels confident while being wrong. Targeted contrast practice helps learners slow down, notice the difference, and build a more reliable connection between the French word and its meaning.
+
+**Pronoun Transformation** asks students to rebuild sentences using the correct French pronouns and word order. This gives learners practice with a structure they must produce, not simply identify. It is particularly valuable because pronoun placement is one of the areas where a student can understand a rule in isolation but still struggle to use it in a real sentence.
+
+Sentence Builder has also expanded with new material covering agreement, connectors, conjugation, politeness, and relative and object pronouns. Students must make decisions about how a sentence works, then receive feedback tied to the underlying concept. That makes an incorrect answer useful. It shows both the learner and the teacher what needs attention next.
+
+This is the kind of work sponsorship makes possible: building the less glamorous parts of a curriculum carefully, because those are often the parts that determine whether a student can actually use the language.
+
+### A clearer path from feedback to progress
+
+Concordance now gives students a more useful picture of the patterns behind their mistakes. The new Focus Areas space turns recurring errors into a clear set of priorities, with direct paths into the grammar explanations and practice that address them.
+
+For learners, this changes practice from a series of disconnected corrections into a plan. Instead of wondering why the same kind of mistake keeps returning, a student can see the concept involved and choose a concrete way to work on it. Teachers gain the same visibility, so support can be targeted before frustration becomes disengagement.
+
+Writing and speaking practice have also been refined so feedback leads naturally to another attempt. A score is useful, but the real value is knowing what to work on next and having a manageable next step.
+
+### Advanced French as a living conversation
+
+The C1 Translanguaging Hub has grown into a richer space for working with Francophone texts, regional language, translation choices, and cultural context.
+
+At an advanced level, students need more than another vocabulary list. They need to explore how meaning changes across registers, regions, histories, and languages. The hub gives them a guided place to do that while continuing to develop precise French, cultural awareness, and confidence with authentic language.
+
+This matters because advanced proficiency is not only the ability to produce grammatically correct sentences. It is also the ability to interpret what someone means, recognize how language reflects identity and context, and make thoughtful choices about how to respond.
+
+### What comes next
+
+We are continuing to deepen the newest practice areas and make each student's path through Concordance clearer and more reliable.
+
+Thank you for supporting a platform built around demonstrated proficiency rather than the appearance of progress. Sponsorship helps make room for the careful, sustained work required to build something students and teachers can genuinely depend on.
+
+---
+
+## Sponsor Update: July 2026
 
 A lot has happened behind the scenes since the last update, and it's worth sharing with the people actually making this possible.
 
