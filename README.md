@@ -2,119 +2,124 @@
 
 # Concordance
 
-**An AI-driven French learning platform built on validated proficiency frameworks, not just vocabulary games.**
+**The proficiency operating system for serious language learners and teachers.**
 
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
 [![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://concordancelearn.com/)
 
-**[→ Try Concordance at concordancelearn.com](https://concordancelearn.com/)**  
-**[→ See all features with screenshots](FEATURES.md)**
+**[→ Try Concordance](https://concordancelearn.com/)**  
+**[→ Explore the features](FEATURES.md)**  
+**[→ See what sponsorship funds](ROADMAP.md)**
 
 ---
 
-## The problem
+## Why Concordance exists
 
-Most language-learning apps optimize for streaks and vocabulary drills. They rarely tell a student, a teacher, or a parent where a learner actually *stands* - not in points, but in real proficiency: can this student handle the syntax of a formal email, or analyze a literary passage with confidence?
+I teach AP French, and I have watched students spend years studying a language without receiving a clear, defensible picture of what they can actually do with it.
 
-Concordance is built the other way around. Every exercise, every AI-generated passage, and every progress metric is aligned with established proficiency frameworks (ACTFL standards, AAPPL exam preparation, CEFR) - so growth is measured against real-world communicative competence, not just a streak counter. Every surface - student, teacher, admin - shares a consistent, deliberately designed interface, not a bolted-together set of screens.
+Most language-learning software measures completion, points, or streaks. Concordance is built around a different question:
 
-## Guiding principles
+> **What evidence shows that this learner is becoming more capable in the language, and what should happen next?**
 
-### 1. AI does the grunt work, the teacher keeps the judgment
-AI handles the labor - drafting practice content, surfacing class-wide misconception patterns, generating progress summaries - but a teacher reviews and approves what reaches students, and pedagogical judgment stays with the human expert. Concordance is built to amplify teachers, not replace them. Every AI feature is designed around keeping the educator in the loop.
+Concordance helps learners prepare for **AP French Language and Culture**, **AAPPL**, and **State Seals of Biliteracy** through practice tied to real communicative proficiency. It helps teachers see the evidence behind a learner's progress instead of asking them to trust an opaque score or an unexplained AI recommendation.
 
-### 2. Students can drive their own learning independently
-While teachers have full oversight and curation capabilities, the platform functions as a fully autonomous tutor for the self-directed learner. Through the continuous diagnostic loop, adaptive practice, and the AI-driven "Focus Areas" dashboard, a student without a classroom can independently practice, identify their weaknesses, and systematically improve their proficiency.
+The goal is not to maximize time spent in an app. The goal is to help learners participate more meaningfully in French.
 
-## What it does
+## Concordance and LAOS
 
-### For students
-- **Intelligent Diagnostic Loop**: Bayesian Knowledge Tracing estimates the student's mastery of each grammar concept from every graded attempt across the platform - practice, writing, and conversation alike. When mastery of a concept stays low (e.g., subjunctive vs. indicative), the dashboard prescribes the exact grammar tutorial and targeted practice activity needed, closing the loop on remediation.
-- **A real capstone gate before advancing levels** - moving to the next proficiency level requires sustained grammar mastery, enough practice volume, genuine vocabulary retention, and a one-sitting checkpoint assessment - not just accumulated correct answers over time. Teachers see exactly where each student stands and control when a capstone happens.
-- **Point de départ**: a short adaptive check-in on a student's very first visit finds their actual starting level before they take a single regular lesson, so the diagnostic loop above starts calibrated instead of assuming everyone begins at zero. From then on, a brief daily practice session - prioritizing whatever vocabulary is due for review and whichever concepts need the most repair, with a little new material mixed in - surfaces right on the dashboard. No score, no streak pressure, and it's always skippable.
-- **Adaptive practice** that targets a student's actual proficiency sublevel (Novice → Intermediate → Advanced), not just their grade level.
-- **Sentence Builder** *(new, actively expanding)* - a tile-assembly activity that has students construct a correct French sentence from a scrambled, distractor-mixed bank, with the same concept-level feedback and diagnostic-loop integration as every other graded activity.
-- **IPA pronunciation wizard** for targeted phoneme-level pronunciation practice.
-- **AI-generated content** - reading passages, grammar tutorials, vocabulary in context - calibrated to target specific ACTFL proficiency levels and AAPPL exam readiness and reviewed before reaching students.
-- **Gamification** that stays in service of proficiency: points, streaks, and a score multiplier on daily review.
-- **Cultural Adventure Hub** - interactive conversational scenarios - plus presentation recording for real speaking practice.
-- **Proficiency-aware conversation partner** - an AI partner that holds a French conversation calibrated to align with the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors it hears, and feeds them straight back into the diagnostic loop. Backed by a Google Gemini → Anthropic Claude fallback so a single provider's outage never takes the feature down. Automated content review with mandatory-reporting-aligned staff notification flags concerning student content for simultaneous teacher and school-administrator review - nothing ever happens to a student automatically, it only surfaces something for a human to judge.
-- **Listening comprehension** - AI-generated French audio passages with comprehension questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini) with automatic fallback for reliability.
-- **Expression tools to prepare for the AAPPL exam**: a scoring rubric, a practice simulator, and a targeted word bank for exam prep.
-- **AP-exam essay practice** with text/infographic/audio stimulus sets aligned to official AP French themes and AI-generated feedback on every submission. The full AP vocabulary and theme taxonomy is already rebuilt against College Board's redesigned 2026-27 exam framework, ahead of most published prep materials.
-- **A generalized writing diagnostic** - any piece of French writing, not just an essay, gets AI feedback calibrated to the student's ACTFL sublevel (Novice High through Advanced).
-- **Interactive proofreading** that anchors morphosyntactic error tags (verb conjugation, tense sequencing, and more) directly to the submitted text, feeding straight into the diagnostic loop.
-- **Graded speaking tasks** - submit a conversation-partner transcript for AI scoring on fluency, accuracy, and complexity, feeding the same per-concept mastery model as every other graded activity.
-- **A portfolio** that showcases a student's growth over time, not just a grade snapshot.
-- **A translanguaging hub** for advanced learners working with authentic literary and socio-cultural texts, gated by demonstrated proficiency rather than a calendar.
-- **A [dedicated Framework page](https://concordancelearn.com/framework)** that explains the underlying socio-cognitive model in plain language, for students and parents who want to understand the *why*.
-- **Weekly guardian digest** - an opt-in email that gives a parent or guardian a plain-language summary of the week: activity, proficiency, and the concepts the student is currently working on.
-- A bilingual (French/English) interface.
+Concordance is the first application of **LAOS — the Language Acquisition Operating System**.
+
+LAOS is the evidence-centered reasoning architecture beneath the platform. It separates observed learner performance from proficiency interpretation, framework mapping, and recommendations. That makes it possible to preserve provenance, explain why guidance was produced, and improve the system without tying it permanently to one AI provider or one assessment framework.
+
+In practical terms, the system is designed around a one-way evidence pipeline:
+
+```text
+Observation → Evidence → Learner State → Framework Projection → Recommendation
+```
+
+French is the first implementation. The longer-term vision is a reusable foundation for evidence-based language acquisition across languages, programs, and assessment contexts.
+
+## What sponsors are supporting
+
+Concordance is built and maintained by a practicing teacher outside the school day. I intend to keep teaching: the classroom is where the project remains accountable to real learners and real instructional needs.
+
+GitHub sponsorship is the most direct way to keep the platform available while it is still early. Sponsorship currently helps cover:
+
+- hosting, databases, storage, email, and monitoring;
+- speech recognition and text-to-speech services;
+- carefully limited AI inference for feedback, conversation, and content support;
+- accessibility, security, and privacy work;
+- continued development of evidence-driven AP French and AAPPL preparation;
+- small classroom pilots and future research collaboration.
+
+The immediate objective is simple:
+
+> **Keep the services and APIs running without placing the cost on students or individual public-school teachers.**
+
+As LAOS matures, more reasoning can be handled through deterministic evidence logic, caching, and precomputed learner state rather than repeated model calls. This is both a technical priority and an affordability commitment.
+
+## What Concordance does
+
+### For learners
+
+- Evidence-informed proficiency guidance aligned with ACTFL and CEFR.
+- AP French and AAPPL-oriented speaking, writing, listening, and interpretive practice.
+- Point de Départ placement and proficiency-aware daily practice.
+- A conversation partner calibrated to the learner's current proficiency.
+- Writing and speaking feedback connected to the learner's developing evidence profile.
+- Grammar, thematic vocabulary, and communication recommendations grounded in observed needs.
+- A portfolio that emphasizes growth over time rather than a single score.
 
 ### For teachers
-- **Class and roster management** with proficiency heatmaps across a whole cohort, not just individual grades - including, per student, whether they've completed their Point de départ check-in and how consistently they're keeping up with daily practice.
-- **Deeper analytics**: concept-mastery trend lines per class, early-warning flags (plateau, slide, outlier, stalled) computed daily, and per-skill cohort summaries.
-- **One-click class remediation** - Concordance surfaces the concepts a whole class is collectively struggling with (from the same error data that drives each student's diagnostic loop) and generates a targeted set of practice exercises for the cohort on demand.
-- **AI-assisted content generation** for their own classes - reading passages, grammar tutorials, vocabulary, and listening passages (audio + questions) - that teachers curate and approve, not just consume.
-- **A feature-voting board** so teachers help shape what gets built next.
-- **School and district profile fields** to keep reporting and content generation grounded in real classroom context.
 
-### For admins
-- **AI Studio**: generate and moderate content at scale - reading, grammar, vocabulary, and listening (with a choice of [ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini text-to-speech) - with an Anthropic Claude → Google Gemini fallback so generation stays reliable.
-- **User management tools**, including CSV import/export for rosters.
-- **Maintenance mode** for safe deploys without surprising users mid-session.
-- **AI-moderated review** of community feature ideas before they go live.
+- A Learner Evidence Profile that separates instructional targets from estimated proficiency.
+- Transparent evidence strength, provenance, and contestation workflows.
+- Class-level patterns and targeted remediation without surrendering professional judgment.
+- Teacher-reviewed content generation and proficiency-aligned practice support.
+- AP French and AAPPL preparation grounded in communicative performance rather than drill completion alone.
 
-## Privacy & compliance
+A fuller visual overview is available in **[FEATURES.md](FEATURES.md)**.
 
-Concordance is designed to be fully compliant with major educational privacy laws in the US and Europe:
+## Why the LAOS core is protected
 
-- **FERPA (US)**: We protect student education records. Teachers and administrators have complete control over student data, including cascading deletion tools.
-- **COPPA (US)**: Students under 13 cannot sign up independently. Concordance relies on the School Consent Exception when teachers add younger students to their classes. Student data is never used for advertising.
-- **PPRA (US)**: We do not prompt students with surveys regarding protected or sensitive personal affiliations.
-- **GDPR (EU)**: We require explicit consent for data processing (Terms of Service and Privacy Policy checkboxes). All users have a self-service "Delete Account" button to exercise their Right to be Forgotten. We practice data minimization.
+The public Concordance repository documents the mission, product direction, sponsorship model, and ways to participate. The LAOS reasoning kernel and the production application code remain private for now.
 
-## Why the core is closed
+That choice protects the part of the project that represents years of pedagogical judgment and architectural development: evidence modeling, learner-state computation, confidence and contestation rules, framework projections, and recommendation logic.
 
-The proficiency-encoding engine - how exercises, AI prompts, and progress tracking are mapped to target ACTFL proficiency levels, AAPPL exam preparation, and CEFR sublevels - is the result of a lot of iteration, and it's the part of Concordance that's genuinely novel. That logic lives in a private repository for now. This repo exists to show what the project is and where it's headed, and to make it easy to support the work directly. For now, potential sponsors can go to [https://www.concordancelearn.com/](https://www.concordancelearn.com/) to preview features or take the tour.
+This does **not** prevent Concordance from contributing to research or public educational work. Research findings, evaluation methods, selected schemas, documentation, and appropriate shared infrastructure can be published openly while pre-existing LAOS intellectual property remains under its owner's stewardship.
 
-## What sponsorship funds next
+It is easier to open more of the system later than to recover ownership of code released too early.
 
-The full, ordered list lives in **[ROADMAP.md](ROADMAP.md)** - including what's recently shipped, what's being built now, and the longer-term vision. The short version:
+## Principles
 
-French is live today - and the **IPA pronunciation wizard**, the **capstone level-advancement gate**, the rebuilt **2026-27 AP CED taxonomy and vocabulary**, **Sentence Builder**, and **automated safety-alert review for AI conversations** all shipped recently, alongside **Automated Speech Recognition (ASR)**, the **proficiency-aware conversation partner**, **listening comprehension**, **one-click class remediation**, **deeper teacher analytics**, **graded speaking tasks**, **AP-exam essay practice**, a **generalized writing diagnostic**, **interactive proofreading**, and an upgrade of the diagnostic engine to real Bayesian Knowledge Tracing. See **[ROADMAP.md](ROADMAP.md)** for the full recently-shipped list.
+1. **Evidence before recommendation.** Guidance should be traceable to observed learner performance.
+2. **Teachers retain judgment.** AI can reduce labor, but it should not silently replace professional decisions.
+3. **Frameworks are projections, not identities.** ACTFL, CEFR, AP, and AAPPL mappings should derive from evidence rather than become the learner record itself.
+4. **Gamification serves pedagogy.** Engagement mechanics are tools, not product objectives.
+5. **Cost discipline is part of access.** The platform should call external AI services only when they add meaningful pedagogical value.
+6. **Learner attention is earned.** Concordance should maximize meaningful participation in the target language, not dependence on the platform.
 
-The next headline is **expanded listening & cultural content**: growing the generated audio library across more Francophone contexts, registers, and proficiency levels.
+## Privacy and independence
 
-This is built solo, nights and weekends. In the short term, sponsorship covers the zero-fun parts - server hosting and the AI / text-to-speech API bills that features like the conversation partner, ASR, and listening audio now incur - and buys the time to build the next thing properly instead of rushing it. **The ultimate goal is to transition to building these tools full-time**, ensuring long-term maintenance, faster feature delivery, and the ability to keep the core platform free for students and public schools.
+Concordance is designed around educational privacy, data minimization, human review, and learner isolation. Student data is not used for advertising.
 
-**Further out:** Concordance's translanguaging hub already pulls from Francophonie beyond Metropolitan French (Senegalese and Maghrebi literature, for instance) - the plan is to build that out into a first-class feature rather than a handful of texts. And a **second language (Spanish)**, designed *aware* of French rather than as an isolated second product - modeling cross-linguistic transfer (cognates, false friends, structural interference) for learners building more than one language at once. That one waits until the right Spanish-speaking collaborator can do it justice; shipping it half-built would betray the proficiency-first premise.
+Concordance describes its work using ACTFL, AAPPL, CEFR, and AP® terminology so educators and learners understand the preparation context. It is an independent project and is not affiliated with, sponsored by, or endorsed by ACTFL, Language Testing International, the Council of Europe, or the College Board. All marks belong to their respective owners.
 
 ## Support the project
 
-If this resonates with you - as an educator, a fellow developer, or just someone who thinks language learning tools should be built on real pedagogy - consider [sponsoring on GitHub](https://github.com/sponsors/monsieur-trenton). Tier details and perks live on the [Sponsors page](https://github.com/sponsors/monsieur-trenton) and may evolve - that page is the source of truth, not this README.
+If you believe language-learning technology should be transparent, evidence-centered, teacher-informed, and affordable, please consider **[sponsoring Concordance on GitHub](https://github.com/sponsors/monsieur-trenton)**.
 
-Sponsors at the Ami tier and above are listed in [SPONSORS.md](SPONSORS.md).
+Tier details and perks live on the Sponsors page, which remains the source of truth. Sponsors at the Ami tier and above are recognized in **[SPONSORS.md](SPONSORS.md)**.
 
-## Project docs
+## Project documents
 
-- **[FEATURES.md](FEATURES.md)** - visual showcase of all highlight features with guided exploration.
-- **[ROADMAP.md](ROADMAP.md)** - what sponsorship funds next.
-- **[UPDATES.md](UPDATES.md)** - dated sponsor updates, newest first.
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - ways to get involved (the core is closed, but there's real work to share).
-- **[SECURITY.md](SECURITY.md)** - responsible-disclosure policy and student-data posture.
-- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - how we keep this an educator-friendly space.
-
-## Trademarks
-
-Concordance describes its content and proficiency model in terms of ACTFL, AAPPL,
-CEFR, and AP® so students, teachers, and parents know what it helps prepare for.
-Concordance is an independent project and is **not affiliated with, sponsored by, or
-endorsed by** the American Council on the Teaching of Foreign Languages (ACTFL),
-Language Testing International (which administers the AAPPL exam), the Council of
-Europe (CEFR), or the College Board (AP, Advanced Placement). All are trademarks of
-their respective owners.
+- **[FEATURES.md](FEATURES.md)** — visual product overview.
+- **[ROADMAP.md](ROADMAP.md)** — current priorities and what sponsorship funds.
+- **[UPDATES.md](UPDATES.md)** — dated development updates.
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — ways to help while the production core remains private.
+- **[SECURITY.md](SECURITY.md)** — responsible disclosure and student-data posture.
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** — community expectations.
 
 ## Contact
 
-Questions, ideas, or interested in a deeper look under the hood? **[Open an issue](https://github.com/monsieur-trenton/concordance/issues/new/choose)** - there are templates for feature ideas and bug reports.
+Questions, research interest, pilot ideas, or partnership proposals are welcome through **[GitHub Issues](https://github.com/monsieur-trenton/concordance/issues/new/choose)**.
