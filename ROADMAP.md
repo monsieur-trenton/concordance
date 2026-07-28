@@ -1,142 +1,172 @@
 # Roadmap
 
-This roadmap is the honest version of "what your sponsorship funds." Concordance is
-built solo, nights and weekends, so the list below is ordered by intent, not by a
-promised delivery date. Sponsorship doesn't buy a feature on a calendar - it buys the
-time to build the next thing properly instead of rushing it, and it keeps the core
-platform free for students and public schools.
+This roadmap is the honest version of **what sponsorship funds**.
 
-Tier details and perks live on the **[Sponsors page](https://github.com/sponsors/monsieur-trenton)**,
-which is the source of truth for what each tier includes.
+Concordance is built and maintained by a practicing AP French teacher outside the school day. Sponsorship does not purchase a promised feature date. It keeps the platform operating, creates room for careful development, and helps protect free or low-cost access for learners and public-school educators.
+
+Tier details and benefits live on the **[GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton)**, which is the source of truth.
 
 ---
 
-## Where your money goes
+## The immediate funding goal
 
-Concordance is free for students and public schools, but the AI features aren't free
-to run. Every conversation-partner reply, every ASR pronunciation check, and every
-listening passage costs real money in API and hosting bills. Sponsorship covers those
-bills so the platform can stay free for the people it's built for.
+The first objective is not rapid growth or replacing a teaching salary.
 
-<!-- TODO (owner): replace the bracketed figures below with real monthly numbers from
-     your provider dashboards (Anthropic, Gemini, Deepgram, ElevenLabs, Resend, AWS S3,
-     Railway). Do not ship placeholder numbers publicly. -->
+It is to make Concordance operationally sustainable:
 
-Roughly where a month of running costs goes today:
+- keep hosting, storage, databases, monitoring, and email running;
+- cover speech recognition and text-to-speech usage;
+- cover carefully controlled AI inference for feedback and conversation;
+- maintain security, privacy, accessibility, and backups;
+- support a small number of authentic classroom and independent-learner pilots;
+- create enough development margin to improve the platform without rushing.
 
-- **AI generation (Claude / Gemini):** ~$[XX]/mo — reading passages, grammar tutorials,
-  the conversation partner, content moderation.
-- **Speech (Deepgram ASR + TTS):** ~$[XX]/mo — pronunciation feedback and listening audio.
-- **Hosting + database (Railway) and storage (S3):** ~$[XX]/mo.
-- **Email (Resend):** ~$[X]/mo — password resets, reminders, weekly guardian digests.
+The project will publish real operating-cost ranges once usage is stable enough for those numbers to be meaningful. Until then, this roadmap will not present invented or placeholder figures.
 
-**Total: ~$[XXX]/month**, today, at the current number of active students.
+## Cost discipline
 
-### Sponsor a classroom
+Concordance should not become dependent on an unlimited stream of API calls.
 
-A useful way to think about a sponsorship: roughly **$[XX]/month covers the AI costs of
-one classroom** for a month — a teacher and their students using the conversation partner,
-listening practice, and adaptive content, free of charge. Tier names and exact perks live
-on the **[Sponsors page](https://github.com/sponsors/monsieur-trenton)**, which is the
-source of truth.
+LAOS is being designed to reduce variable cost through:
 
----
+- deterministic evidence and framework logic;
+- event-driven learner-state updates;
+- cached and precomputed recommendations;
+- model routing by task complexity;
+- specialized speech services only where speech adds educational value;
+- external generative AI only when it contributes something the evidence system cannot provide reliably.
 
-## Recently shipped
+The long-term affordability principle is simple:
 
-These are live today on [concordancelearn.com](https://concordancelearn.com/):
+> **Reason from evidence first. Generate only when generation adds pedagogical value.**
 
-- **Proficiency-aware conversation partner** - an AI partner that converses in French at
-  the student's current ACTFL proficiency level (comprehensible input, *i+1*), tags the grammar errors
-  it hears, and feeds them into the diagnostic loop. A Google Gemini → Anthropic Claude
-  (Haiku) fallback keeps it running when a provider isn't.
-- **Listening comprehension** - AI-generated French audio passages with comprehension
-  questions, voiced by a choice of text-to-speech engines ([ElevenLabs](https://try.elevenlabs.io/ckt4iyz3r94t) or Google Gemini)
-  with automatic fallback.
-- **One-click class remediation** - surfaces the concepts a whole class is collectively
-  missing and generates a targeted practice set for the cohort on demand.
-- **Real Bayesian Knowledge Tracing** - the diagnostic engine now estimates per-concept
-  mastery from every graded attempt (practice, writing, and conversation), replacing the
-  earlier heuristic, and prescribes the exact tutorial and practice to close the gap.
-- **Weekly guardian digest** - an opt-in email summarizing a student's week (activity,
-  proficiency, current focus areas) for a parent or guardian.
-- **Professional Learning modules** - teacher PD content with admin authoring tools.
-- **Peer Hubs** - collaborative spaces for students.
-- **AI Studio** with an Anthropic Claude → Google Gemini fallback so generation stays
-  reliable, plus per-teacher and global opt-in controls.
-- **Expression tools to prepare for the AAPPL exam** - scoring rubric, practice simulator, targeted word bank.
-- **Automated Speech Recognition (ASR).** Real-time feedback on spoken production, built
-  on top of the conversation partner - so the platform coaches pronunciation and fluency,
-  not just written accuracy. Includes per-user admin beta toggles.
-- **Deeper teacher analytics** - concept-mastery trend lines per class, early-warning flags
-  (plateau, slide, outlier, stalled) computed by a daily risk-assessment job, and per-skill
-  cohort summaries - going beyond one-click remediation.
-- **Graded speaking tasks** - students submit conversation-partner transcripts for AI
-  scoring (fluency, accuracy, complexity) via Claude with a Gemini fallback, and the scores
-  feed straight into the same per-concept mastery model as every other graded attempt.
-- **AP-exam essay practice.** A dedicated essay tool with text/infographic/audio stimulus
-  sets aligned to official AP French themes, AI-generated feedback, and a submission
-  history - so students can rehearse the AP-style integrated essay format directly on the
-  platform.
-- **A generalized writing diagnostic.** Any piece of French writing - not just essays - can
-  now get AI feedback calibrated to the student's ACTFL sublevel (Novice High through
-  Advanced), each with its own proficiency-appropriate accuracy, complexity, and fluency
-  bar.
-- **Interactive proofreading with morphosyntactic error analysis.** Submitted writing is
-  now annotated with character-anchored error tags (verb conjugation, tense sequencing, and
-  more) for an inline proofread view, and every tagged error feeds the same diagnostic loop
-  that drives practice and remediation everywhere else.
-- **Point de départ.** A short adaptive check-in calibrates a brand-new student's starting
-  level before their first regular lesson, replacing a guessed starting point with a
-  measured one. From then on, a brief daily practice session - prioritized by overdue
-  vocabulary review and the concepts needing the most repair - surfaces on the dashboard
-  with no score or streak pressure attached. Teachers get per-student visibility into
-  check-in completion and daily-practice consistency on the roster.
-- **A real capstone gate before advancing levels.** Students no longer advance to the next
-  proficiency level just by racking up correct answers over time. A capstone evaluation now
-  checks four things first: sustained grammar mastery, enough practice volume, genuine
-  vocabulary retention, and a one-sitting checkpoint assessment on the skills the next level
-  actually needs. Teachers see exactly where each student stands and choose when a capstone
-  happens.
-- **Rebuilt for the 2026-27 AP French exam redesign.** College Board is overhauling the AP
-  French Language and Culture exam starting the 2026-27 school year - new task types, a
-  redesigned course project, and six renamed and restructured themes. Concordance's entire AP
-  vocabulary and taxonomy is already rebuilt against the official redesigned framework: over
-  650 vocabulary entries correctly organized under the new themes, each checked for accuracy.
-- **Automated safety-alert review for AI conversations.** A quiet layer watches for the rare
-  case where the AI conversation partner is genuinely misused, and surfaces it for simultaneous
-  teacher and school-administrator review - never acting on a student automatically, only
-  informing a human who can judge. It's deliberately built to tell the difference between
-  misuse and an ordinary beginner still fumbling with the language.
-- **IPA pronunciation wizard.** A focused tool for phoneme-level pronunciation practice,
-  giving students direct feedback on individual sounds rather than only whole-word or
-  whole-sentence pronunciation.
-- **Sentence Builder** *(new, actively expanding)*. A tile-assembly activity where
-  students construct a correct French sentence from a scrambled, distractor-mixed bank, with
-  the same concept-level feedback and diagnostic-loop integration as every other graded
-  activity. The Concordance-corpus content set shipped first; a Conjugaison-corpus AI-generation
-  pipeline is actively adding new item types.
-
-## Now - building
-
-- **Expanded listening & cultural content** - grow the generated audio library across more
-  Francophone contexts, registers, and proficiency levels. Includes AI-generated interpretive questions.
-
-## Later - vision
-
-- **Francophonie as a first-class feature.** The translanguaging hub already pulls from
-  beyond Metropolitan French (Senegalese and Maghrebi literature, for instance). The plan
-  is to build that breadth out properly rather than ship a handful of texts.
-- **A second language (Spanish), done right.** Extend the proficiency-first design to
-  Spanish - and design it *aware* of French (cognates, false friends, structural
-  interference) rather than as an isolated product. This one waits until the right
-  Spanish-speaking collaborator can do it justice; shipping it half-built would betray
-  the whole premise.
-- **Full-time development.** The ultimate goal is to move from nights-and-weekends to
-  building these tools full-time, which is what makes long-term maintenance and faster
-  delivery realistic.
+This work makes sponsorship go further and makes future school adoption more realistic.
 
 ---
 
-Have an idea or a priority you'd weigh differently? **[Open an issue](https://github.com/monsieur-trenton/concordance/issues/new/choose)** -
-sponsor input genuinely shapes this list.
+## Current product focus
+
+### 1. Learner Evidence Profile
+
+The flagship teacher experience should make a learner's development understandable from one coherent screen:
+
+- instructional level target;
+- evidence-informed ACTFL and CEFR portrait;
+- evidence strength and gaps;
+- grammar, thematic vocabulary, and communication needs;
+- provenance for the work supporting each conclusion;
+- teacher contestation without destructive overwrites.
+
+### 2. Independent learner path
+
+Independent learners should receive useful, evidence-derived guidance without requiring a classroom roster:
+
+- recommended proficiency focus;
+- grammar points supported by observed performance;
+- thematic vocabulary practice that needs expansion;
+- communication tasks chosen to gather missing evidence;
+- clear evidence gaps rather than fabricated certainty;
+- read-only access to provenance.
+
+### 3. AP French and AAPPL preparation
+
+Concordance's first public-impact focus remains:
+
+- AP French Language and Culture preparation;
+- AAPPL preparation;
+- support for learners pursuing State Seals of Biliteracy;
+- communicative performance across interpretive, interpersonal, and presentational modes;
+- guidance tied to proficiency evidence rather than practice completion alone.
+
+### 4. Speaking evidence
+
+Speaking is essential to communicative proficiency and cannot be inferred responsibly from writing alone. Current and planned work includes:
+
+- reliable transcription through specialized speech recognition;
+- pronunciation and fluency evidence;
+- graded speaking tasks;
+- conversational elicitation of missing evidence;
+- careful separation between raw transcription, evidence assertions, and proficiency interpretation.
+
+### 5. Lower-cost infrastructure
+
+Before broad expansion, Concordance will continue improving:
+
+- API budgets and usage telemetry;
+- per-feature cost attribution;
+- caching and invalidation rules;
+- provider fallback without duplicate billing;
+- rate limits and abuse protection;
+- background computation triggered by new evidence rather than repeated dashboard views.
+
+---
+
+## Research and validation
+
+Concordance is open to research partnerships in second-language acquisition, applied linguistics, assessment, learning sciences, and responsible educational AI.
+
+A future research collaboration should preserve these boundaries:
+
+- LAOS and other pre-existing intellectual property remain under their current ownership;
+- research questions, evaluation methods, and findings can be published;
+- participant consent, student privacy, and institutional review requirements are respected;
+- publication rights and software rights are negotiated separately;
+- no university or funder receives ownership of LAOS merely by studying or piloting Concordance.
+
+Potential early studies include:
+
+- whether the Learner Evidence Profile improves teacher decision-making;
+- whether learners understand their proficiency and next steps more clearly;
+- whether evidence-driven practice improves AP French or AAPPL readiness;
+- whether deterministic LAOS reasoning reduces AI cost without reducing educational usefulness;
+- whether contestable evidence improves trust in AI-supported assessment.
+
+---
+
+## Longer-term direction
+
+### Broader Francophone representation
+
+Expand listening, reading, and cultural content across Francophone communities, registers, and perspectives rather than treating Metropolitan French as the entire language ecosystem.
+
+### Additional languages
+
+Extend LAOS only with qualified language and pedagogy collaborators. Spanish is a natural candidate, especially where the system can model cross-linguistic transfer, cognates, false friends, and structural interference rather than creating a disconnected copy of the French product.
+
+### LAOS as a licensable platform
+
+If LAOS demonstrates reliable educational value, future possibilities include:
+
+- a hosted API for approved educational partners;
+- institutional or research licenses;
+- integrations with assessment, curriculum, or learning platforms;
+- commercial licensing that helps subsidize learner and teacher access to Concordance.
+
+Licensing is a future option, not a reason to weaken the current educational mission.
+
+### Sustainable stewardship
+
+The desired outcome is a durable educational craft business:
+
+- the creator can continue teaching;
+- operating expenses are covered;
+- contributors can be compensated when resources allow;
+- development remains careful and mission-aligned;
+- recurring revenue can eventually provide meaningful family support;
+- Concordance can outlast changes in individual AI vendors or models.
+
+---
+
+## What has already been built
+
+The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety.
+
+For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated engineering progress, see **[UPDATES.md](UPDATES.md)**.
+
+---
+
+## Support or participate
+
+- **[Sponsor the project](https://github.com/sponsors/monsieur-trenton)** to help cover infrastructure and responsible development.
+- **[Open an issue](https://github.com/monsieur-trenton/concordance/issues/new/choose)** with a pilot, research, partnership, or feature idea.
+- Review **[CONTRIBUTING.md](CONTRIBUTING.md)** for ways to help while the production core remains private.
