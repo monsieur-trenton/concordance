@@ -1,14 +1,10 @@
 # Sponsors
 
-Thank you to everyone supporting Concordance at the [Ami tier and above](https://github.com/sponsors/monsieur-trenton).
+Thank you to everyone supporting Concordance through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton).
 
-## Tiers
+## Sponsorship
 
-Full tier details and perks live on the [GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton), which is the source of truth. Highlighted here:
-
-### Bienfaiteur (Benefactor) — $100 / month
-
-You're not just backing a project. You're keeping the lights on. At this level, your support directly covers a meaningful share of what it costs to run Concordance every month: hosting, the AI APIs that power content generation and the conversation partner, and the voice tools that make listening practice possible. Without supporters at this tier, those costs come out of a teacher's pocket.
+The GitHub Sponsors page is the source of truth for current availability, tiers, and benefits. Sponsorship helps keep Concordance available while supporting hosting, carefully controlled AI usage, accessibility, privacy, and continued educational development.
 
 ## What continued support makes possible
 
