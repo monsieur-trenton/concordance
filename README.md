@@ -39,6 +39,14 @@ Observation → Evidence → Learner State → Framework Projection → Recommen
 
 French is the first implementation. The longer-term vision is a reusable foundation for evidence-based language acquisition across languages, programs, and assessment contexts.
 
+### A significant architectural milestone
+
+The foundation now has an accepted architectural path from learner performance to future instructional guidance: evidence can inform a canonical learner model, that model can be interpreted through independent proficiency frameworks, and a governed recommendation layer can identify valuable next opportunities. The design emphasizes provenance, replayability, and an inspectable rationale rather than an opaque score or an AI-generated path that cannot be challenged.
+
+This is an architecture milestone, not a claim that the Recommendation Engine is already running in the product. Its runtime implementation is the next engineering phase. The learner-facing work that will turn educational intelligence into individualized opportunities, including the future Individual Learner Path, remains ahead.
+
+Concordance is therefore not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time. AI can assist within that system; it is not the educational authority. Learners retain choice and pace, while teachers can guide priorities, inspect evidence, and redirect instruction.
+
 ## What sponsors are supporting
 
 Concordance is built and maintained by a practicing teacher outside the school day. I intend to keep teaching: the classroom is where the project remains accountable to real learners and real instructional needs.
@@ -50,6 +58,7 @@ GitHub sponsorship is the most direct way to keep the platform available while i
 - carefully limited AI inference for feedback, conversation, and content support;
 - accessibility, security, and privacy work;
 - continued development of evidence-driven AP French and AAPPL preparation;
+- the transition from accepted educational-intelligence architecture into Recommendation Engine implementation and individualized learner experiences;
 - small classroom pilots and future research collaboration.
 
 The immediate objective is simple:
@@ -98,6 +107,8 @@ It is easier to open more of the system later than to recover ownership of code 
 4. **Gamification serves pedagogy.** Engagement mechanics are tools, not product objectives.
 5. **Cost discipline is part of access.** The platform should call external AI services only when they add meaningful pedagogical value.
 6. **Learner attention is earned.** Concordance should maximize meaningful participation in the target language, not dependence on the platform.
+
+The same boundaries guide future recommendations: evidence informs what the system understands, while learner goals, learner choices, teacher guidance, and educational context shape what happens next. Individualized learning is not intended to mean a compulsory, machine-predicted route.
 
 ## Privacy and independence
 
