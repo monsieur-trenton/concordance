@@ -42,6 +42,19 @@ The long-term affordability principle is simple:
 
 This work makes sponsorship go further and makes future school adoption more realistic.
 
+## Architectural foundation completed
+
+Concordance has completed the accepted architectural design needed to connect learner performance with future individualized educational guidance:
+
+- evidence-centered learner modeling with traceable provenance;
+- controlled, reproducible processing of learner-state changes;
+- independent interpretation through proficiency frameworks; and
+- a governed, explainable Recommendation Engine architecture.
+
+This foundation separates educational evidence, learner understanding, framework interpretation, and instructional guidance so that the system can be audited, replayed, and improved without making AI the educational authority.
+
+The Recommendation Engine runtime is not yet implemented. The next engineering phase is to build that runtime; the Individual Learner Path is a subsequent learner-facing direction that will turn advisory educational intelligence into choices among meaningful learning opportunities. Neither is presented here as a completed product capability.
+
 ---
 
 ## Current product focus
@@ -57,9 +70,9 @@ The flagship teacher experience should make a learner's development understandab
 - provenance for the work supporting each conclusion;
 - teacher contestation without destructive overwrites.
 
-### 2. Independent learner path
+### 2. Individual Learner Path — upcoming
 
-Independent learners should receive useful, evidence-derived guidance without requiring a classroom roster:
+The future Individual Learner Path should give independent learners useful, evidence-derived opportunities without requiring a classroom roster:
 
 - recommended proficiency focus;
 - grammar points supported by observed performance;
@@ -67,6 +80,8 @@ Independent learners should receive useful, evidence-derived guidance without re
 - communication tasks chosen to gather missing evidence;
 - clear evidence gaps rather than fabricated certainty;
 - read-only access to provenance.
+
+It should preserve learner choice and pace, teacher guidance where available, and a clear reason for each opportunity. It is not intended to become a fixed adaptive course or a prediction of how quickly a learner will progress.
 
 ### 3. AP French and AAPPL preparation
 
@@ -132,6 +147,12 @@ Expand listening, reading, and cultural content across Francophone communities, 
 ### Additional languages
 
 Extend LAOS only with qualified language and pedagogy collaborators. Spanish is a natural candidate, especially where the system can model cross-linguistic transfer, cognates, false friends, and structural interference rather than creating a disconnected copy of the French product.
+
+### Future platform capabilities
+
+As the foundation develops, downstream capabilities may include a Teacher Workspace for reviewing evidence and guiding priorities, a Media Center for connecting educational targets with authentic audio, video, literature, and cultural material, and a Language Specialist Workspace for maintaining living language and pedagogical definitions. These are planned directions, not current claims about completed work.
+
+The same architecture may support a governed Research Platform for studying proficiency development, individualized learning, transfer, and recommendation calibration using appropriate consent, privacy, and institutional governance. It may also eventually contribute to language documentation and preservation partnerships, including with Indigenous and endangered-language communities, only where community authority, consent, stewardship, and ownership remain non-negotiable. This is a long-term aspiration, not a current product capability.
 
 ### LAOS as a licensable platform
 

@@ -6,6 +6,20 @@ ongoing feature list (undated, always current), see
 
 ---
 
+## Sponsor Update: August 2026
+
+### From learner evidence to future guidance
+
+Concordance has reached an important foundation milestone. The architecture now defines a governed path from learner performance to future instructional guidance: meaningful performance can contribute evidence, evidence can inform an auditable understanding of demonstrated ability, that understanding can be viewed through independent proficiency frameworks, and a recommendation layer can identify valuable opportunities to consider next.
+
+This matters because individualized learning should not emerge from an opaque AI decision. The design keeps educational truth, framework interpretation, and instructional guidance distinct. It supports traceable rationale, reproducible processing, and teacher oversight while leaving room for learner goals, learner choice, and learner pace. AI can assist within those boundaries; it does not become the educational authority.
+
+The Recommendation Engine architecture has been accepted, but its runtime implementation is the next engineering phase. Concordance is not claiming that this engine is already operating in production or that learners are already receiving recommendations from it. The next learner-facing direction is the Individual Learner Path: a future way to turn evidence-informed educational opportunities into useful choices without prescribing a fixed or machine-predicted route.
+
+This is substantial foundational work, but it is not the same as a finished learner-facing product. Continued support helps move Concordance from architectural integrity into implementation, while preserving the project’s commitment to communication and proficiency over streaks, screen time, or activity completion.
+
+---
+
 ## Sponsor Update: Late July 2026
 
 The best language-learning tools do more than add activities. They help students notice what is difficult, understand why it is difficult, and know what to do next. This month, Concordance moved further in that direction.
