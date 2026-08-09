@@ -1,4 +1,4 @@
-<!-- Partenaire ($1,000/mo) sponsors get top-tier logo placement here. Add new sponsor logos above this line. -->
+<!-- Sponsor recognition may appear here when the current sponsorship program supports it. -->
 
 # Concordance
 
@@ -120,7 +120,7 @@ Concordance describes its work using ACTFL, AAPPL, CEFR, and AP® terminology so
 
 If you believe language-learning technology should be transparent, evidence-centered, teacher-informed, and affordable, please consider **[sponsoring Concordance on GitHub](https://github.com/sponsors/monsieur-trenton)**.
 
-Tier details and perks live on the Sponsors page, which remains the source of truth. Sponsors at the Ami tier and above are recognized in **[SPONSORS.md](SPONSORS.md)**.
+Current sponsorship availability, tiers, and benefits belong on the **[GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton)**. Public sponsor recognition, when available, is described in **[SPONSORS.md](SPONSORS.md)**.
 
 ## Project documents
 
