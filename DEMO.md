@@ -1,119 +1,88 @@
 # Try Concordance — 2-Hour Free Demo
 
-Thank you for your interest in Concordance! We offer a **free 2-hour interactive demo** so you can experience the platform firsthand before deciding whether to sponsor development.
+Thank you for your interest in Concordance. The free, read-only demo lets you explore the platform before deciding whether to sponsor or partner with the project.
 
-## What You'll Experience
+## What the demo shows
 
-During your 2-hour demo session, you'll have **read-only access** to Concordance as a student at the **B1 (Intermediate) proficiency level**. You can explore:
+The demo presents a student experience at an intermediate French level. You can explore:
 
-### Core Learning Features
-- **Adaptive Practice** — Multiple drill types calibrated to your proficiency:
-  - Conjugaison (verb conjugation)
-  - Vocabulaire (vocabulary & spaced repetition)
-  - Compréhension (reading with glossaries)
-  - Connecteurs (logical connectors)
-  - Pronoms (complements & relative pronouns)
-  - Concordance des temps (sequence of tenses)
-  - And more
+- **Adaptive Practice** — grammar, vocabulary, reading, and communication activities;
+- **Conversation Partner** — French dialogue with proficiency-aware scaffolding and feedback;
+- **Cultural Scenarios** — interactive contexts from across the Francophone world;
+- **Speaking Practice** — a short speaking response with pronunciation feedback;
+- **Writing Tools** — feedback on a sample written response; and
+- **Focus Areas** — how recurring needs can be made visible for further practice.
 
-- **AI-Powered Conversation Partner** — Real-time French dialogue with an AI tuned to provide comprehensible input at your level (*i+1*), plus real-time error tagging
+The demo is an illustration of the current product experience. It is not a formal proficiency assessment, certification, or complete representation of every account role.
 
-- **Cultural Scenarios** — Interactive branching conversations exploring Francophone regions (Paris, Dakar, Montréal, Port-au-Prince, Fort-de-France, etc.) with vocabulary scaffolding
+## How to access the demo
 
-- **Speaking Practice** — Record yourself and get AI-powered pronunciation feedback in French
+### 1. Request a link
 
-### Behind-the-Scenes Architecture
-- **Bayesian Knowledge Tracing** — Watch how the platform estimates your mastery of each grammar concept in real time
-- **Proficiency Calibration** — See how all content (reading passages, AI conversation, exercises) adapts to your level
-- **Error Analysis** — Explore how the system identifies and categorizes specific grammar mistakes
+Visit [concordancelearn.com/request-demo](https://concordancelearn.com/request-demo) and enter an email address. A single-use demo link is sent automatically.
 
-## How to Access Your Demo
+### 2. Open the link
 
-### 1. Request a link at concordancelearn.com/request-demo
-Enter your email and a unique, single-use demo link is sent immediately — no signup, no waiting on a person.
+The link provides access without creating a normal student account. The session starts when the link is opened and expires after the published demo period.
 
-### 2. Click the link to start
-- No login required — the link does all the authentication
-- You'll land on the Practice page with full access to all activities
+### 3. Explore the experience
 
-### 3. Explore for 2 hours
-- Session starts when you first click the link
-- Expires automatically after 2 hours or if you disconnect
-- Each link is single-use; if it expires, ask for a new one
+The demo is isolated and read-only. It does not create a persistent learner record or enroll anyone in a class.
 
-### 4. No data persists
-- Your session is read-only and isolated
-- No learning history is saved
-- Fresh state for the next demo link
+## Read-only boundaries
 
-## What You Can't Do (Read-Only)
+The demo is designed for exploration rather than real coursework:
 
-For security and system hygiene, demo accounts are strictly **read-only**:
-- ❌ Can't enroll in classes
-- ❌ Can't save progress or create assignments
-- ❌ Can't submit writing or speaking exercises
-- ✅ Can view everything and try practice exercises
+- it does not create or modify class rosters;
+- it does not create assignments;
+- it does not represent a real learner's official proficiency;
+- activity and feedback are not retained as a personal learning history; and
+- some authenticated student, teacher, and administrator workflows are not included.
 
-## Recommended Exploration (2-Hour Path)
+## Suggested two-hour exploration
 
-**15 min:** Tour the **Practice** page
-- Try 2-3 exercises from different activities
-- Notice how vocabulary and difficulty adjust
+**15 minutes — Practice**
 
-**20 min:** **Conversation Partner**
-- Have a 5-10 minute dialogue
-- Pay attention to the proficiency calibration (watch for "i+1" scaffolding)
-- See the error tagging at the end
+Try several activity types and notice how explanations connect an answer to a language concept.
 
-**15 min:** **Cultural Adventure Scenarios**
-- Explore 1-2 interactive scenarios (e.g., Paris, Dakar)
-- Notice the cultural framing and vocabulary integration
+**20 minutes — Conversation Partner**
 
-**10 min:** **Speaking Practice (ASR)**
-- Record a short response
-- Get AI pronunciation feedback
+Have a short French dialogue and review the feedback. Pay attention to how the interaction is scaffolded for the demonstrated level.
 
-**20 min:** **Grammar Tutorials**
-- Explore the diagnostic loop: what concepts does the system think you need?
-- Click into a grammar concept tutorial
+**15 minutes — Cultural Scenarios**
 
-**20 min:** **Look Under the Hood**
-- (If you're technically interested) — Open browser DevTools (F12)
-- Watch API calls as you complete exercises
-- See how skill mastery beliefs update in real time
+Explore one or two Francophone contexts and notice how vocabulary and communication are connected to place and situation.
 
-**Rest:** Freeform exploration or deeper dives into any feature
+**10 minutes — Speaking**
 
-## What Makes Concordance Different
+Record a short response and review the pronunciation or speaking feedback.
 
-As you explore, notice:
+**20 minutes — Writing and Focus Areas**
 
-1. **Proficiency-first design**
-   - Every exercise is tagged to a CEFR/ACTFL level
-   - Content calibrates to *your* target level, not everyone's
-   - Progress metrics track actual proficiency, not just points
+Review a writing activity or inspect how recurring needs are presented as possible areas for further work.
 
-2. **Real adaptive learning science**
-   - Bayesian Knowledge Tracing (BKT) estimates mastery of grammar concepts
-   - Not just spaced repetition or flashcards
-   - The system knows which concepts you're struggling with and prescribes targeted practice
+**Remaining time — Free exploration**
 
-3. **Designed for teachers, not against them**
-   - AI handles content generation and grading
-   - Teachers curate and approve what reaches students
-   - Pedagogical judgment stays with humans
+Return to any activity that helped you understand the product's approach.
 
-4. **Authentic scaffolding**
-   - The conversation partner speaks to you at *i+1* (just above your level)
-   - Reading passages include glossaries tailored to your vocabulary gaps
-   - Cultural scenarios are real and engaging, not contrived
+## What to look for
 
-## Questions?
+### Evidence before guidance
 
-- **Technical issues during demo?** Contact [support@concordancelearn.com](mailto:support@concordancelearn.com)
-- **Questions about features?** See the [Framework page](https://concordancelearn.com/framework) for the underlying pedagogy
-- **Want to sponsor?** Visit [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton)
+The product is built around demonstrated performance rather than completion, points, or streaks. Feedback and focus areas are intended to help learners and teachers understand what the work may show.
 
----
+### Human educational authority
 
-**Thank you for taking the time to explore Concordance.** We believe language learning should be built on real pedagogy, not just gamification. If this resonates with you, consider [sponsoring the project](https://github.com/sponsors/monsieur-trenton) to help bring it to more students and teachers.
+AI can assist with dialogue, feedback, and draft content. Teachers retain judgment about classroom meaning and instructional priorities. Learners retain choice and pace.
+
+### A foundation still being built
+
+Concordance has an accepted architecture for connecting evidence, learner understanding, framework interpretation, and future instructional guidance. The Recommendation Engine runtime is the next engineering phase, and the Individual Learner Path remains an upcoming learner-facing direction.
+
+## Questions and support
+
+- **Technical issues:** contact [support@concordancelearn.com](mailto:support@concordancelearn.com).
+- **Pedagogy:** see the [Framework page](https://concordancelearn.com/framework).
+- **Sponsorship:** visit [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton).
+
+We believe language learning should be built on real pedagogy, meaningful communication, and respect for teacher and learner judgment.

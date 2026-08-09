@@ -66,11 +66,11 @@ A lot has happened behind the scenes since the last update, and it's worth shari
 
 ### A safety net for AI conversations — that still gives beginners the benefit of the doubt
 
-Concordance's AI conversation partner lets students practice French with a patient speaker that's available any time. As those conversations become a bigger part of the classroom, we've added automated content review with mandatory-reporting-aligned staff notification: concerning student content is flagged for simultaneous teacher and school-administrator review.
+Concordance's AI conversation partner lets students practice French with a patient speaker that's available when they need it. As these conversations become a bigger part of the classroom, the platform includes automated content review that can flag concerning content for teacher and school-administrator review.
 
 Two things set this apart from the blunt content filters bolted onto most AI products. First, nothing ever happens to a student automatically: the system only surfaces a flag for a human to look at and judge. It informs; it never punishes. Second — and this matters enormously for a language-learning tool — it is built to tell the difference between misuse and a beginner. Broken grammar, blunt phrasing, and simple halting sentences are exactly what learning a language looks like, and the system is deliberately designed to ignore them. A student struggling to form a sentence is never mistaken for a problem.
 
-Teachers see only their own students, flagged messages are kept only briefly unless a teacher marks something as a real, resolved concern, and the whole thing is meant to give staff visibility without turning the classroom into a surveillance operation. It's the responsible version of AI safety: a human in the loop, privacy by default, and the benefit of the doubt for the people who are here to learn.
+Teachers are intended to see only the students within their authorized context, and the workflow is designed to give staff visibility without turning the classroom into a surveillance operation. The governing principle is human review, privacy by default, and the benefit of the doubt for people who are here to learn.
 
 ### A real proficiency gate, not just a progress bar
 
@@ -78,11 +78,9 @@ Students on Concordance no longer advance to the next level just by racking up c
 
 This is a deliberate bet against how most language apps work. Streaks and points are easy to fake your way past. Demonstrated proficiency is not.
 
-### Rebuilt for the new AP French exam, ahead of most classrooms
+### Updated for the redesigned AP French context
 
-College Board is overhauling the AP French Language and Culture exam starting the 2026-27 school year: new task types, a redesigned course project, and six renamed and restructured themes. Concordance's entire AP vocabulary and taxonomy has already been rebuilt against the real, official redesigned framework, not a guess or a rumor. Over 650 vocabulary entries now sit correctly organized under the new themes, each one checked for accuracy and cross-referenced against duplicate coverage.
-
-Most classrooms and even most published AP prep materials haven't caught up to this change yet. Concordance has.
+College Board is changing the AP French Language and Culture context for the 2026–27 school year. Concordance has updated its AP-oriented vocabulary and taxonomy work to reflect the published redesign, including new task types and restructured themes. This is preparation support, not College Board affiliation or official examination authority.
 
 ### Quieter, but no less important: real hardening
 
@@ -90,4 +88,4 @@ A handful of real bugs got found and fixed this cycle, the kind that matter even
 
 ### What's next
 
-Filling out the newest AP content areas with more practice material, and continuing to build toward a fuller picture of student progress for teachers. Thank you, as always, for backing something built to actually work, not just to look finished.
+Filling out the newest AP-oriented content areas with more practice material, and continuing to build toward a fuller picture of student progress for teachers. Thank you, as always, for backing something built to be useful, accountable, and dependable rather than merely finished-looking.
