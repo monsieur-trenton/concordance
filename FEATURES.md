@@ -14,10 +14,6 @@ The public landing page introduces Concordance's visual language and its emphasi
 
 The anonymous public tours provide a safe overview of the student and teacher experiences. They do not contain school data or authenticated account information.
 
-![Student experience preview](assets/screenshots/concordance-student-tour.png)
-
-![Teacher experience preview](assets/screenshots/concordance-teacher-tour.png)
-
 All screenshots in this repository are public product views or synthetic demonstrations. They are not evidence of a particular learner's performance.
 
 ## Getting a demo link
