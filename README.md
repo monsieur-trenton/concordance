@@ -8,6 +8,7 @@
 [![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://concordancelearn.com/)
 
 **[→ Try Concordance](https://concordancelearn.com/)**  
+**[→ Why Concordance?](WHY_CONCORDANCE.md)**  
 **[→ Explore the features](FEATURES.md)**  
 **[→ See what sponsorship funds](ROADMAP.md)**
 
@@ -124,6 +125,7 @@ Current sponsorship availability, tiers, and benefits belong on the **[GitHub Sp
 
 ## Project documents
 
+- **[WHY_CONCORDANCE.md](WHY_CONCORDANCE.md)** — the case for an evidence-informed, learner-centered approach to language learning.
 - **[FEATURES.md](FEATURES.md)** — visual product overview.
 - **[ROADMAP.md](ROADMAP.md)** — current priorities and what sponsorship funds.
 - **[UPDATES.md](UPDATES.md)** — dated development updates.
