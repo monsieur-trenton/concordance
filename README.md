@@ -28,29 +28,27 @@ The goal is not to maximize time spent in an app. The goal is to help learners p
 
 ## Concordance and LAOS
 
-Concordance is the first application of **LAOS — the Learner Assessment and Observation System**.
+Concordance is the first application of **LAOS — the Learner Analysis and Orchestration System**.
 
-LAOS is the evidence-centered reasoning architecture beneath the platform. It provides a governed way to preserve and connect learner observations, evidence assertions, learner-state information, framework projections, and recommendations without collapsing them into one opaque score. It separates observed learner performance from proficiency interpretation, framework mapping, and recommendations. That makes it possible to preserve provenance, explain why guidance was produced, and improve the system without tying it permanently to one AI provider or one assessment framework. LAOS is not an automated certification authority: teachers retain professional judgment, learners retain agency and pace, and framework labels remain read-only projections rather than official credentials.
+LAOS is the evidence-centered reasoning architecture beneath the platform. It provides a governed way to preserve and connect learner observations, evidence assertions, learner-state information, framework projections, recommendations, and individual learning opportunities without collapsing them into one opaque score. It separates observed learner performance from proficiency interpretation, framework mapping, recommendations, and downstream learning experiences. That makes it possible to preserve provenance, explain why guidance was produced, and improve the system without tying it permanently to one AI provider or one assessment framework. LAOS is not an automated certification authority: teachers retain professional judgment, learners retain agency and pace, and framework labels remain read-only projections rather than official credentials.
 
 In practical terms, the system is designed around a one-way evidence pipeline:
 
 ```text
-Observation → Evidence → Learner State → Framework Projection → Recommendation
+Evidence → Evidence Assertions → Learner State → Framework Projection → Recommendation → Individual Learning Opportunities
 ```
 
 French is the first implementation. The longer-term vision is a reusable foundation for evidence-based language acquisition across languages, programs, and assessment contexts.
 
-### A significant architectural milestone
+### The Individual Learner Path milestone
 
-The foundation now has an accepted architectural path from learner performance to future instructional guidance: evidence can inform a canonical learner model, that model can be interpreted through independent proficiency frameworks, and a governed recommendation layer can identify valuable next opportunities. The design emphasizes provenance, replayability, and an inspectable rationale rather than an opaque score or an AI-generated path that cannot be challenged.
+The Individual Learner Path, or ILP, has now reached a meaningful architectural milestone. Its foundational runtime can turn governed upstream educational intelligence into individual learning opportunities while preserving where those opportunities came from. A recommendation remains a recommendation, teacher-required work remains authoritative, and learner choice remains distinct from both. The ILP does not predict how quickly someone should learn or turn individualized learning into a compulsory machine-generated curriculum.
 
-This is an architecture milestone, not a claim that the Recommendation Engine is already running in the product. Its runtime implementation is the next engineering phase. The learner-facing work that will turn educational intelligence into individualized opportunities, including the future Individual Learner Path, remains ahead.
-
-Concordance is therefore not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time. AI can assist within that system; it is not the educational authority. Learners retain choice and pace, while teachers can guide priorities, inspect evidence, and redirect instruction.
+This is an architectural and backend milestone, not a claim that the complete learner-facing experience is finished. The next work increasingly concerns how those opportunities connect to useful experiences and authentic resources without allowing delivery mechanics to rewrite educational truth. Concordance is therefore not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time and act on that understanding responsibly.
 
 ## What sponsors are supporting
 
-Concordance is built and maintained by a practicing teacher outside the school day. I intend to keep teaching: the classroom is where the project remains accountable to real learners and real instructional needs.
+Concordance is built and maintained by a practicing teacher outside the school day. The classroom keeps the project accountable to real learners and real instructional needs, while sponsorship can create the professional time needed for Concordance to grow without requiring that development time to come indefinitely from evenings and weekends with family.
 
 GitHub sponsorship is the most direct way to keep the platform available while it is still early. Sponsorship currently helps cover:
 
@@ -59,7 +57,7 @@ GitHub sponsorship is the most direct way to keep the platform available while i
 - carefully limited AI inference for feedback, conversation, and content support;
 - accessibility, security, and privacy work;
 - continued development of evidence-driven AP French and AAPPL preparation;
-- the transition from accepted educational-intelligence architecture into Recommendation Engine implementation and individualized learner experiences;
+- the transition from educational intelligence and individual learning opportunities into useful learner experiences;
 - small classroom pilots and future research collaboration.
 
 The immediate objective is simple:
@@ -94,7 +92,7 @@ A fuller visual overview is available in **[FEATURES.md](FEATURES.md)**.
 
 The public Concordance repository documents the mission, product direction, sponsorship model, and ways to participate. The LAOS reasoning kernel and the production application code remain private for now.
 
-That choice protects the part of the project that represents years of pedagogical judgment and architectural development: evidence modeling, learner-state computation, confidence and contestation rules, framework projections, and recommendation logic.
+That choice protects the part of the project that represents years of pedagogical judgment and architectural development: evidence modeling, learner-state computation, confidence and contestation rules, framework projections, recommendation logic, and individualized opportunity orchestration.
 
 This does **not** prevent Concordance from contributing to research or public educational work. Research findings, evaluation methods, selected schemas, documentation, and appropriate shared infrastructure can be published openly while pre-existing LAOS intellectual property remains under its owner's stewardship.
 
@@ -105,15 +103,16 @@ It is easier to open more of the system later than to recover ownership of code 
 1. **Evidence before recommendation.** Guidance should be traceable to observed learner performance.
 2. **Teachers retain judgment.** AI can reduce labor, but it should not silently replace professional decisions.
 3. **Frameworks are projections, not identities.** ACTFL, CEFR, AP, and AAPPL mappings should derive from evidence rather than become the learner record itself.
-4. **Gamification serves pedagogy.** Engagement mechanics are tools, not product objectives.
-5. **Cost discipline is part of access.** The platform should call external AI services only when they add meaningful pedagogical value.
-6. **Learner attention is earned.** Concordance should maximize meaningful participation in the target language, not dependence on the platform.
+4. **Learners own their pace.** Individualization should create meaningful opportunities, not predict how quickly someone ought to progress.
+5. **Gamification serves pedagogy.** Engagement mechanics are tools, not product objectives.
+6. **Cost discipline is part of access.** The platform should call external AI services only when they add meaningful pedagogical value.
+7. **Learner attention is earned.** Concordance should maximize meaningful participation in the target language, not dependence on the platform.
 
 The same boundaries guide future recommendations: evidence informs what the system understands, while learner goals, learner choices, teacher guidance, and educational context shape what happens next. Individualized learning is not intended to mean a compulsory, machine-predicted route.
 
 ## Privacy and independence
 
-Concordance is designed around educational privacy, data minimization, human review, and learner isolation. Student data is not used for advertising.
+Concordance is designed around educational privacy, data minimization, human review, and learner isolation. Student data is not used for advertising. The fact that Concordance possesses information does not mean every part of Concordance is entitled to use it, and ordinary learner behavior should not quietly become evidence about motivation or proficiency.
 
 Concordance describes its work using ACTFL, AAPPL, CEFR, and AP® terminology so educators and learners understand the preparation context. It is an independent project and is not affiliated with, sponsored by, or endorsed by ACTFL, Language Testing International, the Council of Europe, or the College Board. All marks belong to their respective owners.
 
