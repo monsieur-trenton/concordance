@@ -1,8 +1,26 @@
 # Updates
 
-Dated updates for sponsors and anyone following along, newest first. For the
-ongoing feature list (undated, always current), see
-**[ROADMAP.md](ROADMAP.md)**.
+Dated updates for sponsors and anyone following along, newest first. For the ongoing feature list (undated, always current), see **[ROADMAP.md](ROADMAP.md)**.
+
+---
+
+## Sponsor Update: August 27, 2026
+
+### The Individual Learner Path reaches a major milestone
+
+Concordance has reached an important milestone in the Individual Learner Path, or ILP. The Recommendation Engine runtime and the foundational ILP runtime now exist, which means the system has moved beyond describing how evidence-informed individualization should work and into an implemented, governed path from learner evidence to meaningful learning opportunities.
+
+The distinction matters because the goal is not simply "personalized learning." Concordance is not being designed to predict how quickly someone ought to learn, penalize a learner for taking more time, or construct a compulsory sequence that an algorithm expects everyone to follow. Learners bring different histories, interests, goals, and needs to a language. Their pace belongs to them. The ILP is designed to preserve that principle while still making educational evidence useful.
+
+At a high level, LAOS now connects evidence assertions, canonical learner state, independent framework projections, recommendations, and individual learning opportunities through bounded layers. A recommendation remains a recommendation rather than silently becoming educational truth or required work. Teacher-required work remains authoritative and structurally distinct. Learner choices remain choices rather than becoming hidden proficiency judgments. Historical educational decisions are preserved so they can be inspected and verified rather than quietly reconstructed according to whatever model or policy happens to be current.
+
+Privacy is part of this architecture as well. Individualized learning can become invasive when every click, hesitation, skipped activity, or absence is treated as a signal about motivation or ability. Concordance is taking a different approach. Dismissing or deferring an opportunity does not reduce proficiency, and ordinary platform behavior should not become educational evidence merely because it can be collected. The broader principle is that possessing information does not mean every part of the system is entitled to use it. Individualization should not require surveillance.
+
+This milestone does not mean the complete learner-facing ILP experience is finished. A bounded append-only interaction obligation remains within the accepted ILP boundary, and the next major questions concern how individual opportunities connect to actual experiences. Concrete activity selection, launch mechanics, media delivery, grading, and new evidence remain downstream rather than being folded into ILP.
+
+That downstream work is increasingly connected to the Media Center. Concordance is being designed so authentic culture is not reserved for advanced learners. Texts, audio, video, visual art, photographs, and other cultural artifacts can be accessible to learners at different stages when the task around them is appropriately scaffolded. The resource itself does not have a proficiency level. The linguistic and educational demand placed on the learner does.
+
+This is the kind of progress that is difficult to show in a screenshot but matters enormously to what Concordance can become. The objective is not to keep learners busy. It is to build technology that can reason carefully from evidence, respect teacher judgment, preserve learner agency and privacy, and help people become more capable communicators and more independent participants in multilingual and multicultural communities.
 
 ---
 
@@ -10,13 +28,11 @@ ongoing feature list (undated, always current), see
 
 ### From learner evidence to future guidance
 
-Concordance has reached an important foundation milestone. The architecture now defines a governed path from learner performance to future instructional guidance: meaningful performance can contribute evidence, evidence can inform an auditable understanding of demonstrated ability, that understanding can be viewed through independent proficiency frameworks, and a recommendation layer can identify valuable opportunities to consider next.
+Concordance reached an important foundation milestone in the architecture connecting learner performance to future instructional guidance. Meaningful performance can contribute evidence, evidence can inform an auditable understanding of demonstrated ability, that understanding can be viewed through independent proficiency frameworks, and a recommendation layer can identify valuable opportunities to consider next.
 
 This matters because individualized learning should not emerge from an opaque AI decision. The design keeps educational truth, framework interpretation, and instructional guidance distinct. It supports traceable rationale, reproducible processing, and teacher oversight while leaving room for learner goals, learner choice, and learner pace. AI can assist within those boundaries; it does not become the educational authority.
 
-The Recommendation Engine architecture has been accepted, but its runtime implementation is the next engineering phase. Concordance is not claiming that this engine is already operating in production or that learners are already receiving recommendations from it. The next learner-facing direction is the Individual Learner Path: a future way to turn evidence-informed educational opportunities into useful choices without prescribing a fixed or machine-predicted route.
-
-This is substantial foundational work, but it is not the same as a finished learner-facing product. Continued support helps move Concordance from architectural integrity into implementation, while preserving the project’s commitment to communication and proficiency over streaks, screen time, or activity completion.
+Since this update was written, the Recommendation Engine runtime and foundational Individual Learner Path runtime have been implemented. See the August 27 update above for the current state.
 
 ---
 
@@ -64,17 +80,17 @@ Thank you for supporting a platform built around demonstrated proficiency rather
 
 A lot has happened behind the scenes since the last update, and it's worth sharing with the people actually making this possible.
 
-### A safety net for AI conversations — that still gives beginners the benefit of the doubt
+### A safety net for AI conversations that still gives beginners the benefit of the doubt
 
 Concordance's AI conversation partner lets students practice French with a patient speaker that's available when they need it. As these conversations become a bigger part of the classroom, the platform includes automated content review that can flag concerning content for teacher and school-administrator review.
 
-Two things set this apart from the blunt content filters bolted onto most AI products. First, nothing ever happens to a student automatically: the system only surfaces a flag for a human to look at and judge. It informs; it never punishes. Second — and this matters enormously for a language-learning tool — it is built to tell the difference between misuse and a beginner. Broken grammar, blunt phrasing, and simple halting sentences are exactly what learning a language looks like, and the system is deliberately designed to ignore them. A student struggling to form a sentence is never mistaken for a problem.
+Two things set this apart from the blunt content filters bolted onto most AI products. First, nothing ever happens to a student automatically: the system only surfaces a flag for a human to look at and judge. It informs; it never punishes. Second, and this matters enormously for a language-learning tool, it is built to tell the difference between misuse and a beginner. Broken grammar, blunt phrasing, and simple halting sentences are exactly what learning a language looks like, and the system is deliberately designed to ignore them. A student struggling to form a sentence is never mistaken for a problem.
 
 Teachers are intended to see only the students within their authorized context, and the workflow is designed to give staff visibility without turning the classroom into a surveillance operation. The governing principle is human review, privacy by default, and the benefit of the doubt for people who are here to learn.
 
 ### A real proficiency gate, not just a progress bar
 
-Students on Concordance no longer advance to the next level just by racking up correct answers over time. A new capstone evaluation system now checks four things before anyone moves up: sustained grammar mastery, enough practice volume, genuine vocabulary retention (not just a first correct guess), and a real one-sitting checkpoint testing the skills the next level actually needs. Teachers can see exactly where each student stands and choose when a capstone happens, rather than the platform deciding on its own.
+Students on Concordance no longer advance to the next level just by racking up correct answers over time. A new capstone evaluation system now checks four things before anyone moves up: sustained grammar mastery, enough practice volume, genuine vocabulary retention, and a real one-sitting checkpoint testing the skills the next level actually needs. Teachers can see exactly where each student stands and choose when a capstone happens, rather than the platform deciding on its own.
 
 This is a deliberate bet against how most language apps work. Streaks and points are easy to fake your way past. Demonstrated proficiency is not.
 
