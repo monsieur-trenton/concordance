@@ -10,50 +10,25 @@ Tier details and benefits live on the **[GitHub Sponsors page](https://github.co
 
 ## The immediate funding goal
 
-The first objective is not rapid growth or replacing a teaching salary.
-
-It is to make Concordance operationally sustainable:
-
-- keep hosting, storage, databases, monitoring, and email running;
-- cover speech recognition and text-to-speech usage;
-- cover carefully controlled AI inference for feedback and conversation;
-- maintain security, privacy, accessibility, and backups;
-- support a small number of authentic classroom and independent-learner pilots;
-- create enough development margin to improve the platform without rushing.
+The first objective is to make Concordance operationally sustainable: keep hosting, storage, databases, monitoring, and email running; cover speech recognition, text-to-speech, and carefully controlled AI inference; maintain security, privacy, accessibility, and backups; support authentic classroom and independent-learner pilots; and create enough development margin to improve the platform without rushing.
 
 The project will publish real operating-cost ranges once usage is stable enough for those numbers to be meaningful. Until then, this roadmap will not present invented or placeholder figures.
 
 ## Cost discipline
 
-Concordance should not become dependent on an unlimited stream of API calls.
-
-LAOS is being designed to reduce variable cost through:
-
-- deterministic evidence and framework logic;
-- event-driven learner-state updates;
-- cached and precomputed recommendations;
-- model routing by task complexity;
-- specialized speech services only where speech adds educational value;
-- external generative AI only when it contributes something the evidence system cannot provide reliably.
-
-The long-term affordability principle is simple:
+Concordance should not become dependent on an unlimited stream of API calls. LAOS is being designed to reduce variable cost through deterministic evidence and framework logic, event-driven learner-state updates, cached and precomputed educational intelligence, model routing by task complexity, specialized speech services only where speech adds educational value, and external generative AI only when it contributes something the evidence system cannot provide reliably.
 
 > **Reason from evidence first. Generate only when generation adds pedagogical value.**
 
 This work makes sponsorship go further and makes future school adoption more realistic.
 
-## Architectural foundation completed
+## Architectural foundation and ILP milestone
 
-Concordance has completed the accepted architectural design needed to connect learner performance with future individualized educational guidance:
+Concordance has now implemented a substantial governed path from learner evidence to individual learning opportunities. The architecture separates evidence assertions, canonical learner state, framework projections, recommendations, and the Individual Learner Path so that each layer has a bounded responsibility. Historical educational decisions can be preserved and verified rather than silently recomputed according to whatever model or policy happens to be current.
 
-- evidence-centered learner modeling with traceable provenance;
-- controlled, reproducible processing of learner-state changes;
-- independent interpretation through proficiency frameworks; and
-- a governed, explainable Recommendation Engine architecture.
+The Recommendation Engine runtime and the foundational Individual Learner Path runtime are no longer merely planned architecture. The ILP can construct governed individual learning opportunities from upstream educational intelligence while preserving recommendation rank and provenance, teacher authority, learner agency, and learner-owned pace. Governed retrieval is also in place. This is a backend and architectural milestone, not a claim that the complete learner-facing experience is finished.
 
-This foundation separates educational evidence, learner understanding, framework interpretation, and instructional guidance so that the system can be audited, replayed, and improved without making AI the educational authority.
-
-The Recommendation Engine runtime is not yet implemented. The next engineering phase is to build that runtime; the Individual Learner Path is a subsequent learner-facing direction that will turn advisory educational intelligence into choices among meaningful learning opportunities. Neither is presented here as a completed product capability.
+A bounded append-only learner-interaction obligation remains part of completing the accepted ILP boundary. Concrete activity resolution, launch mechanics, media delivery, grading, and evidence creation remain downstream concerns and will not be folded into ILP simply to make the product appear more complete.
 
 ---
 
@@ -61,126 +36,81 @@ The Recommendation Engine runtime is not yet implemented. The next engineering p
 
 ### 1. Learner Evidence Profile
 
-The flagship teacher experience should make a learner's development understandable from one coherent screen:
+The flagship teacher experience should make a learner's development understandable from one coherent screen, including evidence-informed framework portraits, evidence strength and gaps, grammar and communication needs, provenance for the work supporting each conclusion, and teacher contestation without destructive overwrites.
 
-- instructional level target;
-- evidence-informed ACTFL and CEFR portrait;
-- evidence strength and gaps;
-- grammar, thematic vocabulary, and communication needs;
-- provenance for the work supporting each conclusion;
-- teacher contestation without destructive overwrites.
+### 2. Individual Learner Path
 
-### 2. Individual Learner Path — upcoming
+The foundational ILP runtime now exists. Its purpose is to turn governed educational intelligence into meaningful opportunities without constructing a compulsory adaptive course or predicting how quickly a learner should progress. Recommendations remain advisory, teacher-required work remains structurally distinct and authoritative, and learner choice does not become evidence of proficiency or motivation merely because it can be recorded.
 
-The future Individual Learner Path should give independent learners useful, evidence-derived opportunities without requiring a classroom roster:
+The remaining work is deliberately bounded: complete the accepted interaction-recording boundary, then connect individual opportunities to useful learner experiences without allowing delivery availability or interface behavior to rewrite educational truth.
 
-- recommended proficiency focus;
-- grammar points supported by observed performance;
-- thematic vocabulary practice that needs expansion;
-- communication tasks chosen to gather missing evidence;
-- clear evidence gaps rather than fabricated certainty;
-- read-only access to provenance.
+### 3. Media Center and authentic culture
 
-It should preserve learner choice and pace, teacher guidance where available, and a clear reason for each opportunity. It is not intended to become a fixed adaptive course or a prediction of how quickly a learner will progress.
+The Media Center is the next major platform direction. It will treat authentic texts, audio, video, visual art, and cultural artifacts as first-class resources rather than decorative enrichment. Authentic culture should not be reserved for advanced learners. A beginning learner can encounter an authentic resource when the task and linguistic demand surrounding it are appropriately scaffolded.
 
-### 3. AP French and AAPPL preparation
+The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task around the resource. Media Center architecture will therefore describe resource identity, provenance, rights, and availability while keeping proficiency interpretation and educational decision-making in their proper layers.
 
-Concordance's first public-impact focus remains:
+### 4. AP French, AAPPL, and broader proficiency preparation
 
-- AP French Language and Culture preparation;
-- AAPPL preparation;
-- support for learners pursuing State Seals of Biliteracy;
-- communicative performance across interpretive, interpersonal, and presentational modes;
-- guidance tied to proficiency evidence rather than practice completion alone.
+Concordance's first public-impact focus remains AP French Language and Culture preparation, AAPPL preparation, support for learners pursuing State Seals of Biliteracy, and communicative performance across interpretive, interpersonal, and presentational modes. Guidance should be tied to proficiency evidence rather than practice completion alone.
 
-### 4. Speaking evidence
+### 5. Speaking evidence
 
-Speaking is essential to communicative proficiency and cannot be inferred responsibly from writing alone. Current and planned work includes:
+Speaking is essential to communicative proficiency and cannot be inferred responsibly from writing alone. Current and planned work includes reliable transcription, pronunciation and fluency evidence, graded speaking tasks, conversational elicitation of missing evidence, and careful separation between raw transcription, evidence assertions, and proficiency interpretation.
 
-- reliable transcription through specialized speech recognition;
-- pronunciation and fluency evidence;
-- graded speaking tasks;
-- conversational elicitation of missing evidence;
-- careful separation between raw transcription, evidence assertions, and proficiency interpretation.
+### 6. Operations Health Center
 
-### 5. Lower-cost infrastructure
-
-Before broad expansion, Concordance will continue improving:
-
-- API budgets and usage telemetry;
-- per-feature cost attribution;
-- caching and invalidation rules;
-- provider fallback without duplicate billing;
-- rate limits and abuse protection;
-- background computation triggered by new evidence rather than repeated dashboard views.
+After the Media Center, Concordance plans an Operations Health Center to make sustainability measurable. It should track API and provider usage, identify unusually expensive usage patterns, estimate per-user and total monthly operating costs, and help enforce budgets and cost discipline without turning learner activity into unnecessary surveillance.
 
 ---
 
-## Research and validation
+## Frameworks and validation
 
-Concordance is open to research partnerships in second-language acquisition, applied linguistics, assessment, learning sciences, and responsible educational AI.
+Framework projections remain interpretations of learner state rather than learner identity or official certification. ACTFL and CEFR are central to the current direction, and International Language Roundtable (ILR) support is planned as a future governed framework projection. Concordance may also support preparation contexts such as AP and AAPPL without claiming affiliation with or certification authority from the organizations that maintain those systems.
 
-A future research collaboration should preserve these boundaries:
+Concordance is also developing an empirical validation program around proficiency-aligned communicative evidence. Research and validation should test whether the architecture's educational claims are actually supported, not merely demonstrate that the software functions as designed.
 
-- LAOS and other pre-existing intellectual property remain under their current ownership;
-- research questions, evaluation methods, and findings can be published;
-- participant consent, student privacy, and institutional review requirements are respected;
-- publication rights and software rights are negotiated separately;
-- no university or funder receives ownership of LAOS merely by studying or piloting Concordance.
+## Research and collaboration
 
-Potential early studies include:
+Concordance is open to research partnerships in second-language acquisition, applied linguistics, assessment, learning sciences, and responsible educational AI. Research questions, evaluation methods, and findings can be publishable while LAOS and other pre-existing intellectual property remain under their current ownership. Participant consent, student privacy, institutional review requirements, and the distinction between publication rights and software rights must be respected.
 
-- whether the Learner Evidence Profile improves teacher decision-making;
-- whether learners understand their proficiency and next steps more clearly;
-- whether evidence-driven practice improves AP French or AAPPL readiness;
-- whether deterministic LAOS reasoning reduces AI cost without reducing educational usefulness;
-- whether contestable evidence improves trust in AI-supported assessment.
+Potential studies include whether evidence profiles improve teacher decision-making, whether learners understand their proficiency and next steps more clearly, whether evidence-driven practice improves readiness for proficiency-oriented assessments, whether deterministic LAOS reasoning reduces AI cost without reducing educational usefulness, and whether contestable evidence improves trust in AI-supported assessment.
 
 ---
 
 ## Longer-term direction
 
-### Broader Francophone representation
+### Broader Francophone representation and language specialists
 
-Expand listening, reading, and cultural content across Francophone communities, registers, and perspectives rather than treating Metropolitan French as the entire language ecosystem.
+Concordance should reflect living language rather than treating a textbook register as the entire language. Future stewardship can involve language specialists ranging from professors and linguists to educators, community experts, and younger speakers who understand contemporary usage and slang. Expertise should be matched to the question being answered, with appropriate review and provenance rather than treating any one contributor as universally authoritative.
 
-### Additional languages
+### Additional languages and preservation
 
-Extend LAOS only with qualified language and pedagogy collaborators. Spanish is a natural candidate, especially where the system can model cross-linguistic transfer, cognates, false friends, and structural interference rather than creating a disconnected copy of the French product.
+French is the first implementation, not the final scope. Spanish is a natural expansion candidate, and additional languages should be developed with qualified linguistic, pedagogical, and community collaborators. A much longer-term ambition is to contribute to language documentation and preservation partnerships, including Indigenous and endangered languages, only where community authority, consent, stewardship, and ownership remain non-negotiable.
 
-### Future platform capabilities
+### Institutional and professional contexts
 
-As the foundation develops, downstream capabilities may include a Teacher Workspace for reviewing evidence and guiding priorities, a Media Center for connecting educational targets with authentic audio, video, literature, and cultural material, and a Language Specialist Workspace for maintaining living language and pedagogical definitions. These are planned directions, not current claims about completed work.
-
-The same architecture may support a governed Research Platform for studying proficiency development, individualized learning, transfer, and recommendation calibration using appropriate consent, privacy, and institutional governance. It may also eventually contribute to language documentation and preservation partnerships, including with Indigenous and endangered-language communities, only where community authority, consent, stewardship, and ownership remain non-negotiable. This is a long-term aspiration, not a current product capability.
+The same governed framework architecture may eventually support learners and institutions working in professional contexts. Planned ILR projection work creates a possible future path toward contexts where ILR proficiency descriptions are relevant, including U.S. government language programs. Any future relationship with organizations such as the U.S. Department of State would require validation, procurement, security, privacy, accessibility, and institutional review and is an aspiration rather than a current partnership or capability.
 
 ### LAOS as a licensable platform
 
-If LAOS demonstrates reliable educational value, future possibilities include:
-
-- a hosted API for approved educational partners;
-- institutional or research licenses;
-- integrations with assessment, curriculum, or learning platforms;
-- commercial licensing that helps subsidize learner and teacher access to Concordance.
-
-Licensing is a future option, not a reason to weaken the current educational mission.
+If LAOS demonstrates reliable educational value, future possibilities include a hosted API for approved educational partners, institutional or research licenses, integrations with assessment or learning platforms, and commercial licensing that helps subsidize learner and teacher access to Concordance. Licensing is a future option, not a reason to weaken the current educational mission.
 
 ### Sustainable stewardship
 
-The desired outcome is a durable educational craft business:
-
-- the creator can continue teaching;
-- operating expenses are covered;
-- contributors can be compensated when resources allow;
-- development remains careful and mission-aligned;
-- recurring revenue can eventually provide meaningful family support;
-- Concordance can outlast changes in individual AI vendors or models.
+The desired outcome is a durable educational project that can keep access broad while becoming financially sustainable. Operating expenses should be covered, contributors and language specialists should be compensated when resources allow, development should remain careful and mission-aligned, and recurring revenue can eventually provide meaningful family support. Concordance should be capable of outlasting changes in individual AI vendors or models.
 
 ---
 
+## Privacy and intellectual-property stewardship
+
+Privacy is an architectural requirement, not a policy added at the end. Concordance is being designed around data minimization, purpose limitation, learner isolation, human review, and the principle that ordinary interaction behavior should not silently become evidence about motivation, ability, or proficiency. Individualization should not require surveillance.
+
+The public repository intentionally explains Concordance's mission, principles, public architecture, research direction, and progress without publishing the protected implementation details of the LAOS reasoning kernel. The project can open more research, documentation, interfaces, and infrastructure over time while preserving the intellectual property needed to support sustainable stewardship and future licensing.
+
 ## What has already been built
 
-The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety.
+The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety. The LAOS pipeline now extends through implemented Recommendation and foundational Individual Learner Path runtimes, with the remaining ILP interaction boundary deliberately separated from downstream delivery work.
 
 For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated engineering progress, see **[UPDATES.md](UPDATES.md)**.
 
