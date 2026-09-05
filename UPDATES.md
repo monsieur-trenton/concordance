@@ -4,6 +4,24 @@ Dated updates for sponsors and anyone following along, newest first. For the ong
 
 ---
 
+## Sponsor Update: September 5, 2026
+
+### From learning opportunities to governed experiences
+
+Over the past several weeks, Concordance has closed another important part of the path between understanding a learner and offering something useful to do next. The Individual Learner Path is now implemented and accepted through its intended architectural boundary, including the append-only interaction record that was still outstanding in the August 27 update. It can preserve the difference between a recommendation, teacher-required work, and a learner's own choice while recording dismissals or deferrals without turning them into judgments about motivation or proficiency.
+
+The next downstream layer, Experience Resolution, is also implemented and accepted for the currently supported path. Its role is deliberately narrow: it takes a verified learning opportunity and resolves it into a specific, revision-bound experience that can be launched, while preserving the educational decision that produced it. Delivery availability cannot rewrite recommendation rank, substitute a different educational target, or quietly alter learner state. Historical resolution records can be verified, and failures stop at a governed boundary rather than falling through to an unrelated activity.
+
+This is meaningful infrastructure, but it is not a claim that every kind of learner experience is now available. The current implementation supports Concordance's existing native practice path. Authentic media, broader activity families, grading, and the creation of new evidence remain separately governed work. The distinction is important: reaching a reliable backend boundary is progress, but it should not be presented as a finished learner-facing system.
+
+Concordance has also accepted the architecture for a future Media Center. The decision treats texts, audio, video, music, journalism, literature, visual art, photography, and other cultural artifacts as first-class resources. It separates resource identity, provenance, rights, availability, and delivery from proficiency judgment. An artwork or recording is not assigned a learner level; the educational and linguistic demand belongs to the task, scaffold, or experience built around it.
+
+Rights are part of the design from the beginning. The architecture requires retained policy evidence, explicit provider admission, current eligibility and availability checks, and a final current-deliverability gate before access can be issued. Architectural acceptance does not authorize implementation or admit any external provider. The authentic-media path remains intentionally unavailable until the Media Center is implemented and independently verified, so the platform cannot silently substitute an inappropriate resource merely to keep a request moving.
+
+Taken together, these milestones extend Concordance's governed path from evidence to recommendations, individual learning opportunities, and now bounded experience resolution. The work remains grounded in the same principle: educational technology should make its decisions inspectable, preserve teacher judgment and learner agency, and be honest about the difference between a sound foundation and a finished experience.
+
+---
+
 ## Sponsor Update: August 27, 2026
 
 ### The Individual Learner Path reaches a major milestone
