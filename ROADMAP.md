@@ -22,14 +22,13 @@ Concordance should not become dependent on an unlimited stream of API calls. LAO
 
 This work makes sponsorship go further and makes future school adoption more realistic.
 
-## Architectural foundation and ILP milestone
+## Architectural foundation, ILP, and experience resolution
 
-Concordance has now implemented a substantial governed path from learner evidence to individual learning opportunities. The architecture separates evidence assertions, canonical learner state, framework projections, recommendations, and the Individual Learner Path so that each layer has a bounded responsibility. Historical educational decisions can be preserved and verified rather than silently recomputed according to whatever model or policy happens to be current.
+Concordance has implemented a substantial governed path from learner evidence to bounded learning experiences. The architecture separates evidence assertions, canonical learner state, framework projections, recommendations, the Individual Learner Path, and downstream experience resolution so that each layer has a limited responsibility. Historical educational and resolution decisions can be preserved and verified rather than silently recomputed according to whatever model, policy, or catalog happens to be current.
 
-The Recommendation Engine runtime and the foundational Individual Learner Path runtime are no longer merely planned architecture. The ILP can construct governed individual learning opportunities from upstream educational intelligence while preserving recommendation rank and provenance, teacher authority, learner agency, and learner-owned pace. Governed retrieval is also in place. This is a backend and architectural milestone, not a claim that the complete learner-facing experience is finished.
+The Recommendation Engine and Individual Learner Path runtimes are implemented and accepted through their intended boundaries. The ILP can construct governed individual learning opportunities while preserving recommendation rank and provenance, teacher authority, learner agency, and learner-owned pace. Its append-only interaction ledger records permitted learner actions without converting them into proficiency or motivation judgments.
 
-A bounded append-only learner-interaction obligation remains part of completing the accepted ILP boundary. Concrete activity resolution, launch mechanics, media delivery, grading, and evidence creation remain downstream concerns and will not be folded into ILP simply to make the product appear more complete.
-
+Downstream Experience Resolution is also implemented and accepted for the currently supported Concordance-native practice path. It can bind a verified opportunity to a specific content revision and produce a learner-safe launch projection without reranking recommendations, substituting educational targets, or mutating learner state. This is backend infrastructure, not a claim that every delivery modality or complete learner-facing experience is finished. Authentic media, broader activity families, execution, grading, and new evidence creation remain separately governed concerns.
 ---
 
 ## Current product focus
@@ -42,13 +41,13 @@ The flagship teacher experience should make a learner's development understandab
 
 The foundational ILP runtime now exists. Its purpose is to turn governed educational intelligence into meaningful opportunities without constructing a compulsory adaptive course or predicting how quickly a learner should progress. Recommendations remain advisory, teacher-required work remains structurally distinct and authoritative, and learner choice does not become evidence of proficiency or motivation merely because it can be recorded.
 
-The remaining work is deliberately bounded: complete the accepted interaction-recording boundary, then connect individual opportunities to useful learner experiences without allowing delivery availability or interface behavior to rewrite educational truth.
+The accepted interaction-recording boundary is now complete. Current work moves downstream: connect opportunities to useful learner experiences while preserving the ILP's educational decisions and keeping delivery availability or interface behavior from rewriting educational truth.
 
 ### 3. Media Center and authentic culture
 
-The Media Center is the next major platform direction. It will treat authentic texts, audio, video, visual art, and cultural artifacts as first-class resources rather than decorative enrichment. Authentic culture should not be reserved for advanced learners. A beginning learner can encounter an authentic resource when the task and linguistic demand surrounding it are appropriately scaffolded.
+The Media Center is the next major platform direction. Its architecture is accepted, but implementation and public authentic-media delivery have not begun. It will treat authentic texts, audio, video, music, journalism, literature, visual art, photography, and other cultural artifacts as first-class resources rather than decorative enrichment. Authentic culture should not be reserved for advanced learners. A beginning learner can encounter an authentic resource when the task and linguistic demand surrounding it are appropriately scaffolded.
 
-The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task around the resource. Media Center architecture will therefore describe resource identity, provenance, rights, and availability while keeping proficiency interpretation and educational decision-making in their proper layers.
+The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. The accepted architecture separates resource identity, provenance, rights-policy evidence, eligibility, current availability, and deliverability while keeping proficiency interpretation and educational decision-making in their proper layers. It admits no external provider and authorizes no delivery activation; the authentic-media path remains fail-closed until later implementation and independent verification.
 
 ### 4. AP French, AAPPL, and broader proficiency preparation
 
@@ -110,7 +109,7 @@ The public repository intentionally explains Concordance's mission, principles, 
 
 ## What has already been built
 
-The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety. The LAOS pipeline now extends through implemented Recommendation and foundational Individual Learner Path runtimes, with the remaining ILP interaction boundary deliberately separated from downstream delivery work.
+The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center architecture is accepted, but Media implementation and public authentic-media delivery remain future work.
 
 For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated engineering progress, see **[UPDATES.md](UPDATES.md)**.
 

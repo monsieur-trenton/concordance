@@ -40,11 +40,13 @@ Evidence → Evidence Assertions → Learner State → Framework Projection → 
 
 French is the first implementation. The longer-term vision is a reusable foundation for evidence-based language acquisition across languages, programs, and assessment contexts.
 
-### The Individual Learner Path milestone
+### From the Individual Learner Path to governed experiences
 
-The Individual Learner Path, or ILP, has now reached a meaningful architectural milestone. Its foundational runtime can turn governed upstream educational intelligence into individual learning opportunities while preserving where those opportunities came from. A recommendation remains a recommendation, teacher-required work remains authoritative, and learner choice remains distinct from both. The ILP does not predict how quickly someone should learn or turn individualized learning into a compulsory machine-generated curriculum.
+The Individual Learner Path, or ILP, is now implemented and accepted through its intended architectural boundary. It can turn governed upstream educational intelligence into individual learning opportunities while preserving where those opportunities came from. A recommendation remains a recommendation, teacher-required work remains authoritative, and learner choice remains distinct from both. The ILP does not predict how quickly someone should learn or turn individualized learning into a compulsory machine-generated curriculum.
 
-This is an architectural and backend milestone, not a claim that the complete learner-facing experience is finished. The next work increasingly concerns how those opportunities connect to useful experiences and authentic resources without allowing delivery mechanics to rewrite educational truth. Concordance is therefore not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time and act on that understanding responsibly.
+The downstream Experience Resolution boundary is also implemented and accepted for the currently supported Concordance-native practice path. It resolves a verified opportunity into a specific, revision-bound experience without allowing delivery mechanics to rewrite the educational decision. This remains an architectural and backend milestone, not a claim that every contemplated activity or learner-facing experience is finished.
+
+The Media Center now has an accepted, rights-aware architecture, but no Media Center implementation or public authentic-media delivery is claimed. That work will govern resource identity, provenance, rights, current availability, and deliverability while keeping proficiency judgment attached to tasks and scaffolds rather than to cultural resources themselves. Concordance is not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time and act on that understanding responsibly.
 
 ## What sponsors are supporting
 
