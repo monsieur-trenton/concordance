@@ -4,6 +4,8 @@
 
 **The proficiency operating system for serious language learners and teachers.**
 
+**Language · Culture · Connection**
+
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
 [![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://concordancelearn.com/)
 
@@ -16,15 +18,17 @@
 
 ## Why Concordance exists
 
-I teach AP French, and I have watched students spend years studying a language without receiving a clear, defensible picture of what they can actually do with it.
+I teach French, including AP French, and I have watched learners spend years studying a language without receiving a clear, defensible picture of what they can actually do with it—or enough meaningful contact with the people, cultures, and ideas that make the language worth learning.
 
 Most language-learning software measures completion, points, or streaks. Concordance is built around a different question:
 
 > **What evidence shows that this learner is becoming more capable in the language, and what should happen next?**
 
-Concordance helps learners prepare for **AP French Language and Culture**, **AAPPL**, and **State Seals of Biliteracy** through practice tied to real communicative proficiency. It helps teachers see the evidence behind a learner's progress instead of asking them to trust an opaque score or an unexplained AI recommendation.
+Concordance Learn is an evidence-informed language-learning platform being built to help people become more capable, confident, and independent participants in another language and culture. It connects meaningful communication, authentic cultural material, understandable evidence, and carefully governed guidance while preserving learner choice and teacher judgment.
 
-The goal is not to maximize time spent in an app. The goal is to help learners participate more meaningfully in French.
+French is the first implementation. The current platform can support goals such as AP French Language and Culture, AAPPL, and State Seals of Biliteracy, but assessment preparation is one application of the work—not the identity of the platform. Learners may also be studying for travel, professional or academic life, heritage connection, literature and media, relationships, or the lasting value of learning another language.
+
+The goal is not to maximize time spent in an app or progress through a proprietary course. The goal is meaningful participation beyond the platform.
 
 ## Concordance and LAOS
 
@@ -58,7 +62,7 @@ The [GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton) is now 
 - speech recognition and text-to-speech services;
 - carefully limited AI inference for feedback, conversation, and content support;
 - accessibility, security, and privacy work;
-- continued development of evidence-driven AP French and AAPPL preparation;
+- continued development of evidence-informed language learning, beginning with French and including current AP French and AAPPL preparation contexts;
 - the transition from educational intelligence and individual learning opportunities into useful learner experiences;
 - small classroom pilots and future research collaboration.
 
@@ -72,21 +76,22 @@ As LAOS matures, more reasoning can be handled through deterministic evidence lo
 
 ### For learners
 
-- Evidence-informed proficiency guidance aligned with ACTFL and CEFR.
-- AP French and AAPPL-oriented speaking, writing, listening, and interpretive practice.
-- Point de Départ placement and proficiency-aware daily practice.
-- A conversation partner calibrated to the learner's current proficiency.
-- Writing and speaking feedback connected to the learner's developing evidence profile.
-- Grammar, thematic vocabulary, and communication recommendations grounded in observed needs.
-- A portfolio that emphasizes growth over time rather than a single score.
+- Meaningful French communication across interpretive, interpersonal, and presentational modes.
+- Authentic Francophone language and culture approached through appropriately designed tasks and scaffolds.
+- Evidence-informed guidance that treats ACTFL and CEFR as useful perspectives rather than proprietary levels or official credentials.
+- Speaking, writing, listening, reading, pronunciation, grammar, and vocabulary experiences connected to communicative goals.
+- Point de Départ placement and practice responsive to demonstrated needs.
+- A conversation partner and feedback tools designed to support communication rather than replace human relationships or judgment.
+- A portfolio that emphasizes growth and evidence over time rather than a single score.
+- Preparation contexts including AP French and AAPPL without reducing language learning to examination performance.
 
 ### For teachers
 
-- A Learner Evidence Profile that separates instructional targets from estimated proficiency.
-- Transparent evidence strength, provenance, and contestation workflows.
-- Class-level patterns and targeted remediation without surrendering professional judgment.
+- A Learner Evidence Profile that separates observations, instructional targets, and framework interpretations.
+- Transparent evidence strength, provenance, uncertainty, and contestation workflows.
+- Class-level patterns and targeted support without surrendering professional judgment.
 - Teacher-reviewed content generation and proficiency-aligned practice support.
-- AP French and AAPPL preparation grounded in communicative performance rather than drill completion alone.
+- Support for communicative instruction and assessment preparation as parts of a broader language-and-culture program.
 
 A fuller visual overview is available in **[FEATURES.md](FEATURES.md)**.
 
