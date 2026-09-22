@@ -4,6 +4,24 @@ Dated updates for sponsors and anyone following along, newest first. For the ong
 
 ---
 
+## Sponsor Update: September 22, 2026
+
+### A foundation for authentic media
+
+Concordance has begun implementing the Media Center, the part of the platform intended to connect learners with authentic texts, audio, video, music, journalism, literature, visual art, photography, and other cultural resources. The first implementation slice has now been merged. It establishes governed identity and custody for exact media-resource revisions, along with tightly bounded database authority for that information.
+
+That may sound removed from the experience a learner eventually sees, but it answers a basic question that has to come first: when Concordance refers to a cultural resource, how can the system know exactly which version it means and preserve that identity even if a source changes later? Authentic online material can be edited, replaced, removed, or placed under different terms. A dependable educational system needs more than a mutable link and a title.
+
+This foundation is also part of keeping rights and provenance central rather than treating them as cleanup work. The broader Media Center architecture separates resource identity, source and rights evidence, present availability, and deliverability. It also preserves an educational distinction that matters to me as a teacher: a painting, song, interview, or article does not possess an intrinsic proficiency level. The linguistic demand belongs to the task, scaffold, or experience built around it. That is how authentic culture can become accessible to earlier-stage learners without pretending that the resource itself was written or created for them.
+
+This is a real engineering milestone, but it is not a Media Center launch. Slice 1 does not admit an external provider, choose resources for learners, assign proficiency levels, evaluate current delivery rights, or open the authentic-media path. Public authentic-media delivery remains intentionally closed while those later authorities are designed, implemented, and verified. The work since the first implementation attempt has also strengthened database-role separation and release verification, but production activation remains a separate operational decision.
+
+The next work is to build carefully on this foundation: governed source and rights evidence, explicit provider admission, deterministic selection, current availability and deliverability checks, and eventually learner-facing experiences with appropriate scaffolding. The goal is not simply to add more content. It is to make authentic language and culture available in a way that is educationally useful, technically accountable, and respectful of the people and institutions that created it.
+
+GitHub Sponsors is now live for Concordance. Support helps cover hosting, databases, speech and language services, accessibility, privacy, and the sustained development time required for careful work like this. Sponsorship does not purchase influence over educational conclusions or access to learner data; it creates room to build the next layer without compromising the principles underneath it.
+
+---
+
 ## Sponsor Update: September 5, 2026
 
 ### From learning opportunities to governed experiences
