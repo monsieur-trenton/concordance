@@ -4,7 +4,7 @@
 
 **The proficiency operating system for serious language learners and teachers.**
 
-**Language · Culture · Connection**
+**Language Culture Connection**
 
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
 [![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://concordancelearn.com/)
