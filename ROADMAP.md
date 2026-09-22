@@ -2,7 +2,7 @@
 
 This roadmap is the honest version of **what sponsorship funds**.
 
-Concordance is built and maintained by a practicing AP French teacher outside the school day. Sponsorship does not purchase a promised feature date. It keeps the platform operating, creates room for careful development, and helps protect free or low-cost access for learners and public-school educators.
+Concordance is built and maintained by a practicing French teacher outside the school day. Its classroom origins keep the project accountable to real learners without defining Concordance solely by one course or examination. Sponsorship does not purchase a promised feature date. It keeps the platform operating, creates room for careful development, and helps protect free or low-cost access for learners and public-school educators.
 
 Tier details and benefits live on the **[GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton)**, which is the source of truth.
 
@@ -51,9 +51,9 @@ The Media Center will treat authentic texts, audio, video, music, journalism, li
 
 The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. Later slices must add governed source and rights-policy evidence, explicit provider admission, deterministic selection, current eligibility and availability evaluation, and a final deliverability gate before any public authentic-media path can open.
 
-### 4. AP French, AAPPL, and broader proficiency preparation
+### 4. Communicative proficiency and learner goals
 
-Concordance's first public-impact focus remains AP French Language and Culture preparation, AAPPL preparation, support for learners pursuing State Seals of Biliteracy, and communicative performance across interpretive, interpersonal, and presentational modes. Guidance should be tied to proficiency evidence rather than practice completion alone.
+Concordance's first implementation is French, with communicative development across interpretive, interpersonal, and presentational modes. Learners may be preparing for academic or professional work, travel, heritage connection, literature and media, relationships, or lifelong learning. Current preparation contexts include AP French Language and Culture, AAPPL, and State Seals of Biliteracy, but those contexts are applications of the proficiency-first platform rather than its identity. Guidance should remain tied to evidence of meaningful language use rather than practice completion alone.
 
 ### 5. Speaking evidence
 
@@ -111,7 +111,7 @@ The public repository intentionally explains Concordance's mission, principles, 
 
 ## What has already been built
 
-The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center architecture is accepted and its retained-identity foundation is implemented; provider admission, rights evaluation, selection, scaffolding, and public authentic-media delivery remain future work.
+The French-first platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, authentic cultural contexts, teacher analytics, assessment-preparation contexts, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center architecture is accepted and its retained-identity foundation is implemented; provider admission, rights evaluation, selection, scaffolding, and public authentic-media delivery remain future work.
 
 For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated engineering progress, see **[UPDATES.md](UPDATES.md)**.
 
