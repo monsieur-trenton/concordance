@@ -45,9 +45,11 @@ The accepted interaction-recording boundary is now complete. Current work moves 
 
 ### 3. Media Center and authentic culture
 
-The Media Center is the next major platform direction. Its architecture is accepted, but implementation and public authentic-media delivery have not begun. It will treat authentic texts, audio, video, music, journalism, literature, visual art, photography, and other cultural artifacts as first-class resources rather than decorative enrichment. Authentic culture should not be reserved for advanced learners. A beginning learner can encounter an authentic resource when the task and linguistic demand surrounding it are appropriately scaffolded.
+The Media Center is the next major platform direction. Its architecture is accepted, and the first implementation slice has established retained identity custody for exact media-resource revisions together with bounded PostgreSQL authority. This is foundational implementation, not public Media delivery. No external provider is admitted, no resource is selected for a learner, and the authentic-media path remains fail-closed.
 
-The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. The accepted architecture separates resource identity, provenance, rights-policy evidence, eligibility, current availability, and deliverability while keeping proficiency interpretation and educational decision-making in their proper layers. It admits no external provider and authorizes no delivery activation; the authentic-media path remains fail-closed until later implementation and independent verification.
+The Media Center will treat authentic texts, audio, video, music, journalism, literature, visual art, photography, and other cultural artifacts as first-class resources rather than decorative enrichment. Authentic culture should not be reserved for advanced learners. A beginning learner can encounter an authentic resource when the task and linguistic demand surrounding it are appropriately scaffolded.
+
+The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. Later slices must add governed source and rights-policy evidence, explicit provider admission, deterministic selection, current eligibility and availability evaluation, and a final deliverability gate before any public authentic-media path can open.
 
 ### 4. AP French, AAPPL, and broader proficiency preparation
 
@@ -109,7 +111,7 @@ The public repository intentionally explains Concordance's mission, principles, 
 
 ## What has already been built
 
-The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center architecture is accepted, but Media implementation and public authentic-media delivery remain future work.
+The platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, teacher analytics, AP French preparation, AAPPL-oriented expression tools, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center architecture is accepted and its retained-identity foundation is implemented; provider admission, rights evaluation, selection, scaffolding, and public authentic-media delivery remain future work.
 
 For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated engineering progress, see **[UPDATES.md](UPDATES.md)**.
 

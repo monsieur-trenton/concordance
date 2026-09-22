@@ -46,13 +46,13 @@ The Individual Learner Path, or ILP, is now implemented and accepted through its
 
 The downstream Experience Resolution boundary is also implemented and accepted for the currently supported Concordance-native practice path. It resolves a verified opportunity into a specific, revision-bound experience without allowing delivery mechanics to rewrite the educational decision. This remains an architectural and backend milestone, not a claim that every contemplated activity or learner-facing experience is finished.
 
-The Media Center now has an accepted, rights-aware architecture, but no Media Center implementation or public authentic-media delivery is claimed. That work will govern resource identity, provenance, rights, current availability, and deliverability while keeping proficiency judgment attached to tasks and scaffolds rather than to cultural resources themselves. Concordance is not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time and act on that understanding responsibly.
+The Media Center now has an accepted, rights-aware architecture, and its first implementation slice has established retained media-revision identity custody and bounded database authority. This foundation does not admit providers, select resources, assign proficiency levels, or activate public authentic-media delivery. Later work will govern source and rights evidence, current availability, deliverability, selection, and learner-facing scaffolding while keeping proficiency judgment attached to tasks and experiences rather than to cultural resources themselves. Concordance is not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time and act on that understanding responsibly.
 
 ## What sponsors are supporting
 
 Concordance is built and maintained by a practicing teacher outside the school day. The classroom keeps the project accountable to real learners and real instructional needs, while sponsorship can create the professional time needed for Concordance to grow without requiring that development time to come indefinitely from evenings and weekends with family.
 
-GitHub sponsorship is the most direct way to keep the platform available while it is still early. Sponsorship currently helps cover:
+The [GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton) is now live. Sponsorship is the most direct way to keep the platform available while it is still early and currently helps cover:
 
 - hosting, databases, storage, email, and monitoring;
 - speech recognition and text-to-speech services;
