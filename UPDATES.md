@@ -4,6 +4,42 @@ Dated updates for sponsors and anyone following along, newest first. For the ong
 
 ---
 
+## Sponsor Update: October 13, 2026
+
+### Redesigning the learner experience without outrunning the architecture
+
+Concordance has entered a new stage of its visual redesign.
+
+Recent work has moved beyond public-page concepts into an isolated learner-facing preview. The emerging design includes bilingual French and English interfaces, light and dark themes, clearer navigation, responsive layouts, visible display settings, and a more coherent visual language across learning activities.
+
+The redesign is intended to make Concordance feel like the platform it is becoming: a place for language, culture, investigation, reflection, and meaningful communication—not a conventional test-preparation application with a new coat of paint.
+
+The preview now explores learner experiences for writing, reading, listening, grammar in context, cultural inquiry, place-based discovery, practice history, assignments, and self-review. The interface uses a restrained editorial system built around warm paper tones, burgundy actions, green contextual information, amber clues, and typography that distinguishes explanatory structure from longer-form language and cultural material.
+
+This remains review work, not a production release. The redesign is being developed separately so that visual progress does not quietly change educational authority, evidence behavior, learner state, or the governed boundaries already established in LAOS. Screens shown during this stage are illustrative, and the preview does not represent a finished public learner experience.
+
+![Five Concordance visual studies representing Dakar, Montréal, Sidi Bou Saïd, Beirut, and Fort-de-France](assets/updates/concordance-five-encounters-october-2026.png)
+
+The accompanying graphic brings together five visual studies representing Dakar, Montréal, Sidi Bou Saïd, Beirut, and Fort-de-France. They express a central idea behind Concordance: language is lived in places, stories, relationships, and communities.
+
+#### A note about the images
+
+These are AI-generated concept illustrations created to explore Concordance's visual direction. As an independently built project, Concordance does not yet have the budget to commission original photography or illustration across all the Francophone communities represented here. The images are clearly labeled and are not presented as documentary photographs, authentic cultural resources, or Media Center sources.
+
+Saying that Concordance is not an AI learning product does not mean that AI can never be used as a production tool. It means that an opaque model should not decide what a learner knows, determine the learner's path, replace teacher judgment, or substitute generated material for genuine cultural encounters.
+
+Concordance is designed to preserve verifiable evidence, transparent provenance, teacher authority, learner agency, and meaningful engagement with authentic language and culture. As support grows, one goal is to replace concept imagery with licensed or commissioned work from photographers and artists connected to the places represented.
+
+That is one concrete example of what sponsorship can make possible.
+
+Support also helps cover hosting, databases, accessibility, privacy, rights-conscious media infrastructure, and the careful engineering required to turn the existing Recommendation, Individual Learner Path, Experience Resolution, and Media Center foundations into dependable learner experiences.
+
+Concordance can be supported through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn).
+
+Sponsorship does not purchase influence over educational conclusions or privileged access to learner data. It creates room to continue building the next layer without compromising the principles underneath it.
+
+---
+
 ## Sponsor Update: September 22, 2026
 
 ### A foundation for authentic media

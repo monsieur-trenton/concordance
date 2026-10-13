@@ -1,10 +1,10 @@
 # Sponsors
 
-Thank you to everyone supporting Concordance through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton).
+Thank you to everyone supporting Concordance through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) and [Patreon](https://www.patreon.com/Concordance_Learn).
 
 ## Sponsorship
 
-The [GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton) is now live and remains the source of truth for current tiers and benefits. Sponsorship helps keep Concordance available while supporting hosting, carefully controlled AI usage, accessibility, privacy, and continued educational development.
+Current support options are available through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) and [Patreon](https://www.patreon.com/Concordance_Learn). Each page remains the source of truth for its current tiers and benefits. Sponsorship helps keep Concordance available while supporting hosting, carefully controlled AI usage, accessibility, privacy, and continued educational development.
 
 Concordance is intended to remain broadly accessible while becoming sustainable enough to support careful long-term stewardship. Its purpose is meaningful participation in languages and cultures. AP French, AAPPL, and other preparation contexts are important applications of that larger proficiency-first work, not the boundary of the mission.
 
