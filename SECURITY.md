@@ -6,11 +6,12 @@ learners safe.
 
 ## Scope
 
-- This repository is the **public showcase** for Concordance. The running product lives
-  at **[concordancelearn.com](https://concordancelearn.com/)**, and the proficiency engine
-  is in a private repository.
+- This repository is the **public showcase** for Concordance. The current public product
+  experience lives at **[concordancelearn.com](https://concordancelearn.com/)**, while the
+  production application and protected LAOS evidence-reasoning architecture live in
+  private repositories.
 - Reports about the **live application** (authentication, data exposure, access control,
-  the AI Studio, etc.) are in scope and most valuable.
+  AI-assisted product surfaces, etc.) are in scope and most valuable.
 - Reports about **these public docs** (e.g. a broken or misleading link) are welcome too -
   a normal issue is fine for those.
 

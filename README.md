@@ -7,11 +7,15 @@
 **Language Culture Connection**
 
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
-[![Live Site](https://img.shields.io/badge/live%20site-concordancelearn.com-blue)](https://concordancelearn.com/)
+[![Patreon](https://img.shields.io/badge/Patreon-Concordance__Learn-f96854?logo=patreon)](https://www.patreon.com/Concordance_Learn)
+[![Public Preview](https://img.shields.io/badge/public%20preview-concordancelearn.com-blue)](https://concordancelearn.com/)
 
-**[→ Try Concordance](https://concordancelearn.com/)**  
-**[→ Why Concordance?](WHY_CONCORDANCE.md)**  
-**[→ Explore the features](FEATURES.md)**  
+**[→ Explore the current Concordance preview](https://concordancelearn.com/)**
+
+**[→ Why Concordance?](WHY_CONCORDANCE.md)**
+
+**[→ Explore the features](FEATURES.md)**
+
 **[→ See what sponsorship funds](ROADMAP.md)**
 
 ---
@@ -32,7 +36,7 @@ The goal is not to maximize time spent in an app or progress through a proprieta
 
 ## Concordance and LAOS
 
-Concordance is the first application of **LAOS — the Learner Analysis and Orchestration System**.
+Concordance is the first application of **LAOS — the Language Acquisition Operating System**.
 
 LAOS is the evidence-centered reasoning architecture beneath the platform. It provides a governed way to preserve and connect learner observations, evidence assertions, learner-state information, framework projections, recommendations, and individual learning opportunities without collapsing them into one opaque score. It separates observed learner performance from proficiency interpretation, framework mapping, recommendations, and downstream learning experiences. That makes it possible to preserve provenance, explain why guidance was produced, and improve the system without tying it permanently to one AI provider or one assessment framework. LAOS is not an automated certification authority: teachers retain professional judgment, learners retain agency and pace, and framework labels remain read-only projections rather than official credentials.
 
@@ -56,7 +60,7 @@ The Media Center now has an accepted, rights-aware architecture, and its first i
 
 Concordance is built and maintained by a practicing teacher outside the school day. The classroom keeps the project accountable to real learners and real instructional needs, while sponsorship can create the professional time needed for Concordance to grow without requiring that development time to come indefinitely from evenings and weekends with family.
 
-The [GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton) is now live. Sponsorship is the most direct way to keep the platform available while it is still early and currently helps cover:
+Concordance can now be supported through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn). Each platform is the source of truth for its current tiers and benefits. Support helps keep Concordance available while it is still early and currently helps cover:
 
 - hosting, databases, storage, email, and monitoring;
 - speech recognition and text-to-speech services;
@@ -125,9 +129,9 @@ Concordance describes its work using ACTFL, AAPPL, CEFR, and AP® terminology so
 
 ## Support the project
 
-If you believe language-learning technology should be transparent, evidence-centered, teacher-informed, and affordable, please consider **[sponsoring Concordance on GitHub](https://github.com/sponsors/monsieur-trenton)**.
+If you believe language-learning technology should be transparent, evidence-centered, teacher-informed, and affordable, please consider supporting Concordance through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn).
 
-Current sponsorship availability, tiers, and benefits belong on the **[GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton)**. Public sponsor recognition, when available, is described in **[SPONSORS.md](SPONSORS.md)**.
+Current sponsorship availability, tiers, and benefits belong on the [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) and [Patreon](https://www.patreon.com/Concordance_Learn) pages. Public sponsor recognition, when available, is described in **[SPONSORS.md](SPONSORS.md)**.
 
 ## Project documents
 
@@ -135,6 +139,7 @@ Current sponsorship availability, tiers, and benefits belong on the **[GitHub Sp
 - **[FEATURES.md](FEATURES.md)** — visual product overview.
 - **[ROADMAP.md](ROADMAP.md)** — current priorities and what sponsorship funds.
 - **[UPDATES.md](UPDATES.md)** — dated development updates.
+- **[DEMO.md](DEMO.md)** — boundaries and guidance for the time-limited product preview.
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — ways to help while the production core remains private.
 - **[SECURITY.md](SECURITY.md)** — responsible disclosure and student-data posture.
 - **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** — community expectations.

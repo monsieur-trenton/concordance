@@ -7,11 +7,11 @@ French is the first implementation, but Concordance is being built around a broa
 ## Ways to help
 
 - **Open an issue.** Bugs in the live French-first product, accessibility concerns, feature ideas, and questions about pedagogy or the public direction are welcome through [New issue](https://github.com/monsieur-trenton/concordance/issues/new/choose).
-- **Try it and give feedback.** Use the app at [concordancelearn.com](https://concordancelearn.com/) and explain what supports or obstructs meaningful learning. Feedback from learners and teachers is especially useful.
+- **Preview it and give feedback.** Explore the current public experience at [concordancelearn.com](https://concordancelearn.com/) and explain what supports or obstructs meaningful learning. Feedback from learners and teachers is especially useful; the public experience should not be assumed to represent the complete redesign or every planned capability.
 - **Share your perspective.** Language educators, serious independent learners, applied-linguistics and learning-science researchers, accessibility specialists, and cultural or language experts can all identify assumptions the project should examine.
 - **Use the in-app feature board.** Signed-in users can help inform product priorities. Voting is one source of evidence, not a promise that popularity alone determines what is built next.
 - **Share Concordance** with a learner, educator, researcher, language program, or potential collaborator who values communication, culture, evidence, and responsible educational technology.
-- **[Sponsor the work](https://github.com/sponsors/monsieur-trenton).** Sponsorship supports infrastructure, speech and language services, accessibility, privacy, cultural and linguistic expertise, and the time required to build the roadmap carefully. See [ROADMAP.md](ROADMAP.md) for current priorities.
+- **Support the work through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn).** Support helps cover infrastructure, speech and language services, accessibility, privacy, cultural and linguistic expertise, and the time required to build the roadmap carefully. See [ROADMAP.md](ROADMAP.md) for current priorities.
 
 ## Documentation pull requests
 

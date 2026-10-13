@@ -1,6 +1,6 @@
 # Concordance Features — Language, Culture, and Evidence
 
-**[→ Explore Concordance](https://concordancelearn.com/)**
+**[→ Preview the current Concordance site](https://concordancelearn.com/)**
 
 Concordance Learn is an evidence-informed language-learning platform for serious learners and teachers. Its purpose is to help people become more capable, confident, and independent participants in another language and culture—not simply to complete a course, accumulate points, or prepare for one examination.
 
@@ -16,7 +16,7 @@ The anonymous public tours provide a safe overview of student and teacher experi
 
 ## Getting a demo link
 
-Student-facing features are best explored through a **2-hour read-only demo session**. The demo requires no signup and saves no data. **[Request a demo link](https://concordancelearn.com/request-demo)** to receive a single-use link by email. See **[DEMO.md](DEMO.md)** for the walkthrough.
+A selected student-facing experience can be explored through a **2-hour read-only demo session**. The demo requires no normal learner account and does not create a persistent learner record. **[Request a demo link](https://concordancelearn.com/request-demo)** for time-limited access. See **[DEMO.md](DEMO.md)** for the boundaries and walkthrough.
 
 The demo shows selected product behavior, not private learner records or the complete future architecture. Some first-login experiences, including Point de départ, may be skipped or pre-calibrated.
 
@@ -161,10 +161,12 @@ Implementation does not imply universal public availability, complete pedagogica
 
 ### In development or future direction
 
+- an isolated learner-facing redesign preview, followed by a cleanup-gated production migration across the full site;
 - learner-facing expansion of governed individual opportunities;
 - later Media Center rights, provider-admission, selection, availability, deliverability, and scaffolding layers;
 - richer teacher-facing evidence and guidance experiences;
-- Language Specialist Workspace capabilities;
+- Operations Health Center capabilities after the redesign migration;
+- Linguistic Specialist UI capabilities after the Operations Health Center;
 - governed research and validation infrastructure;
 - future ILR framework projection work; and
 - additional languages developed with appropriate linguistic, pedagogical, and community expertise.
@@ -200,6 +202,6 @@ For a two-hour demo, explore:
 
 Concordance is built and maintained by a practicing teacher. Sponsorship helps cover infrastructure, carefully controlled AI usage, accessibility, privacy, cultural and language expertise, and the time required to move from sound foundations to dependable learner-facing experiences.
 
-**[Sponsor Concordance on GitHub →](https://github.com/sponsors/monsieur-trenton)**
+Support Concordance through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn).
 
 See **[ROADMAP.md](ROADMAP.md)** for current priorities and what sponsorship funds next.
