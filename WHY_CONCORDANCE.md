@@ -20,7 +20,7 @@ Concordance asks another question first:
 
 **What does the evidence actually tell us about this learner?**
 
-At the center of Concordance is LAOS, the Learner Analysis and Orchestration System. Its purpose is to build an evidence-grounded understanding of what a learner has demonstrated before making recommendations about what might help next.
+At the center of Concordance is LAOS, the Language Acquisition Operating System. Its purpose is to build an evidence-grounded understanding of what a learner has demonstrated before making recommendations about what might help next.
 
 At a high level:
 
@@ -46,9 +46,11 @@ The system provides guidance without pretending there is one compulsory path eve
 
 ## Teachers remain teachers
 
-Artificial intelligence can analyze evidence, identify patterns, provide practice, and make recommendations.
+Artificial intelligence can assist with bounded analysis, identify patterns, provide practice, and help draft recommendations.
 
 It does not become the teacher.
+
+Nor does a model create educational truth merely by producing an analysis. Learner evidence, evidence assertions, learner state, and framework interpretations remain governed parts of Concordance rather than conclusions an external provider may write directly.
 
 Teachers possess knowledge that an algorithm may never see: classroom context, relationships, curriculum, individual circumstances, upcoming assessments, and professional judgment.
 

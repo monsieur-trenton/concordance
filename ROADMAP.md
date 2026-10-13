@@ -4,7 +4,7 @@ This roadmap is the honest version of **what sponsorship funds**.
 
 Concordance is built and maintained by a practicing French teacher outside the school day. Its classroom origins keep the project accountable to real learners without defining Concordance solely by one course or examination. Sponsorship does not purchase a promised feature date. It keeps the platform operating, creates room for careful development, and helps protect free or low-cost access for learners and public-school educators.
 
-Tier details and benefits live on the **[GitHub Sponsors page](https://github.com/sponsors/monsieur-trenton)**, which is the source of truth.
+Tier details and benefits live on the [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) and [Patreon](https://www.patreon.com/Concordance_Learn) pages. Each platform is the source of truth for its current offering.
 
 ---
 
@@ -29,9 +29,22 @@ Concordance has implemented a substantial governed path from learner evidence to
 The Recommendation Engine and Individual Learner Path runtimes are implemented and accepted through their intended boundaries. The ILP can construct governed individual learning opportunities while preserving recommendation rank and provenance, teacher authority, learner agency, and learner-owned pace. Its append-only interaction ledger records permitted learner actions without converting them into proficiency or motivation judgments.
 
 Downstream Experience Resolution is also implemented and accepted for the currently supported Concordance-native practice path. It can bind a verified opportunity to a specific content revision and produce a learner-safe launch projection without reranking recommendations, substituting educational targets, or mutating learner state. This is backend infrastructure, not a claim that every delivery modality or complete learner-facing experience is finished. Authentic media, broader activity families, execution, grading, and new evidence creation remain separately governed concerns.
+
+## Approved delivery sequence
+
+The current sequence is:
+
+1. continue the Media Center beyond its retained-identity and database-authority foundation;
+2. pass a cleanup and integration gate before migrating major interface work;
+3. complete and migrate the total product redesign;
+4. build the Operations Health Center; and
+5. develop the Linguistic Specialist UI on top of the redesigned product system.
+
+An isolated learner-facing redesign preview is already being developed in a separate workspace. It is useful design work, but it does not bypass this production sequence or imply that the redesigned interface is released. Migration must preserve existing educational authority, evidence behavior, learner state, privacy boundaries, and accepted LAOS contracts.
+
 ---
 
-## Current product focus
+## Current priorities and product directions
 
 ### 1. Learner Evidence Profile
 
@@ -51,17 +64,27 @@ The Media Center will treat authentic texts, audio, video, music, journalism, li
 
 The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. Later slices must add governed source and rights-policy evidence, explicit provider admission, deterministic selection, current eligibility and availability evaluation, and a final deliverability gate before any public authentic-media path can open.
 
-### 4. Communicative proficiency and learner goals
+### 4. Cleanup gate and total product redesign
+
+Before the redesigned interface is migrated into the production application, Concordance will use a cleanup and integration gate to reduce avoidable coupling, confirm supported product paths, and protect the accepted educational boundaries already established in LAOS.
+
+The separate redesign preview currently explores bilingual French and English interfaces, light and dark themes, responsive layouts, clearer navigation, visible display settings, and a more coherent visual language across learner activities. It remains review work rather than a production release. The eventual migration is intended to encompass the full site and shared branding system, not only a new landing page.
+
+### 5. Communicative proficiency and learner goals
 
 Concordance's first implementation is French, with communicative development across interpretive, interpersonal, and presentational modes. Learners may be preparing for academic or professional work, travel, heritage connection, literature and media, relationships, or lifelong learning. Current preparation contexts include AP French Language and Culture, AAPPL, and State Seals of Biliteracy, but those contexts are applications of the proficiency-first platform rather than its identity. Guidance should remain tied to evidence of meaningful language use rather than practice completion alone.
 
-### 5. Speaking evidence
+### 6. Speaking evidence
 
 Speaking is essential to communicative proficiency and cannot be inferred responsibly from writing alone. Current and planned work includes reliable transcription, pronunciation and fluency evidence, graded speaking tasks, conversational elicitation of missing evidence, and careful separation between raw transcription, evidence assertions, and proficiency interpretation.
 
-### 6. Operations Health Center
+### 7. Operations Health Center
 
-After the Media Center, Concordance plans an Operations Health Center to make sustainability measurable. It should track API and provider usage, identify unusually expensive usage patterns, estimate per-user and total monthly operating costs, and help enforce budgets and cost discipline without turning learner activity into unnecessary surveillance.
+After the Media Center, cleanup gate, and production redesign, Concordance plans an Operations Health Center to make sustainability measurable. It should track API and provider usage, identify unusually expensive usage patterns, estimate per-user and total monthly operating costs, and help enforce budgets and cost discipline without turning learner activity into unnecessary surveillance.
+
+### 8. Linguistic Specialist UI
+
+After the shared redesign and Operations Health Center, Concordance plans a dedicated interface for qualified linguistic and cultural specialists. The role should support bounded review, provenance, variation, and stewardship without treating any contributor as universally authoritative or granting direct authority over learner evidence or state. Detailed workflow and onboarding design remain future work.
 
 ---
 
@@ -120,5 +143,6 @@ For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated eng
 ## Support or participate
 
 - **[Sponsor the project](https://github.com/sponsors/monsieur-trenton)** to help cover infrastructure and responsible development.
+- **[Support Concordance on Patreon](https://www.patreon.com/Concordance_Learn)** for another way to sustain the work.
 - **[Open an issue](https://github.com/monsieur-trenton/concordance/issues/new/choose)** with a pilot, research, partnership, or feature idea.
 - Review **[CONTRIBUTING.md](CONTRIBUTING.md)** for ways to help while the production core remains private.

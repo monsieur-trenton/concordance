@@ -1,6 +1,6 @@
-# Try Concordance — 2-Hour Free Demo
+# Preview Concordance — 2-Hour Read-Only Demo
 
-Thank you for your interest in Concordance. The free, read-only demo lets you explore the platform before deciding whether to sponsor or partner with the project.
+Thank you for your interest in Concordance. The time-limited, read-only demo provides a selected preview of the current product while the broader learner experience and redesign remain in development. It is not a claim that the full platform or redesigned interface is production-complete.
 
 ## What the demo shows
 
@@ -77,12 +77,14 @@ AI can assist with dialogue, feedback, and draft content. Teachers retain judgme
 
 ### A foundation still being built
 
-Concordance has an accepted architecture for connecting evidence, learner understanding, framework interpretation, and future instructional guidance. The Recommendation Engine runtime is the next engineering phase, and the Individual Learner Path remains an upcoming learner-facing direction.
+Concordance now has implemented and accepted Recommendation and Individual Learner Path runtimes through their intended backend boundaries. Bounded Experience Resolution is also implemented and accepted for the currently supported Concordance-native practice path, and the first Media Center implementation slice has established retained media-revision identity custody and bounded database authority.
+
+These are architectural and backend milestones. They do not mean that every individual opportunity, delivery modality, authentic-media experience, or redesigned learner interface is available in this demo. The current redesign remains an isolated preview, and public authentic-media delivery remains closed pending later rights, provider-admission, selection, availability, deliverability, and scaffolding work.
 
 ## Questions and support
 
 - **Technical issues:** contact [support@concordancelearn.com](mailto:support@concordancelearn.com).
 - **Pedagogy:** see the [Framework page](https://concordancelearn.com/framework).
-- **Sponsorship:** visit [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton).
+- **Sponsorship:** visit [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn).
 
 We believe language learning should be built on real pedagogy, meaningful communication, and respect for teacher and learner judgment.
