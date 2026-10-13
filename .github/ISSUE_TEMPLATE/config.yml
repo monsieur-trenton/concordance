@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: 🌐 Try Concordance
+  - name: 🌐 Preview Concordance
     url: https://concordancelearn.com/
-    about: Use the live app before filing — it's the best way to see what's already there.
-  - name: 📖 The proficiency framework
+    about: Explore the current public experience before filing; it does not represent every planned capability or the complete redesign.
+  - name: 📖 Evidence and proficiency
     url: https://concordancelearn.com/framework
-    about: How exercises and progress map to ACTFL / AAPPL / CEFR, in plain language.
-  - name: 💖 Sponsor Concordance
-    url: https://github.com/sponsors/monsieur-trenton
-    about: Fund hosting, API costs, and the time to build the roadmap — keeps the platform free for students and public schools.
+    about: How demonstrated communication informs evidence and ACTFL / CEFR perspectives, with assessment contexts kept distinct.
+  - name: 💖 Support Concordance
+    url: https://github.com/monsieur-trenton/concordance/blob/main/SPONSORS.md
+    about: Help sustain infrastructure and careful development while protecting broad, affordable access.

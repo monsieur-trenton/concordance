@@ -1,5 +1,5 @@
 name: 💡 Feature idea
-description: Suggest something Concordance should do — sponsor input genuinely shapes the roadmap.
+description: Suggest a learning, teaching, accessibility, or stewardship improvement for Concordance.
 title: "[Idea]: "
 labels: ["enhancement"]
 body:
@@ -38,7 +38,7 @@ body:
   - type: textarea
     id: pedagogy
     attributes:
-      label: Pedagogical grounding (optional)
-      description: If this ties to ACTFL, AAPPL, CEFR, AP, or a classroom practice, mention it — it helps prioritize.
+      label: Learning or cultural grounding (optional)
+      description: If this ties to communication, culture, accessibility, a classroom practice, learner goals, or a proficiency or assessment framework, explain the connection.
     validations:
       required: false
