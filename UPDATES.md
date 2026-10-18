@@ -4,6 +4,43 @@ Dated updates for sponsors and anyone following along, newest first. For the ong
 
 ---
 
+## Sponsor Update: October 18, 2026
+
+### A clearer learning experience, with room for advanced communication
+
+Concordance's website redesign is growing into a more connected experience for learners and teachers. Alongside clearer navigation, bilingual French and English interfaces, light and dark themes, and layouts designed for smaller screens, the work is expanding how learners investigate language, develop a response, receive feedback, and revise.
+
+The goal is to make language study useful across a wider range of purposes: everyday exchange, cultural inquiry, sustained reading, study, and professional communication.
+
+#### Improvements taking shape
+
+- **Grammar through meaning and context.** Expanded practice connects forms to what a speaker or writer intends. Learners can compare interpretations, investigate a passage, consult optional explanations, and revise while retaining their work. The growing practice set includes pronoun reference, narrative time, hypotheses, and choices of mood and register.
+- **A more coherent writing journey.** Writing, saved versions within the preview, feedback, and revision are connected more clearly. A new professional communication pilot links a fictional job advertisement, a tailored cover letter, an application email, and a changed follow-up request. The emphasis is on relevant detail, audience, register, and a clear purpose.
+- **More useful teacher review.** Teachers can choose holistic, detailed, or combined feedback, comment on an exact word or passage, and compare a revision with the earlier text and feedback. Comments remain attached to the version reviewed, and unfinished annotations are preserved.
+- **Clearer classroom organization.** Class overviews, assignment search and reuse, individual deadline extensions, and private follow-up notes are being brought into the same design system so teachers can move between an overview and the work that needs attention.
+
+These interactions currently run in an isolated design preview using illustrative material and visit-local state. They are not yet a released, connected classroom service.
+
+#### Expanding toward C1 (Advanced) communication
+
+The redesign now includes initial activities proposed at CEFR C1, extending the experience beyond shorter, more constrained practice. The current pilots explore narrative viewpoint, shifts between past and present narration, and sustained reading of connected documents. Learners investigate who is speaking, how events relate, what a source actually supports, and how to reformulate meaning for a particular reader.
+
+C1 is a communication goal, not a checklist of rare verb forms. The direction is toward more sustained interpretation and expression, greater precision, and thoughtful choices about audience, register, and perspective. Professional writing adds another practical setting for that broader ambition.
+
+These are initial authored pilots with proposed teaching placements. They do not constitute a complete C1 curriculum, validate an attained learner level, or establish an ACTFL equivalence.
+
+#### Plans for C2
+
+A proposed catalogue also outlines future C2 work: interpreting ambiguity and implicit meaning; distinguishing a source's position from a writer's own commitment; reformulating dense information without losing nuance; and adapting language across conversation, professional writing, academic work, and documented Francophone varieties.
+
+Those outlines still need detailed authoring, source review, activity development, and validation. Marked or literary forms are planned as optional contextual extensions, rather than a requirement to use unusual language in every situation. C2 remains planned work, with no release date promised.
+
+The full redesign will move into production through the established Media Center, cleanup, and integration sequence. Throughout that work, Concordance's purpose remains meaningful participation in languages and cultures, supported by verifiable evidence, teacher judgment, and learner agency.
+
+Support through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn) helps sustain the development time, infrastructure, accessibility work, and careful content review needed to turn these previews into dependable experiences.
+
+---
+
 ## Sponsor Update: October 13, 2026
 
 ### Redesigning the learner experience without outrunning the architecture
