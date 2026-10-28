@@ -118,6 +118,7 @@ It is easier to open more of the system later than to recover ownership of code 
 5. **Gamification serves pedagogy.** Engagement mechanics are tools, not product objectives.
 6. **Cost discipline is part of access.** The platform should call external AI services only when they add meaningful pedagogical value.
 7. **Learner attention is earned.** Concordance should maximize meaningful participation in the target language, not dependence on the platform.
+8. **Learning extends beyond Concordance.** Time away from the application is not a learning failure. Learners should be able to return without penalty, bring new cultural interests into their next opportunities, and have their real-world experiences respected without treating self-report as proof of proficiency.
 
 The same boundaries guide future recommendations: evidence informs what the system understands, while learner goals, learner choices, teacher guidance, and educational context shape what happens next. Individualized learning is not intended to mean a compulsory, machine-predicted route.
 
