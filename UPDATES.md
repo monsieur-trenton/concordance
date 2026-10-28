@@ -4,6 +4,56 @@ Dated updates for sponsors and anyone following along, newest first. For the ong
 
 ---
 
+## Sponsor Update: October 28, 2026
+
+### Finding your starting point and taking French beyond Concordance
+
+Recent work on Concordance has focused on how learners begin, how they receive useful guidance, and how that guidance connects with the lives they lead beyond the platform.
+
+The emerging first-time learner experience for the **Individual Learner Path, or ILP**, brings those questions together.
+
+Someone arriving at Concordance may be beginning French, returning after years away, preparing for study or work, or following a cultural interest. The starting experience should acknowledge that context while being honest about what the platform can actually conclude.
+
+Prior study and personal experience matter. They can help shape interests and choices. Understanding what someone has demonstrated, however, requires evidence. When that evidence is missing, Concordance should say “we don’t know yet” and offer a useful way to begin.
+
+The ILP is intended to connect that understanding with meaningful opportunities: recommendations with understandable reasons, teacher-assigned work where applicable, and room for learners to pursue their own goals. The first-time interface is still taking shape, and connecting it carefully to the existing foundations remains ongoing work.
+
+#### Learning continues when you leave the application
+
+We have also made an important commitment explicit in Concordance’s public philosophy: **learning extends beyond Concordance**.
+
+Imagine a learner spending time in Senegal, encountering French and Wolof in everyday life, and returning curious about Senegalese music, journalism, literature, or multilingual expression. Time away from the application may have opened an entirely new direction for learning.
+
+Concordance should welcome that return. A break in platform activity should never, by itself, be treated as evidence that someone’s proficiency has declined.
+
+Those new interests should eventually help guide discovery through the planned Media Center, with appropriately sourced and rights-governed resources. A learner’s account of an experience can inform what they want to explore; conclusions about demonstrated ability still need the governed evidence process.
+
+The purpose is meaningful participation in languages and cultures. Concordance should help people become more independent participants in that world.
+
+#### Making feedback useful
+
+The redesign is developing the practical connections that support this purpose. Recent bounded rehearsal work has connected writing drafts, submissions, version-specific teacher comments, and revisions.
+
+Teachers can offer holistic feedback, detailed passage comments, or both. Learners can revisit earlier feedback and understand which version it addressed. Contextual grammar and professional writing previews are also expanding opportunities to investigate meaning, consider an audience, and revise with a clear purpose.
+
+The broader redesign and complete first-time ILP journey remain in development.
+
+#### An infrastructure setback
+
+Railway, the hosting service used for Concordance’s backend and development rehearsal, experienced a significant disruption associated with its October 21 security incident. Build and deployment interruptions affected the infrastructure Concordance depends on to put changes online for verification.
+
+That disrupted the normal development workflow. Building around a teaching schedule means that lost deployment windows matter, even when work can continue elsewhere.
+
+It also illustrates an easily overlooked part of an independent educational project: dependable hosting, careful verification, maintenance, and recovery work all require time alongside the visible features.
+
+Your support helps sustain that work and the larger ambition behind it: understandable guidance, thoughtful teaching tools, learner independence, and closer engagement with living languages and cultures.
+
+Thank you for helping Concordance grow carefully.
+
+John
+
+---
+
 ## Sponsor Update: October 18, 2026
 
 ### A clearer learning experience, with room for advanced communication
