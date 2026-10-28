@@ -44,6 +44,16 @@ Concordance can recommend opportunities based on evidence, teachers can provide 
 
 The system provides guidance without pretending there is one compulsory path everyone should follow.
 
+## Learning extends beyond Concordance
+
+Concordance recognizes that meaningful language development occurs through experiences, relationships, and cultural participation beyond the platform. Learners should be free to leave, explore, and return without penalty. When they return, their new interests and experiences can inform future learning opportunities without being mistaken for demonstrated proficiency.
+
+A learner might pause Concordance while traveling in Senegal, encounter French and Wolof in everyday life, and return curious about Senegalese music, journalism, literature, or multilingual expression. That is not a failed learning streak. It is exactly the kind of encounter with living languages and cultures that Concordance seeks to encourage. The planned Media Center should eventually help learners explore such interests through appropriately sourced, rights-governed resources.
+
+Learner-reported interests and experiences can guide discovery and the learner's choice of opportunities. They must not by themselves become LAOS observations, evidence assertions, or changes to learner state; conclusions about demonstrated capability still require the governed evidence process. A break in platform activity must not be treated as evidence that proficiency has declined.
+
+**Concordance succeeds not by maximizing time spent in the application, but by helping learners participate more meaningfully in the languages and cultures they encounter.**
+
 ## Teachers remain teachers
 
 Artificial intelligence can assist with bounded analysis, identify patterns, provide practice, and help draft recommendations.
