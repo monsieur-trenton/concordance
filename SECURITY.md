@@ -38,6 +38,10 @@ backed by an SLA. That said:
 - Please give a reasonable window to ship a fix before any public disclosure, and avoid
   accessing or modifying data that isn't yours while testing.
 
+## Intended audience and Media Center age policy
+
+Concordance is not intended for learners under 13. The approved policy direction requires age declaration at sign-up and restricts Media Center access until age is declared. Media suitability is to be triaged for learners aged 17 and under, adults aged 18 and over, and undetermined age. Age suitability is separate from proficiency. These are approved requirements, not a claim that enforcement has been verified in production.
+
 ## Student-data posture
 
 Concordance is designed around **FERPA, COPPA, PPRA (US)** and **GDPR (EU)** considerations,

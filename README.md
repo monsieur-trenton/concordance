@@ -2,9 +2,11 @@
 
 # Concordance
 
+Current-reference review: November 1, 2026. Source milestones do not establish production availability.
+
 **The proficiency operating system for serious language learners and teachers.**
 
-**Language Culture Connection**
+**Language • Culture • Connection**
 
 [![Sponsor](https://img.shields.io/badge/sponsor-monsieur--trenton-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/monsieur-trenton)
 [![Patreon](https://img.shields.io/badge/Patreon-Concordance__Learn-f96854?logo=patreon)](https://www.patreon.com/Concordance_Learn)
@@ -54,7 +56,7 @@ The Individual Learner Path, or ILP, is now implemented and accepted through its
 
 The downstream Experience Resolution boundary is also implemented and accepted for the currently supported Concordance-native practice path. It resolves a verified opportunity into a specific, revision-bound experience without allowing delivery mechanics to rewrite the educational decision. This remains an architectural and backend milestone, not a claim that every contemplated activity or learner-facing experience is finished.
 
-The Media Center now has an accepted, rights-aware architecture, and its first implementation slice has established retained media-revision identity custody and bounded database authority. This foundation does not admit providers, select resources, assign proficiency levels, or activate public authentic-media delivery. Later work will govern source and rights evidence, current availability, deliverability, selection, and learner-facing scaffolding while keeping proficiency judgment attached to tasks and experiences rather than to cultural resources themselves. Concordance is not fundamentally a chatbot that teaches languages or a system that decides exactly what every learner must do next. It is being built as educational infrastructure that helps learners and teachers understand demonstrated communication over time and act on that understanding responsibly.
+Media Center source implementation now extends beyond retained media-revision identity and bounded database authority into rights-policy, eligibility, availability, deliverability, and resolution-authority foundations. Source presence does not establish completed qualification, deployment, or production activation. No external provider is admitted through the supported path, and public authentic-media resolution and preview remain closed. Remaining work includes completing and qualifying downstream selection, launch, delivery, and learner-facing scaffolding while keeping proficiency judgment attached to tasks and experiences rather than to cultural resources themselves.
 
 ## What sponsors are supporting
 
@@ -91,8 +93,8 @@ As LAOS matures, more reasoning can be handled through deterministic evidence lo
 
 ### For teachers
 
-- A Learner Evidence Profile that separates observations, instructional targets, and framework interpretations.
-- Transparent evidence strength, provenance, uncertainty, and contestation workflows.
+Existing teacher views support class and learner patterns and targeted practice. The coherent Learner Evidence Profile, fuller provenance and uncertainty displays, and contestation workflows remain development goals; the complete workflow is not established as released.
+
 - Class-level patterns and targeted support without surrendering professional judgment.
 - Teacher-reviewed content generation and proficiency-aligned practice support.
 - Support for communicative instruction and assessment preparation as parts of a broader language-and-culture program.

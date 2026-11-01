@@ -9,6 +9,10 @@ body:
         Thanks for reporting. **Do not** report security vulnerabilities here — use
         [private reporting](https://github.com/monsieur-trenton/concordance/security)
         instead (see [SECURITY.md](https://github.com/monsieur-trenton/concordance/blob/main/SECURITY.md)).
+        Public reports must not include student names, email addresses, identifiable work,
+        recordings, account details, passwords, or demo/access tokens. Describe the steps
+        and include a redacted screenshot if useful. Send sensitive examples privately
+        to support@concordancelearn.com; report vulnerabilities through private reporting.
   - type: textarea
     id: what-happened
     attributes:
