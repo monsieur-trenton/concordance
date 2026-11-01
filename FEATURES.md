@@ -1,5 +1,7 @@
 # Concordance Features — Language, Culture, and Evidence
 
+Current-reference review: November 1, 2026. Source milestones do not establish production availability.
+
 **[→ Preview the current Concordance site](https://concordancelearn.com/)**
 
 Concordance Learn is an evidence-informed language-learning platform for serious learners and teachers. Its purpose is to help people become more capable, confident, and independent participants in another language and culture—not simply to complete a course, accumulate points, or prepare for one examination.
@@ -16,7 +18,7 @@ The anonymous public tours provide a safe overview of student and teacher experi
 
 ## Getting a demo link
 
-A selected student-facing experience can be explored through a **2-hour read-only demo session**. The demo requires no normal learner account and does not create a persistent learner record. **[Request a demo link](https://concordancelearn.com/request-demo)** for time-limited access. See **[DEMO.md](DEMO.md)** for the boundaries and walkthrough.
+A selected student-facing experience can be explored through a **2-hour read-only demo session**. The demo requires no new personal learner account. Access-request and session metadata are distinct from personal learning history. **[Request a demo link](https://concordancelearn.com/request-demo)** for time-limited access. See **[DEMO.md](DEMO.md)** for the boundaries and walkthrough.
 
 The demo shows selected product behavior, not private learner records or the complete future architecture. Some first-login experiences, including Point de départ, may be skipped or pre-calibrated.
 
@@ -88,7 +90,7 @@ The Cultural Adventure Hub and related experiences place French in recognizable 
 
 The longer-term Media Center direction treats texts, audio, video, music, journalism, literature, visual art, photography, and other cultural artifacts as first-class resources. Authentic culture should not be reserved for advanced learners: educational demand belongs to the task and scaffold, not to an intrinsic level assigned to the resource.
 
-The accepted Media Center architecture and first retained-identity implementation slice establish part of the foundation for this work. No external provider is currently admitted through that slice, and public authentic-media delivery remains closed pending later rights, selection, availability, deliverability, and learner-scaffolding work.
+Media Center source implementation now extends beyond retained media-revision identity and bounded database authority into rights-policy, eligibility, availability, deliverability, and resolution-authority foundations. Source presence does not establish completed qualification, deployment, or production activation. No external provider is admitted through the supported path, and public authentic-media resolution and preview remain closed.
 
 ### Portfolio and bilingual access
 
@@ -98,7 +100,7 @@ The portfolio brings together selected work and progress over time rather than p
 
 ### Teacher Hub and Learner Evidence Profiles
 
-The teacher experience is intended to make learner development understandable from evidence rather than from an opaque total score. Teacher views can include:
+The teacher experience is intended to make learner development understandable from evidence rather than from an opaque total score. The coherent Learner Evidence Profile remains a development goal. Existing teacher analytics and targeted-practice views are foundations for it; the full provenance and contestation workflow is not established as released. The intended profile should include:
 
 - class and learner progress patterns;
 - instructional targets and estimated proficiency context;
@@ -155,7 +157,7 @@ Subject to role and rollout availability, the current product includes practice,
 - Recommendation Engine runtime;
 - Individual Learner Path runtime and governed opportunity access;
 - bounded Experience Resolution for the supported Concordance-native practice path; and
-- the first Media Center retained-identity and database-authority slice.
+- Media Center source foundations for retained identity, rights-policy evaluation, and resolution authority, with qualification and operational status kept distinct.
 
 Implementation does not imply universal public availability, complete pedagogical validation, official framework certification, or support for every contemplated delivery path.
 
@@ -163,7 +165,7 @@ Implementation does not imply universal public availability, complete pedagogica
 
 - an isolated learner-facing redesign preview, followed by a cleanup-gated production migration across the full site;
 - learner-facing expansion of governed individual opportunities;
-- later Media Center rights, provider-admission, selection, availability, deliverability, and scaffolding layers;
+- qualification of Media Center policy and authority foundations, followed by remaining provider-admission, selection, launch, delivery, and scaffolding work;
 - richer teacher-facing evidence and guidance experiences;
 - Operations Health Center capabilities after the redesign migration;
 - Linguistic Specialist UI capabilities after the Operations Health Center;
@@ -181,6 +183,8 @@ Concordance is an independent project and is not affiliated with, sponsored by, 
 
 ## Privacy and responsible operation
 
+Concordance is intended for learners aged 13 and older. See [SECURITY.md](SECURITY.md) for the approved age-declaration and Media Center suitability requirements and their verification boundary.
+
 Concordance is designed around educational privacy, data minimization, human review, learner isolation, and appropriate control over student records. Student data is not used for advertising, and ordinary activity should not silently become evidence merely because it can be collected.
 
 Administrative and operational safeguards support the product, but they are not the educational story. Concordance exists to help people participate more meaningfully in languages and cultures and to help teachers understand development without surrendering judgment.
@@ -191,10 +195,10 @@ See the **[Security & Privacy Policy](SECURITY.md)** for the published data-prot
 
 For a two-hour demo, explore:
 
-1. **Practice** — try several activity types and read the explanations;
-2. **Conversation Partner** — have a short French dialogue;
+1. **Practice** — browse available activity types and explanations;
+2. **Conversation Partner** — inspect the available interface and examples;
 3. **Cultural Scenarios** — explore a Francophone context;
-4. **Speaking or Writing** — submit a short response and review feedback;
+4. **Speaking or Writing** — inspect available task instructions, examples, and existing feedback;
 5. **Focus Areas** — inspect how recurring needs are presented; and
 6. **Portfolio** — review progress over time.
 

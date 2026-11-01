@@ -1,6 +1,16 @@
 # Updates
 
-Dated updates for sponsors and anyone following along, newest first. For the ongoing feature list (undated, always current), see **[ROADMAP.md](ROADMAP.md)**.
+Dated updates for sponsors and anyone following along, newest first. For current-reference priorities and status, see **[ROADMAP.md](ROADMAP.md)**.
+
+---
+
+## Documentation clarification: November 1, 2026
+
+Earlier entries below describe progress and terminology at their publication dates. They are preserved as historical updates, not current availability guarantees.
+
+The July 2026 safety description expresses a design goal: beginner language errors should not be treated as misconduct, and flags require human review. Automated review can make mistakes; the earlier wording that a struggling learner is never mistaken for a problem should not be read as a guarantee.
+
+The July capstone description concerns a bounded product progression checkpoint. Passing a checkpoint does not establish comprehensive communicative proficiency or official certification. Governed evidence, uncertainty, framework interpretation, and teacher judgment remain distinct.
 
 ---
 

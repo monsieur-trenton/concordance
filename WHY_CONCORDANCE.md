@@ -6,7 +6,7 @@ People learn languages to communicate, participate in cultures, build relationsh
 
 Concordance is being built around that reality.
 
-It is an evidence-informed language-learning platform for people who want to take their linguistic and cultural journey seriously. It is accessible to anyone, from a complete beginner to an advanced learner, but it is not designed around streaks, engagement loops, or keeping people inside an app for as long as possible.
+It is an evidence-informed language-learning platform for people who want to take their linguistic and cultural journey seriously. It is intended for learners aged 13 and older, from complete beginners to advanced learners, but it is not designed around streaks, engagement loops, or keeping people inside an app for as long as possible.
 
 The goal is **proficiency, independence, and meaningful communication**.
 
@@ -56,7 +56,7 @@ Learner-reported interests and experiences can guide discovery and the learner's
 
 ## Teachers remain teachers
 
-Artificial intelligence can assist with bounded analysis, identify patterns, provide practice, and help draft recommendations.
+Artificial intelligence can supply bounded findings and draft practice material for appropriate review. Governed Concordance services produce educational recommendations. Only LAOS creates learning observations, and only EvidenceAssertionService creates evidence assertions; external providers do not create either or directly update learner state.
 
 It does not become the teacher.
 
@@ -128,7 +128,7 @@ Our goal is **responsible openness**: enough transparency to make our educationa
 
 ## Who is Concordance for?
 
-Concordance is accessible to anyone who wants to learn.
+Concordance is intended for learners aged 13 and older who want to learn, subject to current access and rollout availability.
 
 But it is especially being built for **intentional learners**.
 

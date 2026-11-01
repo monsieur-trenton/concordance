@@ -1,5 +1,7 @@
 # Roadmap
 
+Current-reference review: November 1, 2026. Source milestones do not establish production availability.
+
 This roadmap is the honest version of **what sponsorship funds**.
 
 Concordance is built and maintained by a practicing French teacher outside the school day. Its classroom origins keep the project accountable to real learners without defining Concordance solely by one course or examination. Sponsorship does not purchase a promised feature date. It keeps the platform operating, creates room for careful development, and helps protect free or low-cost access for learners and public-school educators.
@@ -34,7 +36,7 @@ Downstream Experience Resolution is also implemented and accepted for the curren
 
 The current sequence is:
 
-1. continue the Media Center beyond its retained-identity and database-authority foundation;
+1. continue Media Center qualification and downstream implementation while public authentic-media access remains closed;
 2. pass a cleanup and integration gate before migrating major interface work;
 3. complete and migrate the total product redesign;
 4. build the Operations Health Center; and
@@ -58,11 +60,13 @@ The accepted interaction-recording boundary is now complete. Current work moves 
 
 ### 3. Media Center and authentic culture
 
-The Media Center is the next major platform direction. Its architecture is accepted, and the first implementation slice has established retained identity custody for exact media-resource revisions together with bounded PostgreSQL authority. This is foundational implementation, not public Media delivery. No external provider is admitted, no resource is selected for a learner, and the authentic-media path remains fail-closed.
+The Media Center is the next major platform direction. Its architecture is accepted. Media Center source implementation now extends beyond retained media-revision identity and bounded database authority into rights-policy, eligibility, availability, deliverability, and resolution-authority foundations. Source presence does not establish completed qualification, deployment, or production activation. No external provider is admitted through the supported path, and public authentic-media resolution and preview remain closed.
 
 The Media Center will treat authentic texts, audio, video, music, journalism, literature, visual art, photography, and other cultural artifacts as first-class resources rather than decorative enrichment. Authentic culture should not be reserved for advanced learners. A beginning learner can encounter an authentic resource when the task and linguistic demand surrounding it are appropriately scaffolded.
 
-The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. Later slices must add governed source and rights-policy evidence, explicit provider admission, deterministic selection, current eligibility and availability evaluation, and a final deliverability gate before any public authentic-media path can open.
+The resource itself does not receive a proficiency level. Educational and linguistic demand belongs to the governed task, scaffold, or experience around the resource. Existing policy and authority source still requires the applicable qualification and operational gates. Remaining work must complete downstream selection and delivery, require explicit provider admission, and enforce current eligibility, availability, and deliverability before public access can open.
+
+Concordance is not intended for learners under 13. The approved policy direction requires age declaration at sign-up and restricts Media Center access until age is declared. Media suitability is to be triaged for learners aged 17 and under, adults aged 18 and over, and undetermined age. Age suitability is separate from proficiency. These are approved requirements, not a claim that enforcement has been verified in production.
 
 ### 4. Cleanup gate and total product redesign
 
@@ -90,7 +94,7 @@ After the shared redesign and Operations Health Center, Concordance plans a dedi
 
 ## Frameworks and validation
 
-Framework projections remain interpretations of learner state rather than learner identity or official certification. ACTFL and CEFR are central to the current direction, and International Language Roundtable (ILR) support is planned as a future governed framework projection. Concordance may also support preparation contexts such as AP and AAPPL without claiming affiliation with or certification authority from the organizations that maintain those systems.
+Framework projections remain interpretations of learner state rather than learner identity or official certification. ACTFL and CEFR are central to the current direction, and Interagency Language Roundtable (ILR) support is planned as a future governed framework projection. Concordance may also support preparation contexts such as AP and AAPPL without claiming affiliation with or certification authority from the organizations that maintain those systems.
 
 Concordance is also developing an empirical validation program around proficiency-aligned communicative evidence. Research and validation should test whether the architecture's educational claims are actually supported, not merely demonstrate that the software functions as designed.
 
@@ -134,7 +138,7 @@ The public repository intentionally explains Concordance's mission, principles, 
 
 ## What has already been built
 
-The French-first platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, authentic cultural contexts, teacher analytics, assessment-preparation contexts, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center architecture is accepted and its retained-identity foundation is implemented; provider admission, rights evaluation, selection, scaffolding, and public authentic-media delivery remain future work.
+The French-first platform already includes substantial work across placement, adaptive practice, conversation, pronunciation, listening, writing, authentic cultural contexts, teacher analytics, assessment-preparation contexts, privacy, and safety. The governed pipeline now extends through implemented and accepted Recommendation, Individual Learner Path, and bounded Experience Resolution runtimes for the currently supported Concordance-native practice path. Media Center source implementation now extends beyond retained media-revision identity and bounded database authority into rights-policy, eligibility, availability, deliverability, and resolution-authority foundations. Source presence does not establish completed qualification, deployment, or production activation. No external provider is admitted through the supported path, and public authentic-media resolution and preview remain closed.
 
 For a current visual overview, see **[FEATURES.md](FEATURES.md)**. For dated engineering progress, see **[UPDATES.md](UPDATES.md)**.
 
