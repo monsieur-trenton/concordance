@@ -1,6 +1,6 @@
 # Concordance Features — Language, Culture, and Evidence
 
-Current-reference review: November 1, 2026. Source milestones do not establish production availability.
+Current-reference review: November 1, 2026. Planning sequence updated November 13, 2026. Source milestones do not establish production availability.
 
 **[→ Preview the current Concordance site](https://concordancelearn.com/)**
 
@@ -164,16 +164,17 @@ Implementation does not imply universal public availability, complete pedagogica
 ### In development or future direction
 
 - an isolated learner-facing redesign preview, followed by a cleanup-gated production migration across the full site;
-- learner-facing expansion of governed individual opportunities;
+- an independent new-learner ILP being developed alongside the isolated redesign, plus learner-facing expansion of governed individual opportunities;
 - qualification of Media Center policy and authority foundations, followed by remaining provider-admission, selection, launch, delivery, and scaffolding work;
 - richer teacher-facing evidence and guidance experiences;
-- Operations Health Center capabilities after the redesign migration;
-- Linguistic Specialist UI capabilities after the Operations Health Center;
+- Linguistic Specialist authoring, onboarding, vocabulary sources, and feature-proposal workflows after redesign migration;
+- Operations Health Center capabilities after the Linguistic Specialist release;
+- later learner pilots for multilingual inquiry, visual grammar, purposeful conversation, and feedback leading to a second attempt;
 - governed research and validation infrastructure;
 - future ILR framework projection work; and
 - additional languages developed with appropriate linguistic, pedagogical, and community expertise.
 
-These directions are not promises of dates, partnerships, official endorsement, or complete framework coverage.
+The production order and acceptance criteria are defined in [ROADMAP.md](ROADMAP.md#approved-delivery-sequence). Design and new-learner ILP work already underway can continue within their scope, with cleanup and integration before production cutover. These directions are not promises of dates, partnerships, official endorsement, or complete framework coverage.
 
 ## Frameworks and independence
 

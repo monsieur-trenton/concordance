@@ -1,6 +1,6 @@
 # Roadmap
 
-Current-reference review: November 1, 2026. Source milestones do not establish production availability.
+Current-reference review: November 1, 2026. Delivery sequence and feature acceptance criteria updated November 13, 2026. Source milestones do not establish production availability.
 
 This roadmap is the honest version of **what sponsorship funds**.
 
@@ -34,31 +34,34 @@ Downstream Experience Resolution is also implemented and accepted for the curren
 
 ## Approved delivery sequence
 
-The current sequence is:
+This section defines the production sequence; the product directions below are topics, not a separate release order.
 
-1. continue Media Center qualification and downstream implementation while public authentic-media access remains closed;
-2. pass a cleanup and integration gate before migrating major interface work;
-3. complete and migrate the total product redesign;
-4. build the Operations Health Center; and
-5. develop the Linguistic Specialist UI on top of the redesigned product system.
+1. complete and qualify a supported Media Center path while public authentic-media access remains closed until its authorized release gate;
+2. pass a bounded cleanup and integration gate that reconciles the delivered system with interface work already underway;
+3. complete and migrate the total product redesign, including branding and every retained public and authenticated page;
+4. deliver the Linguistic Specialist role, onboarding, content and vocabulary authoring, and feature-proposal workflow;
+5. deliver the Operations Health Center (OHC); and
+6. pilot new learner activities and refinements, including Meaning Across Languages, Contact Zone inquiries, visual grammar, purposeful conversation, and feedback leading to a second attempt.
 
-An isolated learner-facing redesign preview is already being developed in a separate workspace. It is useful design work, but it does not bypass this production sequence or imply that the redesigned interface is released. Migration must preserve existing educational authority, evidence behavior, learner state, privacy boundaries, and accepted LAOS contracts.
+The isolated redesign and an independent new-learner ILP are already being developed alongside Media Center work. Their construction can continue within their approved scope; cleanup and integration precede production cutover. The redesign includes the Media Center and new-learner ILP pages where applicable. Migration must preserve educational authority, evidence behavior, learner state, privacy boundaries, and accepted LAOS contracts.
+
+Security, reliability, essential provider limits, and basic cost monitoring continue throughout. A concrete urgent operational issue can justify a separately scoped minimal intervention before the full OHC; it does not move the entire dashboard ahead of the Specialist. Design explorations do not require new interactive lessons to ship before the redesign can close.
 
 ---
 
-## Current priorities and product directions
+## Product directions within the delivery sequence
 
-### 1. Learner Evidence Profile
+### Learner Evidence Profile
 
 The flagship teacher experience should make a learner's development understandable from one coherent screen, including evidence-informed framework portraits, evidence strength and gaps, grammar and communication needs, provenance for the work supporting each conclusion, and teacher contestation without destructive overwrites.
 
-### 2. Individual Learner Path
+### Individual Learner Path
 
 The foundational ILP runtime now exists. Its purpose is to turn governed educational intelligence into meaningful opportunities without constructing a compulsory adaptive course or predicting how quickly a learner should progress. Recommendations remain advisory, teacher-required work remains structurally distinct and authoritative, and learner choice does not become evidence of proficiency or motivation merely because it can be recorded.
 
 The accepted interaction-recording boundary is now complete. Current work moves downstream: connect opportunities to useful learner experiences while preserving the ILP's educational decisions and keeping delivery availability or interface behavior from rewriting educational truth.
 
-### 3. Media Center and authentic culture
+### Media Center and authentic culture
 
 The Media Center is the next major platform direction. Its architecture is accepted. Media Center source implementation now extends beyond retained media-revision identity and bounded database authority into rights-policy, eligibility, availability, deliverability, and resolution-authority foundations. Source presence does not establish completed qualification, deployment, or production activation. No external provider is admitted through the supported path, and public authentic-media resolution and preview remain closed.
 
@@ -68,29 +71,46 @@ The resource itself does not receive a proficiency level. Educational and lingui
 
 Concordance is not intended for learners under 13. The approved policy direction requires age declaration at sign-up and restricts Media Center access until age is declared. Media suitability is to be triaged for learners aged 17 and under, adults aged 18 and over, and undetermined age. Age suitability is separate from proficiency. These are approved requirements, not a claim that enforcement has been verified in production.
 
-### 4. Cleanup gate and total product redesign
+### Cleanup gate and total product redesign
 
 Before the redesigned interface is migrated into the production application, Concordance will use a cleanup and integration gate to reduce avoidable coupling, confirm supported product paths, and protect the accepted educational boundaries already established in LAOS.
 
 The separate redesign preview currently explores bilingual French and English interfaces, light and dark themes, responsive layouts, clearer navigation, visible display settings, and a more coherent visual language across learner activities. It remains review work rather than a production release. The eventual migration is intended to encompass the full site and shared branding system, not only a new landing page.
 
-### 5. Communicative proficiency and learner goals
+### Communicative proficiency and learner goals
 
 Concordance's first implementation is French, with communicative development across interpretive, interpersonal, and presentational modes. Learners may be preparing for academic or professional work, travel, heritage connection, literature and media, relationships, or lifelong learning. Current preparation contexts include AP French Language and Culture, AAPPL, and State Seals of Biliteracy, but those contexts are applications of the proficiency-first platform rather than its identity. Guidance should remain tied to evidence of meaningful language use rather than practice completion alone.
 
-### 6. Speaking evidence
+### Speaking evidence
 
 Speaking is essential to communicative proficiency and cannot be inferred responsibly from writing alone. Current and planned work includes reliable transcription, pronunciation and fluency evidence, graded speaking tasks, conversational elicitation of missing evidence, and careful separation between raw transcription, evidence assertions, and proficiency interpretation.
 
-### 7. Operations Health Center
+### Linguistic Specialist workspace
 
-After the Media Center, cleanup gate, and production redesign, Concordance plans an Operations Health Center to make sustainability measurable. It should track API and provider usage, identify unusually expensive usage patterns, estimate per-user and total monthly operating costs, and help enforce budgets and cost discipline without turning learner activity into unnecessary surveillance.
+The first new capability after redesign migration is a workspace for qualified language and cultural specialists to author content, build vocabulary sources, adapt tasks, and review accuracy within an approved language or variety scope. Onboarding, source provenance, review history, and attribution should make that authority clear.
 
-### 8. Linguistic Specialist UI
+Specialists can also describe a proposed feature and use an explicitly invoked AI operation to organize it into an editable Markdown handoff. Specialist correction precedes architectural review; the founder approves development after reviewing the resulting design. Implementation and linguistic validation follow through their governed workflows. The specialist role alone does not confer legal rights approval, access to learner records, or authority to create LAOS evidence or state.
 
-After the shared redesign and Operations Health Center, Concordance plans a dedicated interface for qualified linguistic and cultural specialists. The role should support bounded review, provenance, variation, and stewardship without treating any contributor as universally authoritative or granting direct authority over learner evidence or state. Detailed workflow and onboarding design remain future work.
+### Operations Health Center
+
+The full OHC follows the Linguistic Specialist release. It should track provider usage, credits, failures and retries, per-user and total operating costs, and service health. Cost per useful completed task should include relevant speech and AI services. Budgets and reporting should support sustainable access without unnecessary exposure of learner content or behavioral surveillance; basic monitoring continues before the dashboard exists.
 
 ---
+
+## Acceptance criteria for AI-supported features
+
+Comparing other products, including Duolingo, should sharpen the relevant feature's acceptance criteria without creating a competing delivery sequence. These criteria apply when a later slice is commissioned; they do not expand current Media Center qualification or require learner pilots to finish before redesign migration.
+
+- **Communicative purpose:** conversation and roleplay help a learner accomplish something, respond meaningfully, ask for clarification, and finish an exchange. Beginner supports are welcome and remain visible when interpreting performance.
+- **Useful feedback:** explanations address the actual response and plausible intention, recognize valid alternatives, and support a purposeful second attempt. Reviewed reusable content is preferred where it meets the need reliably.
+- **Trustworthy speech access:** check transcription, intelligibility feedback, correction and retry paths, device support, and accessible alternatives. A recognition error must not silently become a learner error.
+- **Language and cultural quality:** specialists review relevant examples, varieties, and scenarios. Content keeps its provenance, permissions, version, and publication decision.
+- **Meaning through visual design:** planned pronoun transformations and tense/mode visualizations connect speaker intention, linguistic choice, and interpretation. Motion is learner-controlled, with a static accessible equivalent; full new interactive lessons remain later pilot work.
+- **Evidence and agency:** model output, task completion, personal interests, language choices, and time away do not automatically establish proficiency or motivation. Recommendations preserve teacher authority and learner choice.
+- **Rights and privacy:** each source and proposed operation must pass its applicable checks. Playback access does not by itself authorize copying, translating, exporting, or sending source material and source-dependent responses to AI.
+- **Operational usefulness:** set quality, latency, and cost thresholds before a pilot; measure failures, retries, and the cost of a useful completed task. Generation should contribute value that justifies its use.
+
+Small pilots can identify usability problems and inform specialist and teacher judgment through fresh communicative tasks. Broader acquisition claims require an appropriate study; clicks, session length, or favorable surveys alone are insufficient. Human exchange beyond Concordance remains the purpose, and returning to the platform remains optional.
 
 ## Frameworks and validation
 
