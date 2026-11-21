@@ -4,6 +4,54 @@ Dated updates for sponsors and anyone following along, newest first. For current
 
 ---
 
+## Sponsor Update: November 21, 2026
+
+### A more connected Concordance, with authentic culture at its heart
+
+Concordance’s redesign is becoming a more complete journey: discovering the platform, finding a starting point, choosing meaningful work, and returning to feedback with a clearer sense of what to try next.
+
+The guiding promise remains the same: help learners understand what they can do with a language, what evidence supports that understanding, and what they might meaningfully explore next.
+
+#### Connecting the learner and teacher experiences
+
+Recent redesign work connects the public pages and first-visit experience with the learner’s Today page, Practice catalogue, and Sentence Builder. The aim is to make moving between these spaces feel coherent, with clearer navigation, consistent French and English interfaces, and comfortable layouts across screen sizes.
+
+Sentence Builder now has a review candidate with draggable word tiles alongside tap and keyboard controls. Corrections unfold word by word, with immediate display for learners who prefer reduced motion. These changes serve a practical purpose: make the relationship between a learner’s answer and the correction easier to follow.
+
+The teacher workspace is also taking shape around a straightforward journey from class to learner, then into work, feedback, and supporting evidence. Keeping the learner and the reviewed version visible helps teachers understand what a comment or conclusion actually refers to. Administrative pages are being brought into the same visual system.
+
+The emerging account journeys also recognize independent teachers and tutors alongside institution-affiliated educators and learners. The prototypes explore how educators could move between teaching and their own language learning through a Teach/Learn switch.
+
+These are development and review milestones. The complete redesign has not been released, and several account and classroom journeys still use fictional data. Automated browser, layout, and accessibility checks support the work, while physical-device and screen-reader review remain outstanding.
+
+#### Why the Media Center takes careful work
+
+The Media Center is intended to bring authentic journalism, music, literature, interviews, visual art, and other cultural resources into meaningful learning experiences.
+
+Building it responsibly requires more than assembling links. Concordance needs to distinguish which resource and version it is using, where it came from, what permissions apply, whether it is still available, and whether the particular proposed use is permitted.
+
+Permission to play something does not automatically include permission to copy it, translate it, export it, or send it to an AI service.
+
+Implementation now extends beyond resource identity into rights-policy, eligibility, availability, and resolution-authority foundations. Current work continues through qualification and the remaining integration needed for a usable, rights-governed path. Public authentic-media delivery remains closed.
+
+This has been slower and more demanding than I hoped. The responsibility behind it is worth taking seriously, both for learners and for the people and institutions whose work gives the Media Center its value.
+
+Authentic culture should also be accessible before advanced proficiency. A song, painting, or interview does not have an intrinsic learner level. The task, question, and support around it determine what a learner is being asked to do.
+
+#### Continuing the work
+
+The redesign and first-time learner experience can continue developing alongside Media Center qualification. Progress in one does not establish readiness in another.
+
+As a teacher building Concordance around classroom work, I want each improvement to make the platform more useful while preserving teacher judgment, learner choice, privacy, and cultural stewardship.
+
+Support through [GitHub Sponsors](https://github.com/sponsors/monsieur-trenton) or [Patreon](https://www.patreon.com/Concordance_Learn) helps cover infrastructure, accessibility, verification, and the sustained development behind these improvements.
+
+Thank you for helping me keep building.
+
+John
+
+---
+
 ## Documentation clarification: November 1, 2026
 
 Earlier entries below describe progress and terminology at their publication dates. They are preserved as historical updates, not current availability guarantees.
